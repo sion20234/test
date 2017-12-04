@@ -7,7 +7,7 @@
 // (5) 作成者       : 八野
 // (6) 特記事項     : VisualStudio2015 C#
 // (7) 更新履歴     :
-///////////
+///////////123456789
 ///////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -54,6 +54,9 @@ namespace ECNC3.Views
 		{
 			UnitOpeForm( false );
 		}
+        /// <summary>
+        /// 
+        /// </summary>
 		private bool _boolUnitOpe = false;
 		/// <summary>
 		/// フォーム表示：通常=false、単体操作=true：
