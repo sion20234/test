@@ -1,0 +1,9 @@
+diff a/v0.02/Develop/ECNC3/FormCS/AECForm.cs b/v0.02/Develop/ECNC3/FormCS/AECForm.cs	(rejected hunks)
+@@ -7,6 +7,7 @@
+ // (5) 作成者       : 八野
+ // (6) 特記事項     : VisualStudio2015 C#
+ // (7) 更新履歴     :
++///////////
+ ///////////////////////////////////////////////////////////////////////////////////////////
+ 
+ 

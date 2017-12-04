@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+	<ColorTable>
+		<DefaultBackColor value=""/>
+        <EnabledBackColor value=""/>
+        <DefaultForeColor value=""/>
+        <EnabledForeColor value=""/>
+        <DefaultLineColor value=""/>
+        <SelectedLineColor value=""/>
+	</ColorTable>
+</Root>

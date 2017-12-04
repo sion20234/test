@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+  <SystemFileIO path="C:/Users/NEO-10/Desktop/" />
+  <Usb path="C:/Users/NEO-10/Desktop/" />
+  <MasterData path="C:/NeoDevelopment/ECNC3/v0.02/ECNC3/Master/" />
+  <ProgramData path="C:/NeoDevelopment/ECNC3/v0.02/ECNC3/Program/" />
+  <MacroData path="C:/NeoDevelopment/ECNC3/v0.02/ECNC3/Macro/" />
+  <UpdateData path="C:/Users/NEO-10/Desktop/" />
+  <RT64EC path="C:/NeoDevelopment/ECNC3/v0.02/ECNC3" />
+  <ECNC3 path="C:/NeoDevelopment/ECNC3/v0.02/ECNC3/" />
+  <GCodeHelpFile path="C:/NeoDevelopment/ECNC3/v0.02/ECNC3/GCodeHelpFile.pdf" />
+  <MCodeHelpFile path="C:/NeoDevelopment/ECNC3/v0.02/ECNC3/MCodeHelpFile.pdf" />
+  <LogSetting path="C:/NeoDevelopment/ECNC3/v0.02/ECNC3/User/ED_LOG" />
+  <ProcLog path="C:/NeoDevelopment/ECNC3/v0.02/ECNC3/User/ED_LOG" />
+  <NullPath path="C:/NeoDevelopment/ECNC3/v0.02/ECNC3/User/ED_LOG" />
+  <User path="C:/NeoDevelopment/ECNC3/v0.02/ECNC3/User" />
+  <Log path="C:/NeoDevelopment/ECNC3/v0.02/ECNC3/Log" />
+</Root>

@@ -1,0 +1,166 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ECNC3.Views.Popup
+{
+    /// <summary>
+    /// 返送メッセージ
+    /// </summary>
+    public enum ReturnText
+    {
+        ExecuteA1,
+        ExecuteA2,
+        ExecuteA3,
+        ExecuteA4,
+        ExecuteB1,
+        ExecuteB2,
+        ExecuteB3,
+        ExecuteB4,
+        Cancel
+    }
+    public partial class EditTextDialog : ECNC3Form
+    {
+        #region Constractor
+        public EditTextDialog(string title, string text, bool fileMode, ButtonEx parentButton = null)
+        {
+            InitializeComponent();
+            SelectFormInit();
+
+            if (fileMode == true)
+            {
+                textBoxEx1.Text = System.IO.Path.GetFileName(text);//デフォルトファイル名
+            }
+            else
+            {
+                textBoxEx1.Text = text;//デフォルトファイル名
+            }
+            _titleLabel.Text = title;
+            if(parentButton != null)
+            {
+                base.targetBtn = parentButton;
+            }
+            if (_keybord != null)
+            {
+                this.Controls.Add(_keybord);
+                _keybord.Location = new Point((this.Width - _keybord.Width) / 2, 100);
+            }
+        }
+        public EditTextDialog(string title, bool tenkeyMode)
+        {
+            InitializeComponent();
+            SelectFormInit();
+            _titleLabel.Text = title;
+            if (_keybord != null)
+            {
+                this.Controls.Add(_keybord);
+                _keybord.Location = new Point((this.Width - _keybord.Width) / 2, 100);
+            }
+        }
+        #endregion
+
+        #region ValiableMembers
+        private int _rowCount = 0;
+        private string[] _buttonNameA = null;
+        private string[] _buttonNameB = null;
+        public string retMessage = "";
+        private StandardKeyBord _keybord = new StandardKeyBord();
+        #endregion
+
+        #region EventHandler
+        private void EditTextDialog_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CancelBt_Click(object sender, EventArgs e)
+        {
+            DisposeMember();
+            this.Close();
+        }
+
+        #endregion
+
+        private void DisposeMember()
+        {
+            //_buttonNameA
+            if (_buttonNameA != null)
+            {
+                for (int ct = 0; ct < _rowCount; ct++)
+                {
+                    _buttonNameA[ct] = "";
+                }
+                _buttonNameA = null;
+            }
+
+            //_buttonNameB
+            if (_buttonNameB != null)
+            {
+                for (int ct = 0; ct < _rowCount; ct++)
+                {
+                    _buttonNameB[ct] = "";
+                }
+                _buttonNameB = null;
+            }
+        }
+
+        static public string ShowSubForm(string title, string text = "", bool fileMode = true, ButtonEx parentButton = null)
+        {
+
+            EditTextDialog f = new EditTextDialog(title, text, fileMode, parentButton);
+            f.ShowDialog();
+            string receiveMessage = f.retMessage;
+            f.Dispose();
+
+            return receiveMessage;
+        }
+
+		private void textBoxEx1_Click( object sender, EventArgs e )
+		{
+			if(_keybord.Visible == false)
+            {
+                _keybord.Location = new Point((this.Width - _keybord.Width) / 2, 100);
+                _keybord.Visible = true;
+                textBoxEx1.Focus();
+            }
+            else
+            {
+                _keybord.Visible = false;
+            }            
+        }
+
+        private void _okBt_Click(object sender, EventArgs e)
+        {
+            retMessage = textBoxEx1.Text;
+            DisposeMember();
+            this.Close();
+        }
+
+
+        /// <summary>入力状態の初期化</summary>
+        public void ResetInput()
+        {
+            if (false != _keybord.Visible)
+            {
+                _keybord.Visible = false;
+            }
+        }
+
+        /// <summary>キーボード入力からの終了要求</summary>
+        private void _edtComment_ClickCallBack()
+        {
+            ResetInput();
+        }
+
+        private void EditTextDialog_Shown(object sender, EventArgs e)
+        {
+            textBoxEx1.Focus();
+        }
+    }
+}

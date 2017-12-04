@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Motions>
+    <!--fileNam =通信ロギングファイル名-->
+    <!--dsbl    =ロギング無効-->
+    <!--inf     =常時ロギング-->
+    <!--infSandE=常時ロギング(初期化／終了のみ)-->
+    <!--infSnd  =常時ロギング(データ送信のみ)-->
+    <!--infRcv  =常時ロギング(データ受信のみ)-->
+    <!--infCmd  =常時ロギング(コマンド要求のみ)-->
+    <!--err     =エラーロギング-->
+    <!--errXfr  =エラーロギング(伝送エラーのみ)-->
+    <!--retry   =リトライロギング-->
+    <Log fileNam="RT64EC.log" dsbl="1" inf="1" infSandE="1" infSnd="1" infRcv="1" infCmd="1" err="1" errXfr="1" retry="1" />
+    <Node nam="NodeA" />
+    <!--dly1st  =一回目の呼び出しの遅延-->
+    <!--dly2nd  =二回目の呼び出しの遅延-->
+    <!--span    =リトライ待機時間-->
+    <!--retry   =リトライ回数-->
+    <Boot dly1st="0" dly2nd="0" span="3000" retry="10" />
+    <Spx>
+      <Reset enbl="1" />
+    </Spx>
+  </Motions>
+  <Opr>
+    <!--オプショナルストップ-->
+    <OptStop enbl="0" />
+    <!--接触感知-->
+    <TchSnsr enbl="1" />
+    <!--W軸上限値-->
+    <WTopPos val="497200" />
+    <!--加工条件選択番号-->
+    <SelProcNum val="1" />
+    <!--ドライラン-->
+    <DryRun enbl="0" />
+    <!--電極消耗時の自動電極交換-->
+    <ElctExchg enbl="0" />
+    <!--相対測定点設定時軸移動-->
+    <IncRefSet enbl="0" />
+    <!--パーティション設定-->
+    <Ptn enbl="1">
+      <Item num="6" st="1" end="2" thin="0" />
+      <Item num="1" st="3" end="4" thin="0" />
+      <Item num="5" st="5" end="6" thin="0" />
+      <Item num="3" st="7" end="8" thin="0" />
+      <Item num="4" st="9" end="10" thin="0" />
+      <Item num="2" st="11" end="12" thin="0" />
+    </Ptn>
+  </Opr>
+  <Prog>
+    <!--ユーザ定義G,Mコードファイル格納ディレクトリ「実行環境\USERPRG\UCD」-->
+    <GCodDsbl path="">
+      <Item num="0" dsbl="0" />
+      <Item num="1" dsbl="0" />
+      <Item num="2" dsbl="0" />
+      <Item num="3" dsbl="0" />
+      <Item num="4" dsbl="0" />
+      <Item num="5" dsbl="0" />
+      <Item num="6" dsbl="0" />
+      <Item num="7" dsbl="0" />
+      <Item num="8" dsbl="0" />
+      <Item num="9" dsbl="0" />
+      <Item num="10" dsbl="0" />
+      <Item num="11" dsbl="0" />
+      <Item num="12" dsbl="0" />
+      <Item num="13" dsbl="0" />
+      <Item num="14" dsbl="0" />
+      <Item num="15" dsbl="0" />
+      <Item num="16" dsbl="0" />
+      <Item num="17" dsbl="0" />
+      <Item num="18" dsbl="0" />
+      <Item num="19" dsbl="0" />
+      <Item num="20" dsbl="0" />
+      <Item num="21" dsbl="0" />
+      <Item num="22" dsbl="0" />
+      <Item num="23" dsbl="0" />
+      <Item num="24" dsbl="0" />
+      <Item num="25" dsbl="0" />
+      <Item num="26" dsbl="0" />
+      <Item num="27" dsbl="0" />
+      <Item num="28" dsbl="0" />
+      <Item num="29" dsbl="0" />
+      <Item num="30" dsbl="0" />
+      <Item num="31" dsbl="0" />
+      <Item num="32" dsbl="0" />
+      <Item num="33" dsbl="0" />
+      <Item num="34" dsbl="0" />
+      <Item num="35" dsbl="0" />
+      <Item num="36" dsbl="0" />
+      <Item num="37" dsbl="0" />
+      <Item num="38" dsbl="0" />
+      <Item num="39" dsbl="0" />
+      <Item num="40" dsbl="0" />
+      <Item num="41" dsbl="0" />
+      <Item num="42" dsbl="0" />
+      <Item num="43" dsbl="0" />
+      <Item num="44" dsbl="0" />
+      <Item num="45" dsbl="0" />
+      <Item num="46" dsbl="0" />
+      <Item num="47" dsbl="0" />
+      <Item num="48" dsbl="0" />
+      <Item num="49" dsbl="0" />
+      <Item num="50" dsbl="0" />
+      <Item num="51" dsbl="0" />
+      <Item num="52" dsbl="0" />
+      <Item num="53" dsbl="0" />
+      <Item num="54" dsbl="0" />
+      <Item num="55" dsbl="0" />
+      <Item num="56" dsbl="0" />
+      <Item num="57" dsbl="0" />
+      <Item num="58" dsbl="0" />
+      <Item num="59" dsbl="0" />
+      <Item num="60" dsbl="0" />
+      <Item num="61" dsbl="0" />
+      <Item num="62" dsbl="0" />
+      <Item num="63" dsbl="0" />
+      <Item num="64" dsbl="0" />
+      <Item num="65" dsbl="0" />
+      <Item num="66" dsbl="0" />
+      <Item num="67" dsbl="0" />
+      <Item num="68" dsbl="0" />
+      <Item num="69" dsbl="0" />
+      <Item num="70" dsbl="0" />
+      <Item num="71" dsbl="0" />
+      <Item num="72" dsbl="0" />
+      <Item num="73" dsbl="0" />
+      <Item num="74" dsbl="0" />
+      <Item num="75" dsbl="0" />
+      <Item num="76" dsbl="0" />
+      <Item num="77" dsbl="0" />
+      <Item num="78" dsbl="0" />
+      <Item num="79" dsbl="0" />
+      <Item num="80" dsbl="0" />
+      <Item num="81" dsbl="0" />
+      <Item num="82" dsbl="0" />
+      <Item num="83" dsbl="0" />
+      <Item num="84" dsbl="0" />
+      <Item num="85" dsbl="0" />
+      <Item num="86" dsbl="0" />
+      <Item num="87" dsbl="0" />
+      <Item num="88" dsbl="0" />
+      <Item num="89" dsbl="0" />
+      <Item num="90" dsbl="0" />
+      <Item num="91" dsbl="0" />
+      <Item num="92" dsbl="0" />
+      <Item num="93" dsbl="0" />
+      <Item num="94" dsbl="0" />
+      <Item num="95" dsbl="0" />
+      <Item num="96" dsbl="0" />
+      <Item num="97" dsbl="0" />
+      <Item num="98" dsbl="0" />
+      <Item num="99" dsbl="0" />
+    </GCodDsbl>
+    <MCodDsbl path="">
+      <Item num="0" dsbl="0" />
+      <Item num="1" dsbl="0" />
+      <Item num="2" dsbl="0" />
+      <Item num="3" dsbl="0" />
+      <Item num="4" dsbl="0" />
+      <Item num="5" dsbl="0" />
+      <Item num="6" dsbl="0" />
+      <Item num="7" dsbl="0" />
+      <Item num="8" dsbl="0" />
+      <Item num="9" dsbl="0" />
+      <Item num="10" dsbl="0" />
+      <Item num="11" dsbl="0" />
+      <Item num="12" dsbl="0" />
+      <Item num="13" dsbl="0" />
+      <Item num="14" dsbl="0" />
+      <Item num="15" dsbl="0" />
+      <Item num="16" dsbl="0" />
+      <Item num="17" dsbl="0" />
+      <Item num="18" dsbl="0" />
+      <Item num="19" dsbl="0" />
+      <Item num="20" dsbl="0" />
+      <Item num="21" dsbl="0" />
+      <Item num="22" dsbl="0" />
+      <Item num="23" dsbl="0" />
+      <Item num="24" dsbl="0" />
+      <Item num="25" dsbl="0" />
+      <Item num="26" dsbl="0" />
+      <Item num="27" dsbl="0" />
+      <Item num="28" dsbl="0" />
+      <Item num="29" dsbl="0" />
+      <Item num="30" dsbl="0" />
+      <Item num="31" dsbl="0" />
+      <Item num="32" dsbl="0" />
+      <Item num="33" dsbl="0" />
+      <Item num="34" dsbl="0" />
+      <Item num="35" dsbl="0" />
+      <Item num="36" dsbl="0" />
+      <Item num="37" dsbl="0" />
+      <Item num="38" dsbl="0" />
+      <Item num="39" dsbl="0" />
+      <Item num="40" dsbl="0" />
+      <Item num="41" dsbl="0" />
+      <Item num="42" dsbl="0" />
+      <Item num="43" dsbl="0" />
+      <Item num="44" dsbl="0" />
+      <Item num="45" dsbl="0" />
+      <Item num="46" dsbl="0" />
+      <Item num="47" dsbl="0" />
+      <Item num="48" dsbl="0" />
+      <Item num="49" dsbl="0" />
+      <Item num="50" dsbl="0" />
+      <Item num="51" dsbl="0" />
+      <Item num="52" dsbl="0" />
+      <Item num="53" dsbl="0" />
+      <Item num="54" dsbl="0" />
+      <Item num="55" dsbl="0" />
+      <Item num="56" dsbl="0" />
+      <Item num="57" dsbl="0" />
+      <Item num="58" dsbl="0" />
+      <Item num="59" dsbl="0" />
+      <Item num="60" dsbl="0" />
+      <Item num="61" dsbl="0" />
+      <Item num="62" dsbl="0" />
+      <Item num="63" dsbl="0" />
+      <Item num="64" dsbl="0" />
+      <Item num="65" dsbl="0" />
+      <Item num="66" dsbl="0" />
+      <Item num="67" dsbl="0" />
+      <Item num="68" dsbl="0" />
+      <Item num="69" dsbl="0" />
+      <Item num="70" dsbl="0" />
+      <Item num="71" dsbl="0" />
+      <Item num="72" dsbl="0" />
+      <Item num="73" dsbl="0" />
+      <Item num="74" dsbl="0" />
+      <Item num="75" dsbl="0" />
+      <Item num="76" dsbl="0" />
+      <Item num="77" dsbl="0" />
+      <Item num="78" dsbl="0" />
+      <Item num="79" dsbl="0" />
+      <Item num="80" dsbl="0" />
+      <Item num="81" dsbl="0" />
+      <Item num="82" dsbl="0" />
+      <Item num="83" dsbl="0" />
+      <Item num="84" dsbl="0" />
+      <Item num="85" dsbl="0" />
+      <Item num="86" dsbl="0" />
+      <Item num="87" dsbl="0" />
+      <Item num="88" dsbl="0" />
+      <Item num="89" dsbl="0" />
+      <Item num="90" dsbl="0" />
+      <Item num="91" dsbl="0" />
+      <Item num="92" dsbl="0" />
+      <Item num="93" dsbl="0" />
+      <Item num="94" dsbl="0" />
+      <Item num="95" dsbl="0" />
+      <Item num="96" dsbl="0" />
+      <Item num="97" dsbl="0" />
+      <Item num="98" dsbl="0" />
+      <Item num="99" dsbl="0" />
+    </MCodDsbl>
+  </Prog>
+  <Cond>
+    <Lock start="0" end="0" />
+  </Cond>
+  <!--ECNC3アプリケーション-->
+  <!--boot=DESKTOP=机上／SIM=シミュレータ-->
+  <Apl boot="DESKTOP">
+    <!--ログ出力-->
+    <Log lv="DEBUG" cnt="7" />
+    <!--バックアップ-->
+    <Bkup path="" cnt="3" />
+  </Apl>
+  <!--ECNC3：ポップアップテンキー表示/非表示-->
+  <PopupTenkeyDialog>
+    <Tenkey show="1" />
+  </PopupTenkeyDialog>
+  <!--SystemFileExternalPath-->
+  <SystemFile>
+    <Directory path="E:/" />
+  </SystemFile>
+</Root>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Ecnc3Debug|x86'">
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+    <StartAction>Program</StartAction>
+    <StartProgram>\\Ecnc3-algopc\d\ECNC3\ECNC3.exe</StartProgram>
+    <RemoteDebugEnabled>true</RemoteDebugEnabled>
+    <RemoteDebugMachine>Ecnc3-algopc:4022</RemoteDebugMachine>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartWorkingDirectory>C:\NeoDevelopment\ECNC3\v0.02\ECNC3\</StartWorkingDirectory>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\NeoDevelopment\ECNC3\v0.02\ECNC3\ECNC3.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DesktopDebug|x86'">
+    <StartAction>Program</StartAction>
+    <StartProgram>\\ecnc3-sim\D\ECNC3\ECNC3.exe</StartProgram>
+    <RemoteDebugEnabled>true</RemoteDebugEnabled>
+    <RemoteDebugMachine>ecnc3-sim:4022</RemoteDebugMachine>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\NeoDevelopment\ECNC3\v0.02\ECNC3\ECNC3.exe</StartProgram>
+    <StartWorkingDirectory>C:\NeoDevelopment\ECNC3\v0.02\ECNC3\</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PublishUrlHistory>publish\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>ja-JP</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

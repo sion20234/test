@@ -1,0 +1,1368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <AECForm>
+    <Item name="SetSeqName" value="Not Sequence" />
+    <Item name="labelEx2" value="ガイド交換" />
+    <Item name="buttonEx1" value="装着" />
+    <Item name="buttonEx2" value="&lt;" />
+    <Item name="buttonEx3" value="脱着" />
+    <Item name="GuideHolderNumber" value="0" />
+    <Item name="buttonEx4" value="&gt;" />
+    <Item name="IndexMoveBt" value="INDEX" />
+    <Item name="labelEx1" value="電極交換" />
+    <Item name="EsfCylinderSetBt" value="装着" />
+    <Item name="EsfCylinderNumberDownBt" value="&lt;" />
+    <Item name="EsfCylinderDesorptionBt" value="脱着" />
+    <Item name="EsfCylinderNumberText" value="000" />
+    <Item name="EsfCylinderNumberUpBt" value="&gt;" />
+    <Item name="GuideCount" value="GSF0" />
+    <Item name="GuideNumberUpBt" value="&gt;" />
+    <Item name="GuideNumberSetTextBox" value="0" />
+    <Item name="GuideHolderClampOpenBt" value="開く" />
+    <Item name="GuideHolderClampCloseBt" value="閉じる" />
+    <Item name="GuideNumberSetBt" value="設定" />
+    <Item name="GuideNumberDownBt" value="&lt;" />
+    <Item name="ElectrodeCount" value="ESF000" />
+    <Item name="ElectrodeNumberUpBt" value="&gt;" />
+    <Item name="ElectrodeNumberSetTextBox" value="000" />
+    <Item name="ColetClampOpenBt" value="開く" />
+    <Item name="ColetClampCloseBt" value="閉じる" />
+    <Item name="ElectrodeNumberSetBt" value="設定" />
+    <Item name="ElectrodeNumberDownBt" value="&lt;" />
+    <Item name="label8" value="AEC" />
+    <Item name="AECFuncBt" value="単体操作" />
+    <Item name="PartitionBt" value="パーティション" />
+  </AECForm>
+  <AECFuncForm>
+    <Item name="groupBox3" value="コレットクランプ" />
+    <Item name="groupBox1" value="フィンガーアーム" />
+    <Item name="label2" value="ESF" />
+    <Item name="label3" value="GSF" />
+    <Item name="groupBox5" value="シリンダー" />
+    <Item name="groupBox4" value="ガイドホルダークランプ" />
+    <Item name="BackAECFormBt" value="戻る" />
+    <Item name="label8" value="AEC FUNCTIONS" />
+    <Item name="label1" value="コメント" />
+  </AECFuncForm>
+  <AlarmLogForm>
+    <Item name="button10" value="ログファイル3" />
+    <Item name="button9" value="ログファイル4" />
+    <Item name="button4" value="ログファイル5" />
+    <Item name="button3" value="ログファイル2" />
+    <Item name="button2" value="ログファイル1" />
+    <Item name="BackUserFuncFormBt" value="戻る" />
+    <Item name="button8" value="最初" />
+    <Item name="button7" value="前ページ" />
+    <Item name="button6" value="次ページ" />
+    <Item name="button5" value="最後" />
+    <Item name="FileExportBt" value="エクスポート" />
+    <Item name="button1" value="最新ログ" />
+    <Item name="label8" value="ALARM LOG" />
+  </AlarmLogForm>
+  <AxisClearForm>
+    <Item name="buttonEx_SelectOff" value="選択解除" />
+    <Item name="buttonEx_Clear" value="選択値クリア" />
+    <Item name="buttonEx_AllClear" value="全クリア" />
+    <Item name="buttonEx_Back" value="戻る" />
+    <Item name="label29" value="X" />
+    <Item name="label30" value="C" />
+    <Item name="label31" value="B" />
+    <Item name="label32" value="A" />
+    <Item name="label33" value="Z" />
+    <Item name="label34" value="W" />
+    <Item name="label35" value="Y" />
+    <Item name="button_GridTitle" value="ワーク座標" />
+    <Item name="label_Title" value="WORK" />
+    <Item name="buttonEx_SelectOff" value="選択解除" />
+    <Item name="buttonEx_Clear" value="選択値クリア" />
+    <Item name="buttonEx_AllClear" value="全クリア" />
+    <Item name="buttonEx_Back" value="戻る" />
+    <Item name="label29" value="X" />
+    <Item name="label30" value="C" />
+    <Item name="label31" value="B" />
+    <Item name="label32" value="A" />
+    <Item name="label33" value="Z" />
+    <Item name="label34" value="W" />
+    <Item name="label35" value="Y" />
+    <Item name="button_GridTitle" value="機械座標" />
+    <Item name="label_Title" value="MACHINE" />
+  </AxisClearForm>
+  <ConditionsCallSetForm>
+    <Item name="_chkMatFree" value="ALL" />
+    <Item name="_chkMat06" value="MICRO" />
+    <Item name="_chkMat05" value="OTHERS" />
+    <Item name="_chkMat04" value="ALMINUM" />
+    <Item name="_chkMat03" value="CARBIDE" />
+    <Item name="_chkMat02" value="SK" />
+    <Item name="_chkMat01" value="SUS" />
+    <Item name="_stcDiameter" value="Φ" />
+    <Item name="_stcElectrodeDiameterUnit" value="mm" />
+    <Item name="_btnDiameter001Up" value="0.01 ▲" />
+    <Item name="_btnDiameter001Down" value="0.01 ▼" />
+    <Item name="_btnDiameter100Down" value="1 ▼" />
+    <Item name="_btnDiameter010Up" value="0.1 ▲" />
+    <Item name="_btnDiameter010Down" value="0.1 ▼" />
+    <Item name="_btnDiameter100Up" value="1 ▲" />
+    <Item name="_btnDiameterFree" value="ALL" />
+    <Item name="_edtElectrodeDiameter" value="ALL" />
+    <Item name="_btnExecute" value="検索実行" />
+    <Item name="_btnReturn" value="戻る" />
+    <Item name="label8" value="PARAMETER SEARCH" />
+  </ConditionsCallSetForm>
+  <ConditionsForm>
+    <Item name="button4" value="インポート" />
+    <Item name="button3" value="エクスポート" />
+    <Item name="_btnCall" value="呼出" />
+    <Item name="_btnNumber" value="PNo." />
+    <Item name="_edtNumber" value="001" />
+    <Item name="OverRideBt" value="OVERRIDE" />
+    <Item name="_OverRideTextBox" value="0" />
+    <Item name="label3" value="％" />
+    <Item name="_btnPS" value="DC電源" />
+    <Item name="_btnServoSelect" value="AC送りモード" />
+    <Item name="_edtPS" value="1" />
+    <Item name="_edtServoSelect" value="1" />
+    <Item name="_btnMaterialSelect" value="UNDEFINED" />
+    <Item name="_btnInverter" value="液圧" />
+    <Item name="_edtInverter" value="01" />
+    <Item name="_btnMaterial" value="材質" />
+    <Item name="_edtTurnOn" value="001" />
+    <Item name="_btnTurnOff" value="T-OFF" />
+    <Item name="_edtIp" value="003" />
+    <Item name="_edtCap" value="1.000" />
+    <Item name="_edtTurnOff" value="001" />
+    <Item name="_btnDiameter" value="電極径" />
+    <Item name="_edtDiameter" value="0.00" />
+    <Item name="_edtServoControl" value="01" />
+    <Item name="_edtSfrDown" value="001" />
+    <Item name="_btnPol" value="極性" />
+    <Item name="_edtSfrUp" value="001" />
+    <Item name="_edtCrs" value="01" />
+    <Item name="_btnCrs" value="回転" />
+    <Item name="_btnSfrUp" value="SFR&#xD;&#xA;UP" />
+    <Item name="_edtPol" value="1" />
+    <Item name="_btnSfrDown" value="SFR&#xD;&#xA;DOWN" />
+    <Item name="_btnTurnOn" value="T-ON" />
+    <Item name="_btnServoControl" value="SC" />
+    <Item name="_btnIp" value="IP" />
+    <Item name="_btnCap" value="CAP" />
+    <Item name="label8" value="PARAMETER" />
+    <Item name="_btnReturn" value="戻る" />
+    <Item name="_btnFindFree" value="全表示" />
+    <Item name="_btnFind" value="検索" />
+    <Item name="_btnDelete" value="削除" />
+    <Item name="_btnRegister" value="登録" />
+  </ConditionsForm>
+  <EDITForm>
+    <Item name="TeachingSetBt" value="設定" />
+    <Item name="button6" value="ティーチ" />
+    <Item name="label2" value="ファイル名" />
+    <Item name="_fileExpBt" value="ファイル" />
+    <Item name="_saveBt" value="保存" />
+    <Item name="HelpBt" value="ヘルプ" />
+  </EDITForm>
+  <ESFMainForm>
+    <Item name="_fingerArmFr2Bt" value="EXTEND2" />
+    <Item name="_fingerArmFr1Bt" value="EXTEND1" />
+    <Item name="_fingerArmBkBt" value="RETRACT" />
+    <Item name="SetSeqName" value="Not Sequence" />
+    <Item name="buttonEx1" value="回転" />
+    <Item name="label7" value="GUIDE" />
+    <Item name="_elctdExchPosABC_MoveBt" value="MOVE" />
+    <Item name="_elctdExchPosCValue" value="87.4690" />
+    <Item name="label52" value="C" />
+    <Item name="_elctdExchPosBValue" value="175.8240" />
+    <Item name="label21" value="B" />
+    <Item name="_elctdExchPosAValue" value="235.7160" />
+    <Item name="label5" value="A" />
+    <Item name="_elctdExchPosABC_WriteBt" value="WRITE" />
+    <Item name="_fingerArmOpBt" value="OPEN" />
+    <Item name="_fingerArmClBt" value="CLOSE" />
+    <Item name="_elctClampOpBt" value="OPEN" />
+    <Item name="_elctClampClBt" value="CLOSE" />
+    <Item name="label32" value="pps" />
+    <Item name="_elctdExchPosW_MoveBt" value="MOVE" />
+    <Item name="_elctdExchPosW_WriteBt" value="WRITE" />
+    <Item name="_elctdExchSpdW1Value" value="0" />
+    <Item name="label34" value="WSpd" />
+    <Item name="_elctdExchPosWValue" value="0.0000" />
+    <Item name="label50" value="W" />
+    <Item name="label48" value="pps" />
+    <Item name="_elctdExchOfsW1_MoveBt" value="MOVE" />
+    <Item name="_elctdExchOfsW1_WriteBt" value="WRITE" />
+    <Item name="_elctdExchSpdWValue" value="0" />
+    <Item name="label3" value="WSpd" />
+    <Item name="_elctdExchOfsW1Value" value="0.0000" />
+    <Item name="label27" value="WOfs1" />
+    <Item name="_zOriginMoveBt" value="MOVE" />
+    <Item name="label30" value="Electrode" />
+    <Item name="label28" value="Collet" />
+    <Item name="label18" value="FingerArm" />
+    <Item name="label17" value="有効軸切替" />
+    <Item name="_AxisBEn" value="B" />
+    <Item name="_AxisCEn" value="C" />
+    <Item name="_AxisAEn" value="A" />
+    <Item name="label10" value="X" />
+    <Item name="label11" value="C" />
+    <Item name="label12" value="B" />
+    <Item name="_macPosBLabel" value="-000.000" />
+    <Item name="label13" value="A" />
+    <Item name="label14" value="Z" />
+    <Item name="label15" value="W" />
+    <Item name="label39" value="Y" />
+    <Item name="label40" value="機械座標" />
+    <Item name="_macPosXLabel" value="-000.000" />
+    <Item name="_macPosCLabel" value="-000.000" />
+    <Item name="_macPosALabel" value="-000.000" />
+    <Item name="_macPosZLabel" value="-000.000" />
+    <Item name="_macPosWLabel" value="-000.000" />
+    <Item name="_macPosYLabel" value="-000.000" />
+    <Item name="_elctdExchOfsW2_MoveBt" value="MOVE" />
+    <Item name="_elctdExchOfsW2_WriteBt" value="WRITE" />
+    <Item name="_elctdExchOfsW2Value" value="0.0000" />
+    <Item name="label36" value="WOfs2" />
+    <Item name="_throughSenserLabel" value="-000.000" />
+    <Item name="_throughSenserBt" value="WRITE" />
+    <Item name="_elctdExchPosY_MoveBt" value="MOVE" />
+    <Item name="_elctdExchPosY_WriteBt" value="WRITE" />
+    <Item name="_elctdExchPosYValue" value="150.2190" />
+    <Item name="label53" value="Y" />
+    <Item name="_elctdExchPosX_MoveBt" value="MOVE" />
+    <Item name="_elctdExchPosX_WriteBt" value="WRITE" />
+    <Item name="_elctdExchPosXValue" value="253.7280" />
+    <Item name="label23" value="X" />
+    <Item name="label46" value="Collet Clamp" />
+    <Item name="_esfMaxNumText" value="0" />
+    <Item name="_esfMaxNumSetBt" value="SET" />
+    <Item name="_crsSpinBt" value="MOVE" />
+    <Item name="_crsSpdText" value="8" />
+    <Item name="BackToServiceFormBt" value="戻る" />
+    <Item name="label8" value="ESF PARAMETER" />
+  </ESFMainForm>
+  <FileForm>
+    <Item name="_saveBt" value="保存" />
+    <Item name="_btnReturn" value="戻る" />
+    <Item name="FileProtectLabel" value="PROTECT" />
+    <Item name="FileSizeLabel" value="0 file(s) Disk Free Space: 0.00GB" />
+    <Item name="FileContentsLabel" value="Contents(ECNC)" />
+    <Item name="label8" value="FILE" />
+  </FileForm>
+  <FuncPassForm>
+    <Item name="label1" value="パスワードを入力して下さい。" />
+    <Item name="tenkey3" value="3" />
+    <Item name="tenkey0" value="0" />
+    <Item name="tenkey6" value="6" />
+    <Item name="tenkey9" value="9" />
+    <Item name="DeleteTextBt" value="クリア" />
+    <Item name="tenkey2" value="2" />
+    <Item name="EnterPassBt" value="確定" />
+    <Item name="tenkey5" value="5" />
+    <Item name="tenkey1" value="1" />
+    <Item name="CloseBt" value="閉じる" />
+    <Item name="tenkey8" value="8" />
+    <Item name="tenkey4" value="4" />
+    <Item name="tenkey7" value="7" />
+    <Item name="label1" value="パスワードを入力して下さい。" />
+    <Item name="tenkey3" value="3" />
+    <Item name="tenkey0" value="0" />
+    <Item name="tenkey6" value="6" />
+    <Item name="tenkey9" value="9" />
+    <Item name="DeleteTextBt" value="クリア" />
+    <Item name="tenkey2" value="2" />
+    <Item name="EnterPassBt" value="確定" />
+    <Item name="tenkey5" value="5" />
+    <Item name="tenkey1" value="1" />
+    <Item name="CloseBt" value="閉じる" />
+    <Item name="tenkey8" value="8" />
+    <Item name="tenkey4" value="4" />
+    <Item name="tenkey7" value="7" />
+  </FuncPassForm>
+  <GSFMainForm>
+    <Item name="button17" value="MOVE" />
+    <Item name="button16" value="WRITE" />
+    <Item name="button5" value="OPEN" />
+    <Item name="button4" value="CLOSE" />
+    <Item name="button2" value="EXTEND" />
+    <Item name="button1" value="RETRACT" />
+    <Item name="label47" value="Guide Check" />
+    <Item name="label46" value="Guide Changer" />
+    <Item name="label45" value="Guide Clamp" />
+    <Item name="label39" value="-000.000" />
+    <Item name="label40" value="C" />
+    <Item name="label41" value="-000.000" />
+    <Item name="label42" value="B" />
+    <Item name="label43" value="-000.000" />
+    <Item name="label44" value="A" />
+    <Item name="button23" value="▶" />
+    <Item name="button20" value="◀" />
+    <Item name="button18" value="SET" />
+    <Item name="button22" value="▶" />
+    <Item name="button21" value="◀" />
+    <Item name="button19" value="MOVE" />
+    <Item name="button_XSt_WRITE" value="WRITE" />
+    <Item name="button_YSt_WRITE" value="WRITE" />
+    <Item name="label_YSt_Val" value="-000.000" />
+    <Item name="label_YSt" value="YSt" />
+    <Item name="label_XSt_Val" value="-000.000" />
+    <Item name="label_XSt" value="XSt" />
+    <Item name="button_XChk_WRITE" value="WRITE" />
+    <Item name="button_YChk_WRITE" value="WRITE" />
+    <Item name="label_YChk_Val" value="-000.000" />
+    <Item name="label_YChk" value="YChk" />
+    <Item name="label_XChk_Val" value="-000.000" />
+    <Item name="label_XChk" value="XChk" />
+    <Item name="button_YEnd_WRITE" value="WRITE" />
+    <Item name="button_XEnd_WRITE" value="WRITE" />
+    <Item name="label_YEnd_Val" value="-000.000" />
+    <Item name="label_YEnd" value="YEnd" />
+    <Item name="label_XEnd_Val" value="-000.000" />
+    <Item name="label_XEnd" value="XEnd" />
+    <Item name="label48" value="pps" />
+    <Item name="button_W_MOVE" value="MOVE" />
+    <Item name="button_W_WRITE" value="WRITE" />
+    <Item name="label24" value="10000" />
+    <Item name="label25" value="WSpd" />
+    <Item name="label_W_Val" value="-000.000" />
+    <Item name="label_W" value="W" />
+    <Item name="button_WOfs1_MOVE" value="MOVE" />
+    <Item name="button_WOfs1_WRITE" value="WRITE" />
+    <Item name="label_WOfs1_Val" value="-000.000" />
+    <Item name="label_WOfs1" value="WOfs1" />
+    <Item name="button_WOfs2_MOVE" value="MOVE" />
+    <Item name="button_WOfs2_WRITE" value="WRITE" />
+    <Item name="label_WOfs2_Val" value="-000.000" />
+    <Item name="label_WOfs2" value="WOfs2" />
+    <Item name="label5" value="-000.000" />
+    <Item name="label6" value="Z" />
+    <Item name="label7" value="-000.000" />
+    <Item name="label9" value="W" />
+    <Item name="label12" value="-000.000" />
+    <Item name="label13" value="Y" />
+    <Item name="label14" value="-000.000" />
+    <Item name="label15" value="C" />
+    <Item name="label10" value="-000.000" />
+    <Item name="label11" value="B" />
+    <Item name="label3" value="-000.000" />
+    <Item name="label4" value="A" />
+    <Item name="label2" value="MACHINE mm/Deg." />
+    <Item name="label50" value="-000.000" />
+    <Item name="label34" value="X" />
+    <Item name="BackToServiceFormBt" value="戻る" />
+    <Item name="label8" value="GSF PARAMETER" />
+    <Item name="label1" value="GSF PARAMETER" />
+  </GSFMainForm>
+  <HelpForm>
+    <Item name="radioButton2" value="Mコード" />
+    <Item name="radioButton1" value="Gコード" />
+    <Item name="PdfIndexBt" value="目次に移動" />
+    <Item name="BackEDITFormBt" value="戻る" />
+    <Item name="label8" value="HELP" />
+  </HelpForm>
+  <IOCheckForm>
+    <Item name="radioButtonEx_SelectDsp" value="選択表示" />
+    <Item name="radioButtonEx_AllDsp" value="全表示" />
+    <Item name="label51" value="この画面を表示中は、アラーム監視処理を一切行いません。&#xD;&#xA;この画面での通常運用は、行わないで下さい。" />
+    <Item name="radioButtonEx_Output" value="出力" />
+    <Item name="radioButtonEx_Input" value="入力" />
+    <Item name="buttonEx_Reset" value="リセット" />
+    <Item name="buttonEx_Return" value="戻る" />
+    <Item name="label1" value="！！警告！！" />
+    <Item name="label8" value="I/O CHECK" />
+  </IOCheckForm>
+  <LogForm />
+  <LogSettingForm />
+  <LogSettingVariableForm />
+  <MacroVarSetForm>
+    <Item name="label_Sharp" value="#" />
+    <Item name="label_MaxCount" value="/99999" />
+    <Item name="numericTextBox1" value="0" />
+    <Item name="label_Read2" value="label2" />
+    <Item name="label_Read1" value="label1" />
+    <Item name="button_NcRead" value="NC読込み" />
+    <Item name="button_NcWrite" value="NC書込み" />
+    <Item name="button_FileWrite" value="ファイル書込み" />
+    <Item name="button_FileRead" value="ファイル読込み" />
+    <Item name="BackUserFuncFormBt" value="戻る" />
+    <Item name="label_Variable" value="VALIABLE" />
+    <Item name="button_10000Up" value="10000▲" />
+    <Item name="button_1000Up" value="1000▲" />
+    <Item name="button_100Up" value="100▲" />
+    <Item name="button_10Up" value="10▲" />
+    <Item name="button_10Down" value="10▼" />
+    <Item name="button_100Down" value="100▼" />
+    <Item name="button_1000Down" value="1000▼" />
+    <Item name="button_10000Down" value="10000▼" />
+    <Item name="label_Sharp" value="#" />
+    <Item name="label_MaxCount" value="/99999" />
+    <Item name="numericTextBox1" value="0" />
+    <Item name="label_Read2" value="label2" />
+    <Item name="label_Read1" value="label1" />
+    <Item name="button_NcRead" value="NC読込み" />
+    <Item name="button_NcWrite" value="NC書込み" />
+    <Item name="button_FileWrite" value="ファイル書込み" />
+    <Item name="button_FileRead" value="ファイル読込み" />
+    <Item name="BackUserFuncFormBt" value="戻る" />
+    <Item name="label_Variable" value="VALIABLE" />
+    <Item name="button_10000Up" value="10000▲" />
+    <Item name="button_1000Up" value="1000▲" />
+    <Item name="button_100Up" value="100▲" />
+    <Item name="button_10Up" value="10▲" />
+    <Item name="button_10Down" value="10▼" />
+    <Item name="button_100Down" value="100▼" />
+    <Item name="button_1000Down" value="1000▼" />
+    <Item name="button_10000Down" value="10000▼" />
+  </MacroVarSetForm>
+  <MAINForm>
+    <Item name="AUTOFormBt" value="自動" />
+    <Item name="EDITFormBt" value="編集" />
+    <Item name="MDIFormBt" value="M.D.I." />
+    <Item name="MANUALFormBt" value="手動" />
+    <Item name="DateTimeView" value="0H 0M 0S" />
+  </MAINForm>
+  <MaintenanceEditForm>
+    <Item name="BackSpaceKey" value="BS" />
+    <Item name="button47" value="+" />
+    <Item name="button46" value="*" />
+    <Item name="button48" value="/" />
+    <Item name="button49" value="." />
+    <Item name="EnterKey" value="Enter" />
+    <Item name="button25" value="9" />
+    <Item name="button26" value="8" />
+    <Item name="button27" value="7" />
+    <Item name="button24" value="6" />
+    <Item name="AllClearKey" value="AC" />
+    <Item name="button21" value="3" />
+    <Item name="button22" value="2" />
+    <Item name="button18" value="0" />
+    <Item name="button17" value="1" />
+    <Item name="button16" value="5" />
+    <Item name="button15" value="4" />
+    <Item name="button11" value="-" />
+    <Item name="button70" value="OK" />
+    <Item name="BackMaintenanceFormBt" value="戻る" />
+    <Item name="label5" value="寿命形態" />
+    <Item name="button3" value="期間" />
+    <Item name="button2" value="放電時間" />
+    <Item name="button1" value="運転時間" />
+    <Item name="button5" value="◀" />
+    <Item name="label4" value="時間" />
+    <Item name="label3" value="寿命" />
+    <Item name="button4" value="◀" />
+    <Item name="label2" value="アイテム名" />
+    <Item name="label1" value="1：" />
+    <Item name="label8" value="MAINTENANCE EDIT" />
+  </MaintenanceEditForm>
+  <MaintenanceForm>
+    <Item name="label36" value="label36" />
+    <Item name="label37" value="label37" />
+    <Item name="label34" value="label34" />
+    <Item name="label35" value="label35" />
+    <Item name="label32" value="label32" />
+    <Item name="label33" value="label33" />
+    <Item name="label30" value="label30" />
+    <Item name="label31" value="label31" />
+    <Item name="label28" value="label28" />
+    <Item name="label29" value="label29" />
+    <Item name="label26" value="label26" />
+    <Item name="label27" value="label27" />
+    <Item name="label24" value="label24" />
+    <Item name="label25" value="label25" />
+    <Item name="label22" value="label22" />
+    <Item name="label23" value="label23" />
+    <Item name="label20" value="label20" />
+    <Item name="label18" value="label18" />
+    <Item name="label21" value="label21" />
+    <Item name="label19" value="label19" />
+    <Item name="label16" value="label16" />
+    <Item name="label17" value="label17" />
+    <Item name="label14" value="label14" />
+    <Item name="label12" value="label12" />
+    <Item name="label15" value="label15" />
+    <Item name="label10" value="label10" />
+    <Item name="label13" value="label13" />
+    <Item name="label7" value="label7" />
+    <Item name="label11" value="label11" />
+    <Item name="label5" value="label5" />
+    <Item name="label9" value="label9" />
+    <Item name="label1" value="アイテム名" />
+    <Item name="label6" value="label6" />
+    <Item name="label2" value="単位" />
+    <Item name="label3" value="寿命" />
+    <Item name="label4" value="現在" />
+    <Item name="MaintenanceEditBt" value="編集" />
+    <Item name="button18" value="リセット" />
+    <Item name="BackUserFuncFormBt" value="戻る" />
+    <Item name="button8" value="8" />
+    <Item name="button7" value="7" />
+    <Item name="button6" value="6" />
+    <Item name="button5" value="5" />
+    <Item name="button4" value="4" />
+    <Item name="button3" value="3" />
+    <Item name="button2" value="2" />
+    <Item name="button1" value="1" />
+    <Item name="label8" value="MAINTENANCE" />
+  </MaintenanceForm>
+  <MakerServiceForm>
+    <Item name="buttonEx_SettingSoft" value="設定ソフト" />
+    <Item name="button4" value="GSF" />
+    <Item name="button3" value="ESF SENSOR" />
+    <Item name="label3" value="機械仕様" />
+    <Item name="label4" value="OFF" />
+    <Item name="button29" value="SFO2 モード" />
+    <Item name="button25" value="ESF" />
+    <Item name="button12" value="AEC番号&#xD;&#xA;自動設定" />
+    <Item name="button11" value="言語切替" />
+    <Item name="button10" value="細線設定" />
+    <Item name="button9" value="放電中のみ&#xD;&#xA;CAP出力" />
+    <Item name="MacroVarSetBt" value="マクロ変数設定" />
+    <Item name="SystemTimeSettingBt" value="システム時刻設定" />
+    <Item name="GSFSetBt" value="GSF設定" />
+    <Item name="PitchComp2Bt" value="ピッチ補正" />
+    <Item name="NetworkSetBt" value="ネットワーク設定" />
+    <Item name="label19" value="積算時間リセット" />
+    <Item name="PowerOnTimeResetBt" value="電源ON時間" />
+    <Item name="WorkTimeResetBt" value="放電時間" />
+    <Item name="label18" value="システムファイル" />
+    <Item name="SysEditBt" value="編集" />
+    <Item name="SysExport" value="エクスポート" />
+    <Item name="SysInport" value="インポート" />
+    <Item name="label17" value="FACTORY SET" />
+    <Item name="button33" value="エクスプローラー" />
+    <Item name="AlarmLogBt" value="アラーム履歴&#xD;&#xA;（詳細）" />
+    <Item name="MakerPassChangeBt" value="パスワード変更" />
+    <Item name="ESFSetBt" value="ESF設定" />
+    <Item name="MaintenanceBt" value="メンテナンス&#xD;&#xA;初期設定" />
+    <Item name="BackUserFunkFormBt" value="戻る" />
+    <Item name="label8" value="FACTORY SET" />
+  </MakerServiceForm>
+  <MANUALForm>
+    <Item name="buttonEx1" value="加工ログ詳細" />
+    <Item name="BuzzerBt" value="ブザー" />
+    <Item name="ContactSensingBt" value="接触感知" />
+    <Item name="InitialSetBt" value="イニシャルセット" />
+    <Item name="FunctionBt" value="機能" />
+    <Item name="SpinBt" value="回転" />
+    <Item name="DischargeBt" value="放電" />
+    <Item name="PompBt" value="ポンプ" />
+    <Item name="ReturnOriginBt" value="座標登録" />
+    <Item name="AecBt" value="電極交換" />
+    <Item name="ReferencingBt" value="位置出し" />
+    <Item name="NumericFeedBt" value="数値位置決め" />
+    <Item name="ConditionsFormOpenBt" value="加工条件" />
+    <Item name="PnumTextBox" value="001" />
+    <Item name="WAxisLowerVal" value="0000.0000" />
+    <Item name="WAxisUpperVal" value="0000.0000" />
+    <Item name="WAxisLowerSetBt" value="W軸下限値" />
+    <Item name="WAxisUpperSetBt" value="W軸上限値" />
+    <Item name="WAxisUpperUnitLabel" value="mm" />
+    <Item name="WAxisLowerUnitLabel" value="mm" />
+    <Item name="PTextBox" value="P" />
+    <Item name="ProcTimerTextBox" value="0.0S" />
+    <Item name="label4" value="1穴加工時間" />
+    <Item name="DischargeTimerTextBox" value="0H 0M 0S" />
+    <Item name="MachineTimerTextBox" value="0H 0M 0S" />
+    <Item name="label2" value="加工時間" />
+    <Item name="label1" value="総運転時間" />
+    <Item name="CategoryNameV" value="電圧" />
+    <Item name="CategoryNameA" value="電流" />
+    <Item name="chart1" value="chart1" />
+    <Item name="OverRideBt" value="OVERRIDE" />
+    <Item name="_OverRideTextBox" value="0" />
+    <Item name="label3" value="％" />
+    <Item name="_btnPS" value="DC電源" />
+    <Item name="_btnServoSelect" value="AC送りモード" />
+    <Item name="_edtPS" value="1" />
+    <Item name="_edtServoSelect" value="1" />
+    <Item name="_btnMaterialSelect" value="UNDEFINED" />
+    <Item name="_btnInverter" value="液圧" />
+    <Item name="_edtInverter" value="01" />
+    <Item name="_btnMaterial" value="材質" />
+    <Item name="_edtTurnOn" value="001" />
+    <Item name="_btnTurnOff" value="T-OFF" />
+    <Item name="_edtIp" value="003" />
+    <Item name="_edtCap" value="1.000" />
+    <Item name="_edtTurnOff" value="001" />
+    <Item name="_btnDiameter" value="電極径" />
+    <Item name="_edtDiameter" value="0.00" />
+    <Item name="_edtServoControl" value="01" />
+    <Item name="_edtSfrDown" value="001" />
+    <Item name="_btnPol" value="極性" />
+    <Item name="_edtSfrUp" value="001" />
+    <Item name="_edtCrs" value="01" />
+    <Item name="_btnCrs" value="回転" />
+    <Item name="_btnSfrUp" value="SFR&#xD;&#xA;UP" />
+    <Item name="_edtPol" value="1" />
+    <Item name="_btnSfrDown" value="SFR&#xD;&#xA;DOWN" />
+    <Item name="_btnTurnOn" value="T-ON" />
+    <Item name="_btnServoControl" value="SC" />
+    <Item name="_btnIp" value="IP" />
+    <Item name="_btnCap" value="CAP" />
+    <Item name="chart1" value="chart1" />
+  </MANUALForm>
+  <MaterialNameForm>
+    <Item name="_btnRegister" value="登録" />
+    <Item name="PLUSkey" value="+" />
+    <Item name="ASTERISKkey" value="*" />
+    <Item name="_btnKeyBackSpace" value="BS" />
+    <Item name="_btnKeySpace" value="SPACE" />
+    <Item name="_btnKeyCut" value="切り取り" />
+    <Item name="_btnKeyCopy" value="コピー" />
+    <Item name="_btnKeyPaste" value="貼り付け" />
+    <Item name="_btnKeyHome" value="HOME" />
+    <Item name="_btnKeyEnd" value="END" />
+    <Item name="_btnKeyLineDelete" value="行削除" />
+    <Item name="_btnKeyShift" value="Shift" />
+    <Item name="SLASHkey" value="/" />
+    <Item name="PERIODkey" value="." />
+    <Item name="Mkey" value="M" />
+    <Item name="COMMAkey" value="," />
+    <Item name="Nkey" value="N" />
+    <Item name="Bkey" value="B" />
+    <Item name="Vkey" value="V" />
+    <Item name="Ckey" value="C" />
+    <Item name="Xkey" value="X" />
+    <Item name="Zkey" value="Z" />
+    <Item name="_btnKeyEnter" value="Enter" />
+    <Item name="COLONkey" value=":" />
+    <Item name="SEMICOLONkey" value=";" />
+    <Item name="Lkey" value="L" />
+    <Item name="Jkey" value="J" />
+    <Item name="Kkey" value="K" />
+    <Item name="Hkey" value="H" />
+    <Item name="Gkey" value="G" />
+    <Item name="Fkey" value="F" />
+    <Item name="Dkey" value="D" />
+    <Item name="Skey" value="S" />
+    <Item name="Akey" value="A" />
+    <Item name="_btnKeyRight" value="▶" />
+    <Item name="_btnKeyLeft" value="◀" />
+    <Item name="NINE" value="9" />
+    <Item name="EIGHTkey" value="8" />
+    <Item name="SEVENkey" value="7" />
+    <Item name="SIXkey" value="6" />
+    <Item name="_btnKeyAllClear" value="AC" />
+    <Item name="_btnKeyDown" value="▼" />
+    <Item name="_btnKeyUp" value="▲" />
+    <Item name="THREEkey" value="3" />
+    <Item name="TWOkey" value="2" />
+    <Item name="ZEROkey" value="0" />
+    <Item name="ONEkey" value="1" />
+    <Item name="FIVEkey" value="5" />
+    <Item name="FOURkey" value="4" />
+    <Item name="_btnKeyDelete" value="DEL" />
+    <Item name="YENkey" value="\" />
+    <Item name="CARETkey" value="^" />
+    <Item name="HYPHENkey" value="-" />
+    <Item name="Pkey" value="P" />
+    <Item name="Okey" value="O" />
+    <Item name="Ukey" value="U" />
+    <Item name="Ikey" value="I" />
+    <Item name="Ykey" value="Y" />
+    <Item name="Tkey" value="T" />
+    <Item name="Rkey" value="R" />
+    <Item name="Ekey" value="E" />
+    <Item name="Wkey" value="W" />
+    <Item name="Qkey" value="Q" />
+    <Item name="_btnSelect" value="選択" />
+    <Item name="_btnReturn" value="戻る" />
+    <Item name="_rdoMat06" value="MICRO" />
+    <Item name="_rdoMat05" value="OTHERS" />
+    <Item name="_rdoMat04" value="ALMINUM" />
+    <Item name="_rdoMat03" value="CARBIDE" />
+    <Item name="_rdoMat02" value="SK" />
+    <Item name="_rdoMat01" value="SUS" />
+    <Item name="label8" value="MATERIAL NAME" />
+    <Item name="_btnRegister" value="登録" />
+    <Item name="PLUSkey" value="+" />
+    <Item name="ASTERISKkey" value="*" />
+    <Item name="_btnKeyBackSpace" value="BS" />
+    <Item name="_btnKeySpace" value="SPACE" />
+    <Item name="_btnKeyCut" value="切り取り" />
+    <Item name="_btnKeyCopy" value="コピー" />
+    <Item name="_btnKeyPaste" value="貼り付け" />
+    <Item name="_btnKeyHome" value="HOME" />
+    <Item name="_btnKeyEnd" value="END" />
+    <Item name="_btnKeyLineDelete" value="行削除" />
+    <Item name="_btnKeyShift" value="Shift" />
+    <Item name="SLASHkey" value="/" />
+    <Item name="PERIODkey" value="." />
+    <Item name="Mkey" value="M" />
+    <Item name="COMMAkey" value="," />
+    <Item name="Nkey" value="N" />
+    <Item name="Bkey" value="B" />
+    <Item name="Vkey" value="V" />
+    <Item name="Ckey" value="C" />
+    <Item name="Xkey" value="X" />
+    <Item name="Zkey" value="Z" />
+    <Item name="_btnKeyEnter" value="Enter" />
+    <Item name="COLONkey" value=":" />
+    <Item name="SEMICOLONkey" value=";" />
+    <Item name="Lkey" value="L" />
+    <Item name="Jkey" value="J" />
+    <Item name="Kkey" value="K" />
+    <Item name="Hkey" value="H" />
+    <Item name="Gkey" value="G" />
+    <Item name="Fkey" value="F" />
+    <Item name="Dkey" value="D" />
+    <Item name="Skey" value="S" />
+    <Item name="Akey" value="A" />
+    <Item name="_btnKeyRight" value="▶" />
+    <Item name="_btnKeyLeft" value="◀" />
+    <Item name="NINE" value="9" />
+    <Item name="EIGHTkey" value="8" />
+    <Item name="SEVENkey" value="7" />
+    <Item name="SIXkey" value="6" />
+    <Item name="_btnKeyAllClear" value="AC" />
+    <Item name="_btnKeyDown" value="▼" />
+    <Item name="_btnKeyUp" value="▲" />
+    <Item name="THREEkey" value="3" />
+    <Item name="TWOkey" value="2" />
+    <Item name="ZEROkey" value="0" />
+    <Item name="ONEkey" value="1" />
+    <Item name="FIVEkey" value="5" />
+    <Item name="FOURkey" value="4" />
+    <Item name="_btnKeyDelete" value="DEL" />
+    <Item name="YENkey" value="\" />
+    <Item name="CARETkey" value="^" />
+    <Item name="HYPHENkey" value="-" />
+    <Item name="Pkey" value="P" />
+    <Item name="Okey" value="O" />
+    <Item name="Ukey" value="U" />
+    <Item name="Ikey" value="I" />
+    <Item name="Ykey" value="Y" />
+    <Item name="Tkey" value="T" />
+    <Item name="Rkey" value="R" />
+    <Item name="Ekey" value="E" />
+    <Item name="Wkey" value="W" />
+    <Item name="Qkey" value="Q" />
+    <Item name="_btnSelect" value="選択" />
+    <Item name="_btnReturn" value="戻る" />
+    <Item name="_rdoMat06" value="MICRO" />
+    <Item name="_rdoMat05" value="OTHERS" />
+    <Item name="_rdoMat04" value="ALMINUM" />
+    <Item name="_rdoMat03" value="CARBIDE" />
+    <Item name="_rdoMat02" value="SK" />
+    <Item name="_rdoMat01" value="SUS" />
+    <Item name="label8" value="MATERIAL NAME" />
+  </MaterialNameForm>
+  <MDIAUTOForm>
+    <Item name="ConditionsFormOpenBt" value="加工条件" />
+    <Item name="PnumTextBox" value="001" />
+    <Item name="PTextBox" value="P" />
+    <Item name="WAxisLowerVal" value="0000.0000" />
+    <Item name="WAxisUpperVal" value="0000.0000" />
+    <Item name="WAxisLowerSetBt" value="W軸下限値" />
+    <Item name="WAxisUpperSetBt" value="W軸上限値" />
+    <Item name="WAxisUpperUnitLabel" value="mm" />
+    <Item name="WAxisLowerUnitLabel" value="mm" />
+    <Item name="OverRideBt" value="OVERRIDE" />
+    <Item name="_OverRideTextBox" value="0" />
+    <Item name="label3" value="％" />
+    <Item name="_btnPS" value="DC電源" />
+    <Item name="_btnServoSelect" value="AC送りモード" />
+    <Item name="_edtPS" value="1" />
+    <Item name="_edtServoSelect" value="1" />
+    <Item name="_btnMaterialSelect" value="UNDEFINED" />
+    <Item name="_btnInverter" value="液圧" />
+    <Item name="_edtInverter" value="01" />
+    <Item name="_btnMaterial" value="材質" />
+    <Item name="_edtTurnOn" value="001" />
+    <Item name="_btnTurnOff" value="T-OFF" />
+    <Item name="_edtIp" value="003" />
+    <Item name="_edtCap" value="1.000" />
+    <Item name="_edtTurnOff" value="001" />
+    <Item name="_btnDiameter" value="電極径" />
+    <Item name="_edtDiameter" value="0.00" />
+    <Item name="_edtServoControl" value="01" />
+    <Item name="_edtSfrDown" value="001" />
+    <Item name="_btnPol" value="極性" />
+    <Item name="_edtSfrUp" value="001" />
+    <Item name="_edtCrs" value="01" />
+    <Item name="_btnCrs" value="回転" />
+    <Item name="_btnSfrUp" value="SFR&#xD;&#xA;UP" />
+    <Item name="_edtPol" value="1" />
+    <Item name="_btnSfrDown" value="SFR&#xD;&#xA;DOWN" />
+    <Item name="_btnTurnOn" value="T-ON" />
+    <Item name="_btnServoControl" value="SC" />
+    <Item name="_btnIp" value="IP" />
+    <Item name="_btnCap" value="CAP" />
+    <Item name="ProcTimerTextBox" value="0.0S" />
+    <Item name="label4" value="1穴加工時間" />
+    <Item name="DischargeTimerTextBox" value="0H 0M 0S" />
+    <Item name="MachineTimerTextBox" value="0H 0M 0S" />
+    <Item name="label2" value="加工時間" />
+    <Item name="label1" value="総運転時間" />
+    <Item name="chart1" value="chart1" />
+    <Item name="CategoryNameV" value="電圧" />
+    <Item name="CategoryNameA" value="電流" />
+    <Item name="chart1" value="chart1" />
+    <Item name="_btnReset" value="リセット" />
+    <Item name="DryRunBt" value="ドライラン" />
+    <Item name="SingleBlockBt" value="シングルブロック" />
+    <Item name="OptionBt" value="オプション" />
+    <Item name="M02Label" value="自動電源断" />
+    <Item name="SignalLabel" value="出力信号" />
+    <Item name="MachineLockLabel" value="マシンロック" />
+    <Item name="CorrectAngleLabel" value="角度補正" />
+    <Item name="PartitionRoundStopLabel" value="AEC1週停止" />
+    <Item name="StartNoLabel" value="スタート番号" />
+    <Item name="IncRefMoveLabel" value="G07移動" />
+    <Item name="BlockSkipLabel" value="B.Skip" />
+    <Item name="OptionalStopLabel" value="O.Stop" />
+    <Item name="BuzzerLabel" value="ブザー" />
+    <Item name="AecByLifeLabel" value="電極交換" />
+  </MDIAUTOForm>
+  <NumericFeedForm>
+    <Item name="label4" value="座標選択" />
+    <Item name="comboBoxEx1" value="WORK" />
+    <Item name="label3" value="軸選択" />
+    <Item name="label2" value="座標系" />
+    <Item name="EditText" value="0.0000" />
+    <Item name="ModeSelectBox" value="INC" />
+    <Item name="EditUnit" value="mm" />
+    <Item name="label8" value="NUMERIC FEED" />
+  </NumericFeedForm>
+  <OptionForm>
+    <Item name="button15" value="button15" />
+    <Item name="label14" value="N" />
+    <Item name="_startNoLabel" value="0" />
+    <Item name="_startNoEnBt" value="スタート番号" />
+    <Item name="button4" value="加工条件" />
+    <Item name="PlotBt" value="プロット" />
+    <Item name="button13" value="スクリーンガード" />
+    <Item name="ValiableListBt" value="指定マクロ変数表示" />
+    <Item name="MachineLockBt" value="マシンロック" />
+    <Item name="CorrectAngleBt" value="角度補正オフセット" />
+    <Item name="IncRefMoveBt" value="相対測定点移動" />
+    <Item name="M02Bt" value="自動電源遮断" />
+    <Item name="BlockSkipBt" value="ブロックスキップ" />
+    <Item name="OptionalStopBt" value="オプショナルストップ" />
+    <Item name="BuzzerBt" value="ブザー" />
+    <Item name="PartitionRoundStopBt" value="AEC1周待機" />
+    <Item name="AecByLifeBt" value="電極交換" />
+    <Item name="label8" value="OPTION" />
+    <Item name="button15" value="button15" />
+    <Item name="label14" value="N" />
+    <Item name="_startNoLabel" value="0" />
+    <Item name="_startNoEnBt" value="スタート番号" />
+    <Item name="button4" value="加工条件" />
+    <Item name="PlotBt" value="プロット" />
+    <Item name="button13" value="スクリーンガード" />
+    <Item name="ValiableListBt" value="指定マクロ変数表示" />
+    <Item name="MachineLockBt" value="マシンロック" />
+    <Item name="CorrectAngleBt" value="角度補正オフセット" />
+    <Item name="IncRefMoveBt" value="相対測定点移動" />
+    <Item name="M02Bt" value="自動電源遮断" />
+    <Item name="BlockSkipBt" value="ブロックスキップ" />
+    <Item name="OptionalStopBt" value="オプショナルストップ" />
+    <Item name="BuzzerBt" value="ブザー" />
+    <Item name="PartitionRoundStopBt" value="AEC1周待機" />
+    <Item name="AecByLifeBt" value="電極交換" />
+    <Item name="label8" value="OPTION" />
+  </OptionForm>
+  <ParameterViewForm>
+    <Item name="INITIALPARAMBt" value="INITIAL PARAM" />
+    <Item name="SERVOPARAMBt" value="SERVO PARAM" />
+    <Item name="CPSDATABt" value="CPS DATA" />
+    <Item name="IPDATABt" value="IP DATA" />
+    <Item name="OTHERSETBt" value="OTHER SET" />
+    <Item name="SERIALSETBt" value="SERIAL SET" />
+    <Item name="SEVOPCONBt" value="SERVO P CONDITION" />
+    <Item name="IOCONFIGBt" value="I/O CONFIG" />
+    <Item name="GMCORDSETBt" value="GM CORD SETTING" />
+    <Item name="OVERRIDEBt" value="OVERRIDE" />
+    <Item name="CRSSPEEDBt" value="CRS SPEED" />
+    <Item name="LineInsertBt" value="Line&#xD;&#xA;Insert" />
+    <Item name="ListReloadBt" value="再読込" />
+    <Item name="ParamSaveBt" value="保存" />
+    <Item name="LineDeleteBt" value="Line&#xD;&#xA;Delete" />
+    <Item name="CloseBt" value="戻る" />
+  </ParameterViewForm>
+  <PartitionForm>
+    <Item name="PartitionEnableBt" value="パーティション無効" />
+    <Item name="SettingBt" value="設定" />
+    <Item name="CrearBt" value="クリア" />
+    <Item name="NumDown" value="▼" />
+    <Item name="NumUp" value="▲" />
+    <Item name="BackAECFormBt" value="戻る" />
+    <Item name="label8" value="PARTITION" />
+    <Item name="label2" value="マガジン番号" />
+    <Item name="label1" value="ガイド入り口まで" />
+    <Item name="label53" value="ガイド入り口から" />
+  </PartitionForm>
+  <PasswordChangeForm>
+    <Item name="BackSpaceKey" value="BS" />
+    <Item name="button47" value="+" />
+    <Item name="button46" value="*" />
+    <Item name="button48" value="/" />
+    <Item name="button49" value="." />
+    <Item name="EnterKey" value="Enter" />
+    <Item name="button25" value="9" />
+    <Item name="button26" value="8" />
+    <Item name="button27" value="7" />
+    <Item name="button24" value="6" />
+    <Item name="AllClearKey" value="AC" />
+    <Item name="button21" value="3" />
+    <Item name="button22" value="2" />
+    <Item name="button18" value="0" />
+    <Item name="button17" value="1" />
+    <Item name="button16" value="5" />
+    <Item name="button15" value="4" />
+    <Item name="button11" value="-" />
+    <Item name="FactoryBt" value="工場設定" />
+    <Item name="ServiceFixBt" value="サービス（固定）" />
+    <Item name="ServiceBt" value="サービス" />
+    <Item name="label4" value="新しいパスワード（確認）" />
+    <Item name="label3" value="新しいパスワード" />
+    <Item name="label2" value="サービス" />
+    <Item name="button70" value="OK" />
+    <Item name="BackUserServiceFormBt" value="戻る" />
+    <Item name="label1" value="PASSWORD CHANGE" />
+    <Item name="label8" value="パスワードを入力し、【OK】ボタンを押してください。" />
+    <Item name="BackSpaceKey" value="BS" />
+    <Item name="button47" value="+" />
+    <Item name="button46" value="*" />
+    <Item name="button48" value="/" />
+    <Item name="button49" value="." />
+    <Item name="EnterKey" value="Enter" />
+    <Item name="button25" value="9" />
+    <Item name="button26" value="8" />
+    <Item name="button27" value="7" />
+    <Item name="button24" value="6" />
+    <Item name="AllClearKey" value="AC" />
+    <Item name="button21" value="3" />
+    <Item name="button22" value="2" />
+    <Item name="button18" value="0" />
+    <Item name="button17" value="1" />
+    <Item name="button16" value="5" />
+    <Item name="button15" value="4" />
+    <Item name="button11" value="-" />
+    <Item name="FactoryBt" value="工場設定" />
+    <Item name="ServiceFixBt" value="サービス（固定）" />
+    <Item name="ServiceBt" value="サービス" />
+    <Item name="label4" value="新しいパスワード（確認）" />
+    <Item name="label3" value="新しいパスワード" />
+    <Item name="label2" value="サービス" />
+    <Item name="button70" value="OK" />
+    <Item name="BackUserServiceFormBt" value="戻る" />
+    <Item name="label1" value="PASSWORD CHANGE" />
+    <Item name="label8" value="パスワードを入力し、【OK】ボタンを押してください。" />
+  </PasswordChangeForm>
+  <PitchCompensationForm />
+  <PitchSettingForm>
+    <Item name="label1" value="ファイル" />
+    <Item name="button6" value="読み込み" />
+    <Item name="BackSpaceKey" value="BS" />
+    <Item name="button47" value="+" />
+    <Item name="button46" value="*" />
+    <Item name="button48" value="/" />
+    <Item name="button49" value="." />
+    <Item name="EnterKey" value="Enter" />
+    <Item name="button25" value="9" />
+    <Item name="button26" value="8" />
+    <Item name="button27" value="7" />
+    <Item name="button24" value="6" />
+    <Item name="AllClearKey" value="AC" />
+    <Item name="button21" value="3" />
+    <Item name="button22" value="2" />
+    <Item name="button18" value="0" />
+    <Item name="button17" value="1" />
+    <Item name="button16" value="5" />
+    <Item name="button15" value="4" />
+    <Item name="button11" value="-" />
+    <Item name="radioButton2" value="+区間数" />
+    <Item name="radioButton6" value="補正倍率" />
+    <Item name="radioButton5" value="補正間隔" />
+    <Item name="label3" value="NC" />
+    <Item name="button4" value="書き込み" />
+    <Item name="RenishawLoadBt" value="読み込み" />
+    <Item name="button5" value="初期化" />
+    <Item name="radioButton4" value="先頭番号" />
+    <Item name="radioButton3" value="-区間数" />
+    <Item name="radioButton28" value="inch" />
+    <Item name="radioButton29" value="mm" />
+    <Item name="radioButton7" value="*" />
+    <Item name="radioButton1" value="I" />
+    <Item name="AxisCBt" value="C" />
+    <Item name="AxisBBt" value="B" />
+    <Item name="AxisABt" value="A" />
+    <Item name="AxisZBt" value="Z" />
+    <Item name="AxisWBt" value="W" />
+    <Item name="AxisYBt" value="Y" />
+    <Item name="AxisXBt" value="X" />
+    <Item name="BackMakerServiceFormBt" value="戻る" />
+    <Item name="label8" value="PITCH COMPENSATION2" />
+  </PitchSettingForm>
+  <PlotForm>
+    <Item name="button7" value=" " />
+    <Item name="button6" value="button6" />
+    <Item name="button5" value="button5" />
+    <Item name="button15" value=" " />
+    <Item name="label9" value="0" />
+    <Item name="label7" value="-1100" />
+    <Item name="label6" value="0" />
+    <Item name="label5" value="-1650" />
+    <Item name="label4" value="Y-AXIS" />
+    <Item name="label3" value="X-AXIS" />
+    <Item name="button4" value="PLOT RESET" />
+    <Item name="button3" value="BOX ZOOM" />
+    <Item name="button2" value="ALL SCALE" />
+    <Item name="button1" value="BACK SCALE" />
+    <Item name="label1" value="Done" />
+    <Item name="label14" value="Plan" />
+    <Item name="BackMDIAUTOFormBt" value="戻る" />
+    <Item name="label8" value="PLOT" />
+    <Item name="button7" value=" " />
+    <Item name="button6" value="button6" />
+    <Item name="button5" value="button5" />
+    <Item name="button15" value=" " />
+    <Item name="label9" value="0" />
+    <Item name="label7" value="-1100" />
+    <Item name="label6" value="0" />
+    <Item name="label5" value="-1650" />
+    <Item name="label4" value="Y-AXIS" />
+    <Item name="label3" value="X-AXIS" />
+    <Item name="button4" value="PLOT RESET" />
+    <Item name="button3" value="BOX ZOOM" />
+    <Item name="button2" value="ALL SCALE" />
+    <Item name="button1" value="BACK SCALE" />
+    <Item name="label1" value="Done" />
+    <Item name="label14" value="Plan" />
+    <Item name="BackMDIAUTOFormBt" value="戻る" />
+    <Item name="label8" value="PLOT" />
+  </PlotForm>
+  <ReferencingForm>
+    <Item name="button_NCStart" value="デバックスタート" />
+    <Item name="_currectAngleBt" value="角度補正" />
+    <Item name="_currAngleText" value="0" />
+    <Item name="SubFormABt" value="A" />
+    <Item name="SubFormBBt" value="B" />
+    <Item name="SubFormCBt" value="C" />
+    <Item name="SubFormDBt" value="D" />
+    <Item name="gaikeiBt" value="外径" />
+    <Item name="naikeiBt" value="内径" />
+    <Item name="retBt" value="角度補正" />
+    <Item name="sotoBt" value="外コーナー" />
+    <Item name="tanmenBt" value="端面" />
+    <Item name="utiBt" value="内コーナー" />
+    <Item name="comboBox_angleCorrectionXY" value="X" />
+    <Item name="labelEx3" value="端面A" />
+    <Item name="label8" value="REFERENCING" />
+  </ReferencingForm>
+  <ReturnToOriginForm>
+    <Item name="MachineOriginBt" value="機械原点" />
+    <Item name="WorkOriginBt" value="WORK原点" />
+    <Item name="RefOriginBt" value="測定点&#xD;&#xA;(REF)&#xD;&#xA;" />
+    <Item name="BaxisText" value="000.000" />
+    <Item name="AaxisText" value="000.000" />
+    <Item name="CaxisText" value="000.000" />
+    <Item name="WaxisText" value="000.000" />
+    <Item name="YaxisText" value="000.000" />
+    <Item name="XaxisText" value="000.000" />
+    <Item name="label11" value="REF" />
+    <Item name="label8" value="ORIGIN" />
+    <Item name="ModeViewLabel" value="MACHINE" />
+    <Item name="MachineWorkChgBt" value="AXIS MODE" />
+    <Item name="OrgPosDataSet" value="登録" />
+  </ReturnToOriginForm>
+  <SettingSoft />
+  <SystemFileInputForm>
+    <Item name="_sysFileStatusList" value="リストの初期化が完了しました。" />
+    <Item name="BackUserServiceFormBt" value="戻る" />
+    <Item name="_startBt" value="開始" />
+    <Item name="label8" value="SYSTEM FILE EXPORT" />
+    <Item name="_sysFileStatusList" value="リストの初期化が完了しました。" />
+    <Item name="BackUserServiceFormBt" value="戻る" />
+    <Item name="_startBt" value="開始" />
+    <Item name="label8" value="SYSTEM FILE INPORT" />
+  </SystemFileInputForm>
+  <SystemTimeAdjustForm>
+    <Item name="button70" value="登録" />
+    <Item name="BackUserServiceFormBt" value="戻る" />
+    <Item name="button7" value="▼" />
+    <Item name="button8" value="▲" />
+    <Item name="label4" value="秒" />
+    <Item name="button9" value="▼" />
+    <Item name="button10" value="▲" />
+    <Item name="label5" value="分" />
+    <Item name="button11" value="▼" />
+    <Item name="button12" value="▲" />
+    <Item name="label6" value="時" />
+    <Item name="button5" value="▼" />
+    <Item name="label3" value="年" />
+    <Item name="button6" value="▲" />
+    <Item name="button3" value="▼" />
+    <Item name="button4" value="▲" />
+    <Item name="label2" value="日" />
+    <Item name="button2" value="▼" />
+    <Item name="button1" value="▲" />
+    <Item name="label1" value="月" />
+    <Item name="label8" value="TIME ADJUST" />
+    <Item name="button70" value="登録" />
+    <Item name="BackUserServiceFormBt" value="戻る" />
+    <Item name="button7" value="▼" />
+    <Item name="button8" value="▲" />
+    <Item name="label4" value="秒" />
+    <Item name="button9" value="▼" />
+    <Item name="button10" value="▲" />
+    <Item name="label5" value="分" />
+    <Item name="button11" value="▼" />
+    <Item name="button12" value="▲" />
+    <Item name="label6" value="時" />
+    <Item name="button5" value="▼" />
+    <Item name="label3" value="年" />
+    <Item name="button6" value="▲" />
+    <Item name="button3" value="▼" />
+    <Item name="button4" value="▲" />
+    <Item name="label2" value="日" />
+    <Item name="button2" value="▼" />
+    <Item name="button1" value="▲" />
+    <Item name="label1" value="月" />
+    <Item name="label8" value="TIME ADJUST" />
+  </SystemTimeAdjustForm>
+  <TeachTableForm>
+    <Item name="BackSpaceKey" value="BS" />
+    <Item name="button47" value="+" />
+    <Item name="button46" value="*" />
+    <Item name="button48" value="/" />
+    <Item name="button49" value="." />
+    <Item name="EnterKey" value="Enter" />
+    <Item name="button25" value="9" />
+    <Item name="button26" value="8" />
+    <Item name="button27" value="7" />
+    <Item name="button24" value="6" />
+    <Item name="AllClearKey" value="AC" />
+    <Item name="button21" value="3" />
+    <Item name="button22" value="2" />
+    <Item name="button18" value="0" />
+    <Item name="button17" value="1" />
+    <Item name="button16" value="5" />
+    <Item name="button15" value="4" />
+    <Item name="button11" value="-" />
+    <Item name="SpaceKey" value="SPACE" />
+    <Item name="Gkey" value="G" />
+    <Item name="Akey" value="A" />
+    <Item name="Mkey" value="M" />
+    <Item name="Pkey" value="P" />
+    <Item name="Ykey" value="Y" />
+    <Item name="Bkey" value="B" />
+    <Item name="Hkey" value="H" />
+    <Item name="Wkey" value="W" />
+    <Item name="Ckey" value="C" />
+    <Item name="Jkey" value="J" />
+    <Item name="Lkey" value="L" />
+    <Item name="Xkey" value="X" />
+    <Item name="Zkey" value="Z" />
+    <Item name="button1" value="選択" />
+    <Item name="button14" value="使用" />
+    <Item name="DeleteVarBt" value="削除" />
+    <Item name="button4" value="挿入" />
+    <Item name="button3" value="コピー" />
+    <Item name="AddListBt" value="追加" />
+    <Item name="button9" value="←" />
+    <Item name="button8" value="→" />
+    <Item name="label2" value="表示選択" />
+    <Item name="radioButton2" value="Mコード" />
+    <Item name="radioButton1" value="Gコード" />
+    <Item name="BackEDITFormBt" value="戻る" />
+    <Item name="label8" value="TEACH TABLE" />
+  </TeachTableForm>
+  <ThinLineSettingForm>
+    <Item name="BackSpaceKey" value="BS" />
+    <Item name="button47" value="+" />
+    <Item name="button46" value="*" />
+    <Item name="button48" value="/" />
+    <Item name="button49" value="." />
+    <Item name="EnterKey" value="Enter" />
+    <Item name="button25" value="9" />
+    <Item name="button26" value="8" />
+    <Item name="button27" value="7" />
+    <Item name="button24" value="6" />
+    <Item name="AllClearKey" value="AC" />
+    <Item name="button21" value="3" />
+    <Item name="button22" value="2" />
+    <Item name="button18" value="0" />
+    <Item name="button17" value="1" />
+    <Item name="button16" value="5" />
+    <Item name="button15" value="4" />
+    <Item name="button11" value="-" />
+    <Item name="button70" value="OK" />
+    <Item name="BackUserServiceFormBt" value="戻る" />
+    <Item name="button3" value="◀" />
+    <Item name="button2" value="◀" />
+    <Item name="button1" value="◀" />
+    <Item name="label5" value="mm" />
+    <Item name="label3" value="リトライ回数" />
+    <Item name="label2" value="座屈センサーONによるZ軸上昇速度" />
+    <Item name="label1" value="座屈センサーONによるZ軸上昇量" />
+    <Item name="label8" value="THIN LINE SETTING" />
+  </ThinLineSettingForm>
+  <UserFuncForm>
+    <Item name="buttonEx1" value="細線モード" />
+    <Item name="MaterialNameBt" value="材質名登録" />
+    <Item name="button1" value="アラーム" />
+    <Item name="MacroVarSetBt" value="マクロ変数設定" />
+    <Item name="MaintenanceFormBt" value="メンテナンス" />
+    <Item name="ServiceFormBt" value="サービス" />
+    <Item name="_btnReset" value="リセット" />
+    <Item name="button10" value="自動運転開始座標へ復帰" />
+    <Item name="label8" value="FUNCTION" />
+    <Item name="label29" value="総放電時間" />
+    <Item name="label1" value="総運転時間" />
+    <Item name="buttonEx1" value="細線モード" />
+    <Item name="MaterialNameBt" value="材質名登録" />
+    <Item name="button1" value="アラーム" />
+    <Item name="MacroVarSetBt" value="マクロ変数設定" />
+    <Item name="MaintenanceFormBt" value="メンテナンス" />
+    <Item name="ServiceFormBt" value="サービス" />
+    <Item name="_btnReset" value="リセット" />
+    <Item name="button10" value="自動運転開始座標へ復帰" />
+    <Item name="label8" value="FUNCTION" />
+    <Item name="label29" value="総放電時間" />
+    <Item name="label1" value="総運転時間" />
+    <Item name="buttonEx1" value="細線モード" />
+    <Item name="MaterialNameBt" value="材質名登録" />
+    <Item name="button1" value="アラーム" />
+    <Item name="MacroVarSetBt" value="マクロ変数設定" />
+    <Item name="MaintenanceFormBt" value="メンテナンス" />
+    <Item name="ServiceFormBt" value="サービス" />
+    <Item name="_btnReset" value="リセット" />
+    <Item name="button10" value="自動運転開始座標へ復帰" />
+    <Item name="label8" value="FUNCTION" />
+    <Item name="label29" value="総放電時間" />
+    <Item name="label1" value="総運転時間" />
+  </UserFuncForm>
+  <UserServiceForm>
+    <Item name="button30" value="インポート" />
+    <Item name="button37" value="◀" />
+    <Item name="label31" value="書込み保護" />
+    <Item name="label32" value="to" />
+    <Item name="button43" value="エクスポート" />
+    <Item name="button44" value="◀" />
+    <Item name="button46" value="◀" />
+    <Item name="button47" value="インポート禁止" />
+    <Item name="label34" value="仮想点" />
+    <Item name="button41" value="インポート" />
+    <Item name="button40" value="◀" />
+    <Item name="label29" value="書込み保護" />
+    <Item name="label28" value="to" />
+    <Item name="button39" value="エクスポート" />
+    <Item name="button38" value="◀" />
+    <Item name="label21" value="加工条件" />
+    <Item name="button32" value="◀" />
+    <Item name="button33" value="インポート禁止" />
+    <Item name="_updateBt" value="アップデート" />
+    <Item name="BackMANUALFormBt" value="戻る" />
+    <Item name="label25" value="システムファイル" />
+    <Item name="SystemFileInputBt" value="インポート" />
+    <Item name="SystemFileOutputBt" value="エクスポート" />
+    <Item name="MaintenanceEditBt" value="編集" />
+    <Item name="button35" value="リセット禁止" />
+    <Item name="label18" value="メンテナンス" />
+    <Item name="label17" value="ファイル" />
+    <Item name="button7" value="書込み保護" />
+    <Item name="button6" value="インポート禁止" />
+    <Item name="button28" value="言語" />
+    <Item name="button27" value="単位" />
+    <Item name="button19" value="A軸有効" />
+    <Item name="button20" value="C軸有効" />
+    <Item name="button21" value="シグナルランプ" />
+    <Item name="button22" value="B軸有効" />
+    <Item name="button18" value="[M14]CYS2&#xD;&#xA;チェック&#xD;&#xA;" />
+    <Item name="button17" value="[M14]CYS4&#xD;&#xA;チェック" />
+    <Item name="button16" value="[M14]CYS1&#xD;&#xA;チェック&#xD;&#xA;" />
+    <Item name="button10" value="[M14]CYS3&#xD;&#xA;チェック" />
+    <Item name="_versionCheckFormBt" value="バージョン情報" />
+    <Item name="button_AxisClear" value="座標クリア" />
+    <Item name="ThinLineSettingBt" value="細線モード設定" />
+    <Item name="button15" value="タッチパネル" />
+    <Item name="ESFSetBt" value="ESF設定" />
+    <Item name="GSFSetBt" value="GSF設定" />
+    <Item name="IOCheckBt" value="I/Oチェック" />
+    <Item name="PasswordChangeBt" value="パスワード変更" />
+    <Item name="SystemTimeAdjustBt" value="システム時刻設定" />
+    <Item name="label8" value="SERVICE" />
+  </UserServiceForm>
+  <ValiableFileForm>
+    <Item name="PLUSkey" value="+" />
+    <Item name="ASTERISKkey" value="*" />
+    <Item name="_btnKeyBackSpace" value="BS" />
+    <Item name="_btnKeySpace" value="SPACE" />
+    <Item name="_btnKeyCut" value="切り取り" />
+    <Item name="_btnKeyCopy" value="コピー" />
+    <Item name="_btnKeyPaste" value="貼り付け" />
+    <Item name="_btnKeyHome" value="HOME" />
+    <Item name="_btnKeyEnd" value="END" />
+    <Item name="_btnKeyLineDelete" value="行削除" />
+    <Item name="_btnKeyShift" value="Shift" />
+    <Item name="SLASHkey" value="/" />
+    <Item name="PERIODkey" value="." />
+    <Item name="Mkey" value="M" />
+    <Item name="COMMAkey" value="," />
+    <Item name="Nkey" value="N" />
+    <Item name="Bkey" value="B" />
+    <Item name="Vkey" value="V" />
+    <Item name="Ckey" value="C" />
+    <Item name="Xkey" value="X" />
+    <Item name="Zkey" value="Z" />
+    <Item name="_btnKeyEnter" value="Enter" />
+    <Item name="COLONkey" value=":" />
+    <Item name="SEMICOLONkey" value=";" />
+    <Item name="Lkey" value="L" />
+    <Item name="Jkey" value="J" />
+    <Item name="Kkey" value="K" />
+    <Item name="Hkey" value="H" />
+    <Item name="Gkey" value="G" />
+    <Item name="Fkey" value="F" />
+    <Item name="Dkey" value="D" />
+    <Item name="Skey" value="S" />
+    <Item name="Akey" value="A" />
+    <Item name="_btnKeyRight" value="▶" />
+    <Item name="_btnKeyLeft" value="◀" />
+    <Item name="NINE" value="9" />
+    <Item name="EIGHTkey" value="8" />
+    <Item name="SEVENkey" value="7" />
+    <Item name="SIXkey" value="6" />
+    <Item name="_btnKeyAllClear" value="AC" />
+    <Item name="_btnKeyDown" value="▼" />
+    <Item name="_btnKeyUp" value="▲" />
+    <Item name="THREEkey" value="3" />
+    <Item name="TWOkey" value="2" />
+    <Item name="ZEROkey" value="0" />
+    <Item name="ONEkey" value="1" />
+    <Item name="FIVEkey" value="5" />
+    <Item name="FOURkey" value="4" />
+    <Item name="_btnKeyDelete" value="DEL" />
+    <Item name="YENkey" value="\" />
+    <Item name="CARETkey" value="^" />
+    <Item name="HYPHENkey" value="-" />
+    <Item name="Pkey" value="P" />
+    <Item name="Okey" value="O" />
+    <Item name="Ukey" value="U" />
+    <Item name="Ikey" value="I" />
+    <Item name="Ykey" value="Y" />
+    <Item name="Tkey" value="T" />
+    <Item name="Rkey" value="R" />
+    <Item name="Ekey" value="E" />
+    <Item name="Wkey" value="W" />
+    <Item name="Qkey" value="Q" />
+    <Item name="label3" value="EndAddress" />
+    <Item name="label2" value="StartAddress" />
+    <Item name="label1" value="FILE NAME" />
+    <Item name="BackAlarmLogFormBt" value="戻る" />
+    <Item name="button47" value="保存" />
+    <Item name="button46" value="開く" />
+    <Item name="label8" value="VALIABLE FILE" />
+  </ValiableFileForm>
+  <ValiableListForm>
+    <Item name="button4" value="NC書込み" />
+    <Item name="button3" value="-1" />
+    <Item name="button2" value="+1" />
+    <Item name="button1" value="NC読込み" />
+    <Item name="label1" value="LIST" />
+    <Item name="BackMDIAUTOFormBt" value="戻る" />
+    <Item name="label8" value="VALIABLE LIST" />
+  </ValiableListForm>
+  <VersionCHeckForm />
+  <WorkSpinOpForm />
+</Root>

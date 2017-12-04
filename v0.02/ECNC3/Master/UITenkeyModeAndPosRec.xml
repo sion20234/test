@@ -1,0 +1,43 @@
+<root>
+  <procCond_T-ON tenkeyMode="upDn" posX="94" posY="76" />
+  <procCond_T-OFF tenkeyMode="upDn" posX="154" posY="76" />
+  <procCond_IP tenkeyMode="upDn" posX="215" posY="292" />
+  <procCond_CAP tenkeyMode="upDn" posX="294" posY="292" />
+  <procCond_SC tenkeyMode="upDn" posX="375" posY="76" />
+  <procCond_SFRDOWN tenkeyMode="upDn" posX="418" posY="76" />
+  <procCond_SFRUP tenkeyMode="upDn" posX="476" posY="76" />
+  <procCond_ROT tenkeyMode="upDn" posX="538" posY="76" />
+  <procCond_POL tenkeyMode="upDn" posX="580" posY="76" />
+  <procCond_HYD tenkeyMode="upDn" posX="624" posY="76" />
+  <procCond_AC tenkeyMode="upDn" posX="668" posY="76" />
+  <procCond_DC tenkeyMode="upDn" posX="711" posY="76" />
+  <procCond_ELEDIAM tenkeyMode="both" posX="521" posY="76" />
+  <procCond_OVERRIDE tenkeyMode="upDn" posX="708" posY="292" />
+  <aec_Up tenkeyMode="upDn" posX="710" posY="52" />
+  <aec_Dn tenkeyMode="upDn" posX="710" posY="285" />
+  <referencing tenkeyMode="both" posX="122" posY="204"/>
+  <numeric_Feed tenkeyMode="tenkey" posX="705" posY="190" />
+  <axisClear tenkeyMode="both" posX="660" posY="67" />
+  <macroVarSet_Val tenkeyMode="both" posX="537" posY="140" />
+  <macroVarSet_Find tenkeyMode="both" posX="608" posY="2" />
+  <manual_W-AxisUpLim tenkeyMode="both" posX="422" posY="217" />
+  <mdi-auto_W-AxisUpLim tenkeyMode="both" posX="422" posY="217" />
+  <mdi-auto_Option_StartNum tenkeyMode="both" posX="417" posY="225" />
+  <parameterView tenkeyMode="both" posX="528" posY="223" />
+  <protectDlg_Edit tenkeyMode="tenkey" posX="528" posY="223" />
+  <LogSetting_Graph_XAxis tenkeyMode="both" posX="517" posY="70" />
+  <LogSetting_Graph_YAxis tenkeyMode="both" posX="517" posY="115" />
+  <LogSetting_Graph_Sampling tenkeyMode="both" posX="517" posY="157" />
+  <LogSetting_LogTitle_1 tenkeyMode="both" posX="236" posY="63" />
+  <LogSetting_LogTitle_2 tenkeyMode="both" posX="236" posY="106" />
+  <LogSetting_LogTitle_3 tenkeyMode="both" posX="236" posY="150" />
+  <LogSetting_LogTitle_4 tenkeyMode="both" posX="236" posY="192" />
+  <LogSetting_AreaReg_Start tenkeyMode="both" posX="183" posY="208" />
+  <LogSetting_AreaReg_End tenkeyMode="both" posX="348" posY="208" />
+  <ThinLineSet_ZUpIncrease tenkeyMode="both" posX="670" posY="168"/>
+  <ThinLineSet_ZUpVelocity tenkeyMode="both" posX="670" posY="233"/>
+  <ThinLineSet_RetryCount tenkeyMode="both" posX="670" posY="233"/>
+  <esf_crs tenkeyMode="both" posX="470" posY="233"/>
+  <esf_max tenkeyMode="both" posX="570" posY="233"/>
+ </root>
+ 

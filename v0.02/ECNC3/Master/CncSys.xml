@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Motions>
+    <!--fileNam =通信ロギングファイル名-->
+    <!--dsbl    =ロギング無効-->
+    <!--inf     =常時ロギング-->
+    <!--infSandE=常時ロギング(初期化／終了のみ)-->
+    <!--infSnd  =常時ロギング(データ送信のみ)-->
+    <!--infRcv  =常時ロギング(データ受信のみ)-->
+    <!--infCmd  =常時ロギング(コマンド要求のみ)-->
+    <!--err     =エラーロギング-->
+    <!--errXfr  =エラーロギング(伝送エラーのみ)-->
+    <!--retry   =リトライロギング-->
+    <Log fileNam="RT64EC.log" dsbl="1" inf="1" infSandE="1" infSnd="1" infRcv="1" infCmd="1" err="1" errXfr="1" retry="1" />
+    <Node nam="NodeA" />
+    <!--dly1st  =一回目の呼び出しの遅延-->
+    <!--dly2nd  =二回目の呼び出しの遅延-->
+    <!--span    =リトライ待機時間-->
+    <!--retry   =リトライ回数-->
+    <Boot dly1st="0" dly2nd="0" span="3000" retry="10" />
+    <Spx>
+      <Reset enbl="1" />
+    </Spx>
+  </Motions>
+  <Opr>
+    <!--オプショナルストップ-->
+    <OptStop enbl="1" />
+    <!--接触感知-->
+    <TchSnsr enbl="1" />
+    <!--W軸上限値-->
+    <WTopPos val="0" />
+    <!--加工条件選択番号-->
+    <SelProcNum val="9" />
+    <!--ドライラン-->
+    <DryRun enbl="0" />
+    <!--電極消耗時の自動電極交換-->
+    <ElctExchg enbl="1" />
+    <!--相対測定点設定時軸移動-->
+    <IncRefSet enbl="0" />
+    <!--パーティション設定-->
+    <Ptn enbl="1">
+      <Item num="6" st="1" end="2" thin="0" />
+      <Item num="1" st="0" end="0" thin="1" />
+      <Item num="5" st="5" end="6" thin="0" />
+      <Item num="3" st="0" end="0" thin="1" />
+      <Item num="4" st="0" end="0" thin="1" />
+      <Item num="2" st="0" end="0" thin="1" />
+    </Ptn>
+  </Opr>
+  <Cond>
+    <Lock start="0" end="0" />
+  </Cond>
+  <!--ECNC3アプリケーション-->
+  <!--boot=DESKTOP=机上／SIM=シミュレータ-->
+  <Apl boot="DESKTOP">
+    <!--ログ出力-->
+    <Log lv="DEBUG" cnt="7" />
+    <!--バックアップ-->
+    <Bkup path="" cnt="3" />
+  </Apl>
+  <!--サービス画面設定-->
+  <Service>
+    <!--放電時CAP出力禁止設定-->
+    <OutputCap enbl="1" />
+    <!--細線設定有効無効-->
+    <ThinLineSetting enbl="0" />
+    <!--AEC番号自動設定-->
+    <AecAutoSet enbl="1" />
+    <!--Esfセンサー設定-->
+    <EsfSensor enbl="1" />
+    <!--インポート禁止設定-->
+    <ImportProtect pcond="0" virpos="1" file="0" />
+    <!--シグナルランプ設定-->
+    <SygnalLampSetting enbl="0" />
+    <!--リセット禁止設定-->
+    <Reset disbl="0" />
+    <!--言語設定-->
+    <LangSetting enbl="0" langage="0" unit="0" />
+  </Service>
+  <!--ポップアップテンキー表示/非表示-->
+  <PopupTenkeyDialog>
+    <Tenkey mode="0" />
+  </PopupTenkeyDialog>
+  <!--SystemFileExternalPath-->
+  <SystemFile>
+    <Directory path="E:/" />
+  </SystemFile>
+  <!--ファイル：ツリー表示-->
+  <FileFormTreeView>
+    <Drive Hide1="" />
+    <DelayShowDevice In="10" Out="100" RetryTime="1000" RetryCount="3" />
+  </FileFormTreeView>
+  <!--加工条件：項目表示/非表示-->
+  <CondShowHide>
+    <Diameter show="1" />
+    <Material show="1" />
+  </CondShowHide>
+  <!--軸関係情報設定-->
+  <AxisInfomation>
+    <Position digit="3" />
+    <EnableAxis count="8" axis1="X" axis2="Y" axis3="W" axis4="Z" axis5="A" axis6="B" axis7="C" axis8="" />
+  </AxisInfomation>
+  <!--ヘルプファイル-->
+  <HelpFile>
+    <FirstPage gcode="1" mcode="2" contents="3" />
+  </HelpFile>
+  <!--ログ設定ファイル-->
+  <LogSettingFile>
+    <Graph xTimeAxisMax="1790" yProsessDepthMax="491" samplingCycle="10" upDownInverted="0" />
+    <LogTitleNumSet title1="10000" title2="10001" title3="10002" title4="10003" />
+    <LogComment comment1="0" comment2="1" comment3="2" comment4="3" />
+    <File saveValid="1" />
+    <OpenFile name="MacroManage" />
+  </LogSettingFile>
+</Root>

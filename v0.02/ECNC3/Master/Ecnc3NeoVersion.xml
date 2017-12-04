@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ECNC3 series="FX" copyright="2017-2017">
+  	<UI releace="2.05">
+    	<ECNC3 source="2.00" module="2.00" />
+    	<ECNC3Apis source="2.00" module="2.00" />
+    	<ECNC3McIf source="2.00" module="2.00" />
+  	</UI>
+  	<MC releace="0.9.1A">
+    	<SettingPC module="V090" />
+    	<RomSW module="V090" />
+  	</MC>
+</ECNC3>

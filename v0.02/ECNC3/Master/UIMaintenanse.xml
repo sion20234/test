@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root MainPowerOnCount="103398" ProcessPowerOnCount="10000">
+  <Item1 ItemName="RESIN" Life="3" Now="14600" Unit="運転時間" />
+  <Item2 ItemName="TEST-ELCT" Life="3" Now="0" Unit="放電時間" />
+  <Item3 ItemName="RESIN" Life="5" Now="21800" Unit="運転時間" />
+  <Item4 ItemName="FILTER" Life="6" Now="25400" Unit="運転時間" />
+  <Item5 ItemName="R" Life="7" Now="25200" Unit="放電時間" />
+</Root>

@@ -1,0 +1,1811 @@
+﻿2017/11/22 11:56:56.546,MC,McCommProc.Initialize,INF,################ ECNC3 UI APLICATION START! (Desktop MODE) ###############
+2017/11/22 11:56:56.551,ECNC3Log.Initialize,INF,Lv=Debug/Count=7
+2017/11/22 11:56:56.786,MC,McCommProc.McConnect,DBG,RetryDelayTime=3000(1st=0,2nd=0),RetryCount=10
+2017/11/22 11:56:56.786,MC,McCommProc.McConnect,INF,InitCommProc(NodeName=NodeA,Flag=0x1ff,LogFile=RT64EC.log,Size=24)
+2017/11/22 11:56:56.797,MC,McCommProc.McConnect,INF,Comm.handle=201
+2017/11/22 11:56:56.800,MC,McReqReset.Execute,INF,SendCommand(REQ_RESET)
+2017/11/22 11:56:56.805,MC,McReqModeChange.Execute,INF,SendCommand(REQ_MODECHG,mode=0(Setting))
+2017/11/22 11:56:56.810,MC,McDatRomSwitch.Initialize,INF,SendData(DAT_ROMSWITCH,st_en=0x491647,axis_en=0x7f,io_en=0x78000)
+2017/11/22 11:56:56.812,MC,McDatRomSwitch.WriteData,INF,SendData(DAT_ROMSWITCH,size=25600,axis_en=007f)
+2017/11/22 11:56:56.817,MC,McDatServoParameter.WriteData,INF,SendData(DAT_PARAMETER)
+2017/11/22 11:56:56.822,MC,McDatPitchAdjust.Initialize,INF,SendCommand(REQ_PITCHERR_CLR)
+2017/11/22 11:56:56.824,MC,McDatPitchAdjust.WriteData(axis=0),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.825,MC,McDatPitchAdjust.WriteData(axis=1),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.826,MC,McDatPitchAdjust.WriteData(axis=2),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.826,MC,McDatPitchAdjust.WriteData(axis=3),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.827,MC,McDatPitchAdjust.WriteData(axis=4),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.828,MC,McDatPitchAdjust.WriteData(axis=5),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.829,MC,McDatPitchAdjust.WriteData(axis=6),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.829,MC,McDatPitchAdjust.WriteData(axis=7),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.830,MC,McDatPitchAdjust.WriteData(axis=8),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.831,MC,McDatPitchAdjust.WriteData(axis=9),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.832,MC,McDatPitchAdjust.WriteData(axis=10),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.833,MC,McDatPitchAdjust.WriteData(axis=11),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.834,MC,McDatPitchAdjust.WriteData(axis=12),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.834,MC,McDatPitchAdjust.WriteData(axis=13),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.835,MC,McDatPitchAdjust.WriteData(axis=14),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.836,MC,McDatPitchAdjust.WriteData(axis=15),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.838,MC,McDatPitchAdjust.WriteData(axis=16),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.839,MC,McDatPitchAdjust.WriteData(axis=17),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.840,MC,McDatPitchAdjust.WriteData(axis=18),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.840,MC,McDatPitchAdjust.WriteData(axis=19),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.841,MC,McDatPitchAdjust.WriteData(axis=20),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.842,MC,McDatPitchAdjust.WriteData(axis=21),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.843,MC,McDatPitchAdjust.WriteData(axis=22),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.843,MC,McDatPitchAdjust.WriteData(axis=23),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.844,MC,McDatPitchAdjust.WriteData(axis=24),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.845,MC,McDatPitchAdjust.WriteData(axis=25),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.845,MC,McDatPitchAdjust.WriteData(axis=26),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.846,MC,McDatPitchAdjust.WriteData(axis=27),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.846,MC,McDatPitchAdjust.WriteData(axis=28),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.847,MC,McDatPitchAdjust.WriteData(axis=29),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.849,MC,McDatPitchAdjust.WriteData(axis=30),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.850,MC,McDatPitchAdjust.WriteData(axis=31),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.851,MC,McDatPitchAdjust.WriteData(axis=32),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.852,MC,McDatPitchAdjust.WriteData(axis=33),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.853,MC,McDatPitchAdjust.WriteData(axis=34),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.854,MC,McDatPitchAdjust.WriteData(axis=35),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.855,MC,McDatPitchAdjust.WriteData(axis=36),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.856,MC,McDatPitchAdjust.WriteData(axis=37),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.856,MC,McDatPitchAdjust.WriteData(axis=38),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.857,MC,McDatPitchAdjust.WriteData(axis=39),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.858,MC,McDatPitchAdjust.WriteData(axis=40),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.859,MC,McDatPitchAdjust.WriteData(axis=41),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.863,MC,McDatPitchAdjust.WriteData(axis=42),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.866,MC,McDatPitchAdjust.WriteData(axis=43),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.867,MC,McDatPitchAdjust.WriteData(axis=44),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.868,MC,McDatPitchAdjust.WriteData(axis=45),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.870,MC,McDatPitchAdjust.WriteData(axis=46),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.870,MC,McDatPitchAdjust.WriteData(axis=47),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.871,MC,McDatPitchAdjust.WriteData(axis=48),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.872,MC,McDatPitchAdjust.WriteData(axis=49),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.874,MC,McDatPitchAdjust.WriteData(axis=50),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.875,MC,McDatPitchAdjust.WriteData(axis=51),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.876,MC,McDatPitchAdjust.WriteData(axis=52),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.877,MC,McDatPitchAdjust.WriteData(axis=53),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.879,MC,McDatPitchAdjust.WriteData(axis=54),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.879,MC,McDatPitchAdjust.WriteData(axis=55),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.880,MC,McDatPitchAdjust.WriteData(axis=56),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.882,MC,McDatPitchAdjust.WriteData(axis=57),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.883,MC,McDatPitchAdjust.WriteData(axis=58),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.884,MC,McDatPitchAdjust.WriteData(axis=59),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.885,MC,McDatPitchAdjust.WriteData(axis=60),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.885,MC,McDatPitchAdjust.WriteData(axis=61),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.886,MC,McDatPitchAdjust.WriteData(axis=62),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.887,MC,McDatPitchAdjust.WriteData(axis=63),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 11:56:56.889,MC,McDatRomVersion.Read,INF,Version=ROM VERSION     ,EvenSum=101,OddSum=102,FlashSum=103,FlashFlg=104KindID=105,SerialID=106,ProductID=107
+2017/11/22 11:56:56.893,MC,McDatInitialPrm.WriteData,INF,SendData(DAT_INITIALPRM,size=2048,AecEnable=0x01,Sf02Enable=0x00)
+2017/11/22 11:56:56.939,MC,McDatProcessConditionTable.Write,INF,SendData(DAT_PCOND_TABLE)
+2017/11/22 11:56:56.944,MC,McReqModeChange.Execute,INF,SendCommand(REQ_MODECHG,mode=1(Manual))
+2017/11/22 11:56:56.951,MC,McReqOptionalStopEnabled.Initalize,INF,SendCommand(REQ_OPTSTOP,enable=1)
+2017/11/22 11:56:56.956,MC,McReqTouchSensorEnabled.Initalize,INF,SendCommand(REQ_TOUCHSENSE,enable=1)
+2017/11/22 11:56:56.961,MC,McReqSettingWAxisUpperLimit.ExecuteByValue,INF,SendCommand(REQ_WTOPPOS,WTopPos=0
+2017/11/22 11:56:56.966,MC,McReqProcessConditionNumberSelect.Execute,INF,SendCommand(REQ_PNOSEL,PNo=9
+2017/11/22 11:56:56.970,MC,McReqDryRunEnabled.Initalize,INF,SendCommand(REQ_DRYRUN,enable=0)
+2017/11/22 11:56:56.974,MC,McReqAecByLifeEnabled.Initalize,INF,SendCommand(REQ_ELCTDCHGEN,enable=1)
+2017/11/22 11:56:56.978,MC,McReqIncrimentalReferenceAxisMoveEnable.Initalize,INF,SendCommand(REQ_INCREFSET_MOV,enable=0)
+2017/11/22 11:56:56.988,MC,McReqPartitionChange.Execute,INF,SendCommand(REQ_PARTITIONCHG,PartitionDis=0,0:[0-0,Thin=1]1:[0-0,Thin=1]2:[0-0,Thin=1]3:[0-0,Thin=1]4:[5-6,Thin=0]5:[1-2,Thin=0])
+2017/11/22 11:56:56.997,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=0,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.005,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=1,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.012,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=2,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.018,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=3,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 11:56:57.021,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=4,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.031,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=5,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 11:56:57.034,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=6,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.036,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=7,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 11:56:57.038,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=8,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.041,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=9,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 11:56:57.043,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=10,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.048,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=11,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.051,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=12,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.054,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=13,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.056,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=14,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.058,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=15,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.061,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=16,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.064,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=17,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.066,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=18,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.069,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=19,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.073,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=20,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.079,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=21,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.082,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=22,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.085,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=23,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.089,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=24,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.092,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=25,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.094,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=26,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.097,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=27,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.101,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=28,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.105,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=29,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.108,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=30,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.111,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=31,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.117,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=32,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.123,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=33,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.128,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=34,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.130,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=35,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.132,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=36,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.135,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=37,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.152,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=38,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.167,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=39,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.171,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=40,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.176,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=41,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.180,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=42,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.184,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=43,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.193,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=44,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.199,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=45,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.210,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=46,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.215,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=47,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.219,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=48,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.222,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=49,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.225,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=50,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.227,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=51,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.229,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=52,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.231,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=53,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.234,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=54,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.236,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=55,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.239,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=56,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.242,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=57,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.245,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=58,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.248,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=59,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.251,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=60,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.254,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=61,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.257,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=62,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.259,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=63,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.262,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=64,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.267,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=65,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.275,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=66,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.306,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=67,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.310,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=68,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.313,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=69,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.324,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=70,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.328,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=71,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.333,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=72,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.339,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=73,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.341,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=74,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.344,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=75,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.346,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=76,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.350,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=77,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.353,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=78,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.355,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=79,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.358,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=80,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.361,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=81,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.368,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=82,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.372,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=83,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.375,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=84,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.383,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=85,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.391,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=86,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.394,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=87,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.396,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=88,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.398,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=89,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.401,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=90,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.404,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=91,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.407,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=92,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.412,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=93,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.420,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=94,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.423,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=95,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.426,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=96,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.432,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=97,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.438,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=98,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.440,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=99,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.444,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=100,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.453,MC,McReqWorkPositionChange.Execute,INF,SendCommand(REQ_WORGPOSCHG,AxisFlag=0x11ff,[0,0,0,0,0,0,0,0,0]
+2017/11/22 11:56:57.463,MC,McGcdInitData.Initialize,ERR,RtcTime=0,Collect=1000.
+2017/11/22 11:56:57.469,MC,McReqProgramDelete.Execute,INF,SendCommand(REQ_PRGDEL,NNo=0
+2017/11/22 11:56:57.470,MC,McReqProgramDelete.SendCommand(Desktop),ERR,McCommErrorUnknown(-1),Type=REQ_PRGDEL(0x64),Handle=201
+2017/11/22 11:56:58.394,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6102,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.395,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6103,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.396,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6106,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.397,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6107,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.398,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6110,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.400,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6111,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.405,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6114,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6115,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.407,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,X,TASK(-1),Occur(True)
+2017/11/22 11:56:58.409,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,X,TASK(-1),Occur(True)
+2017/11/22 11:56:58.410,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,X,TASK(-1),Occur(True)
+2017/11/22 11:56:58.411,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,X,TASK(-1),Occur(True)
+2017/11/22 11:56:58.412,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,X,TASK(-1),Occur(True)
+2017/11/22 11:56:58.413,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,X,TASK(-1),Occur(True)
+2017/11/22 11:56:58.414,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,X,TASK(-1),Occur(True)
+2017/11/22 11:56:58.415,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,X,TASK(-1),Occur(True)
+2017/11/22 11:56:58.417,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,Y,TASK(-1),Occur(True)
+2017/11/22 11:56:58.419,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,Y,TASK(-1),Occur(True)
+2017/11/22 11:56:58.421,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,Y,TASK(-1),Occur(True)
+2017/11/22 11:56:58.422,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,Y,TASK(-1),Occur(True)
+2017/11/22 11:56:58.423,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,Y,TASK(-1),Occur(True)
+2017/11/22 11:56:58.424,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,Y,TASK(-1),Occur(True)
+2017/11/22 11:56:58.426,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,Y,TASK(-1),Occur(True)
+2017/11/22 11:56:58.427,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,Y,TASK(-1),Occur(True)
+2017/11/22 11:56:58.428,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,W,TASK(-1),Occur(True)
+2017/11/22 11:56:58.429,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,W,TASK(-1),Occur(True)
+2017/11/22 11:56:58.430,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,W,TASK(-1),Occur(True)
+2017/11/22 11:56:58.431,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,W,TASK(-1),Occur(True)
+2017/11/22 11:56:58.433,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,W,TASK(-1),Occur(True)
+2017/11/22 11:56:58.436,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,W,TASK(-1),Occur(True)
+2017/11/22 11:56:58.439,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,W,TASK(-1),Occur(True)
+2017/11/22 11:56:58.440,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,W,TASK(-1),Occur(True)
+2017/11/22 11:56:58.441,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,Z,TASK(-1),Occur(True)
+2017/11/22 11:56:58.442,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,Z,TASK(-1),Occur(True)
+2017/11/22 11:56:58.443,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,Z,TASK(-1),Occur(True)
+2017/11/22 11:56:58.444,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,Z,TASK(-1),Occur(True)
+2017/11/22 11:56:58.445,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,Z,TASK(-1),Occur(True)
+2017/11/22 11:56:58.446,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,Z,TASK(-1),Occur(True)
+2017/11/22 11:56:58.447,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,Z,TASK(-1),Occur(True)
+2017/11/22 11:56:58.449,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,Z,TASK(-1),Occur(True)
+2017/11/22 11:56:58.451,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,A,TASK(-1),Occur(True)
+2017/11/22 11:56:58.452,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,A,TASK(-1),Occur(True)
+2017/11/22 11:56:58.454,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,A,TASK(-1),Occur(True)
+2017/11/22 11:56:58.455,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,A,TASK(-1),Occur(True)
+2017/11/22 11:56:58.456,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,A,TASK(-1),Occur(True)
+2017/11/22 11:56:58.457,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,A,TASK(-1),Occur(True)
+2017/11/22 11:56:58.459,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,A,TASK(-1),Occur(True)
+2017/11/22 11:56:58.460,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,A,TASK(-1),Occur(True)
+2017/11/22 11:56:58.461,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,B,TASK(-1),Occur(True)
+2017/11/22 11:56:58.462,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,B,TASK(-1),Occur(True)
+2017/11/22 11:56:58.463,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,B,TASK(-1),Occur(True)
+2017/11/22 11:56:58.464,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,B,TASK(-1),Occur(True)
+2017/11/22 11:56:58.465,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,B,TASK(-1),Occur(True)
+2017/11/22 11:56:58.467,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,B,TASK(-1),Occur(True)
+2017/11/22 11:56:58.469,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,B,TASK(-1),Occur(True)
+2017/11/22 11:56:58.470,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,B,TASK(-1),Occur(True)
+2017/11/22 11:56:58.472,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,C,TASK(-1),Occur(True)
+2017/11/22 11:56:58.473,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,C,TASK(-1),Occur(True)
+2017/11/22 11:56:58.475,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,C,TASK(-1),Occur(True)
+2017/11/22 11:56:58.476,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,C,TASK(-1),Occur(True)
+2017/11/22 11:56:58.477,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,C,TASK(-1),Occur(True)
+2017/11/22 11:56:58.479,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,C,TASK(-1),Occur(True)
+2017/11/22 11:56:58.480,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,C,TASK(-1),Occur(True)
+2017/11/22 11:56:58.482,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,C,TASK(-1),Occur(True)
+2017/11/22 11:56:58.484,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.487,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.489,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.490,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.491,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.492,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.493,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.495,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.496,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.497,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.498,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.499,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.501,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.502,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.503,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.504,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(0),Occur(True)
+2017/11/22 11:56:58.505,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.507,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.508,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.509,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.510,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.512,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.513,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.514,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.516,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.518,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.525,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.526,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.528,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.529,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.530,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.531,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(1),Occur(True)
+2017/11/22 11:56:58.532,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.547,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.549,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.558,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.559,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.560,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.573,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.574,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.576,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.578,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.579,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.580,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.581,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.583,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.584,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.585,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(2),Occur(True)
+2017/11/22 11:56:58.587,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.588,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.589,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.590,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.591,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.593,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.594,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.596,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.597,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.598,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.600,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.603,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.604,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.606,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.607,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.615,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(3),Occur(True)
+2017/11/22 11:56:58.617,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.618,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.619,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.620,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.622,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.626,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.628,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.629,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.630,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.631,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.633,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.637,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.638,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.639,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.640,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.642,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(4),Occur(True)
+2017/11/22 11:56:58.643,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.645,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.646,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.647,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.649,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.650,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.651,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.653,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.654,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.656,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.657,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.659,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.660,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.661,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.662,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.663,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(5),Occur(True)
+2017/11/22 11:56:58.664,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.665,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.667,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.668,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.669,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.670,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.671,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.672,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.674,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.675,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.676,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.677,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.678,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.679,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.680,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.681,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(6),Occur(True)
+2017/11/22 11:56:58.682,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.684,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.685,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.686,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.687,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.689,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.690,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.691,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.692,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.694,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.695,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.696,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.697,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.698,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.699,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.700,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(7),Occur(True)
+2017/11/22 11:56:58.701,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6252,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.703,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6253,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.704,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6256,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.705,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6257,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.706,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6260,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.707,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6261,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.708,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6264,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.709,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6265,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.710,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6302,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.711,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6303,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.712,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6306,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.713,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6307,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.715,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6310,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.716,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6311,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.718,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6314,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.719,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6315,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.720,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6352,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.721,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6353,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.722,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6356,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.724,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6357,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.725,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6360,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.726,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6361,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.727,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6364,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.728,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6365,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.729,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6402,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.730,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6403,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.732,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6406,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.733,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6407,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.735,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6410,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.738,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6411,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.743,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6414,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:58.744,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6415,Unknown,TASK(-1),Occur(True)
+2017/11/22 11:56:59.081,UI,MANUALForm.SeqFunc.SequenceMonitoring,ERR,CHG_CONTACTSENSER_ON
+2017/11/22 11:56:59.083,UI,MANUALForm.SeqFunc.SequenceMonitoring,ERR,CHG_INITIALSET_ON
+2017/11/22 11:57:01.447,ButtonEx_Click,OPE,CLK,機能
+2017/11/22 11:57:04.149,ButtonEx_Click,OPE,CLK,サービス
+2017/11/22 11:57:29.223,ButtonEx_Click,OPE,CLK,確定
+2017/11/22 11:57:35.636,ButtonEx_Click,OPE,CLK,ESF設定
+2017/11/22 17:48:58.905,MC,McCommProc.Initialize,INF,################ ECNC3 UI APLICATION START! (Desktop MODE) ###############
+2017/11/22 17:48:58.921,ECNC3Log.Initialize,INF,Lv=Debug/Count=7
+2017/11/22 17:48:59.327,MC,McCommProc.McConnect,DBG,RetryDelayTime=3000(1st=0,2nd=0),RetryCount=10
+2017/11/22 17:48:59.343,MC,McCommProc.McConnect,INF,InitCommProc(NodeName=NodeA,Flag=0x1ff,LogFile=RT64EC.log,Size=24)
+2017/11/22 17:48:59.358,MC,McCommProc.McConnect,INF,Comm.handle=201
+2017/11/22 17:48:59.358,MC,McReqReset.Execute,INF,SendCommand(REQ_RESET)
+2017/11/22 17:48:59.358,MC,McReqModeChange.Execute,INF,SendCommand(REQ_MODECHG,mode=0(Setting))
+2017/11/22 17:48:59.374,MC,McDatRomSwitch.Initialize,INF,SendData(DAT_ROMSWITCH,st_en=0x491647,axis_en=0x7f,io_en=0x78000)
+2017/11/22 17:48:59.374,MC,McDatRomSwitch.WriteData,INF,SendData(DAT_ROMSWITCH,size=25600,axis_en=007f)
+2017/11/22 17:48:59.374,MC,McDatServoParameter.WriteData,INF,SendData(DAT_PARAMETER)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.Initialize,INF,SendCommand(REQ_PITCHERR_CLR)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=0),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=1),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=2),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=3),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=4),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=5),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=6),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=7),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=8),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=9),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=10),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=11),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=12),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=13),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=14),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=15),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.390,MC,McDatPitchAdjust.WriteData(axis=16),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=17),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=18),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=19),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=20),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=21),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=22),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=23),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=24),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=25),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=26),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=27),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=28),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=29),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=30),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=31),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=32),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=33),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=34),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=35),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.405,MC,McDatPitchAdjust.WriteData(axis=36),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=37),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=38),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=39),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=40),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=41),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=42),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=43),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=44),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=45),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=46),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=47),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=48),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=49),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=50),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=51),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=52),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=53),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=54),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=55),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=56),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=57),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=58),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=59),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.421,MC,McDatPitchAdjust.WriteData(axis=60),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.436,MC,McDatPitchAdjust.WriteData(axis=61),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.436,MC,McDatPitchAdjust.WriteData(axis=62),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.436,MC,McDatPitchAdjust.WriteData(axis=63),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:48:59.436,MC,McDatRomVersion.Read,INF,Version=ROM VERSION     ,EvenSum=101,OddSum=102,FlashSum=103,FlashFlg=104KindID=105,SerialID=106,ProductID=107
+2017/11/22 17:48:59.436,MC,McDatInitialPrm.WriteData,INF,SendData(DAT_INITIALPRM,size=2048,AecEnable=0x01,Sf02Enable=0x00)
+2017/11/22 17:48:59.483,MC,McDatProcessConditionTable.Write,INF,SendData(DAT_PCOND_TABLE)
+2017/11/22 17:48:59.483,MC,McReqModeChange.Execute,INF,SendCommand(REQ_MODECHG,mode=1(Manual))
+2017/11/22 17:48:59.483,MC,McReqOptionalStopEnabled.Initalize,INF,SendCommand(REQ_OPTSTOP,enable=1)
+2017/11/22 17:48:59.499,MC,McReqTouchSensorEnabled.Initalize,INF,SendCommand(REQ_TOUCHSENSE,enable=1)
+2017/11/22 17:48:59.499,MC,McReqSettingWAxisUpperLimit.ExecuteByValue,INF,SendCommand(REQ_WTOPPOS,WTopPos=0
+2017/11/22 17:48:59.499,MC,McReqProcessConditionNumberSelect.Execute,INF,SendCommand(REQ_PNOSEL,PNo=9
+2017/11/22 17:48:59.515,MC,McReqDryRunEnabled.Initalize,INF,SendCommand(REQ_DRYRUN,enable=0)
+2017/11/22 17:48:59.515,MC,McReqAecByLifeEnabled.Initalize,INF,SendCommand(REQ_ELCTDCHGEN,enable=1)
+2017/11/22 17:48:59.515,MC,McReqIncrimentalReferenceAxisMoveEnable.Initalize,INF,SendCommand(REQ_INCREFSET_MOV,enable=0)
+2017/11/22 17:48:59.530,MC,McReqPartitionChange.Execute,INF,SendCommand(REQ_PARTITIONCHG,PartitionDis=0,0:[0-0,Thin=1]1:[0-0,Thin=1]2:[0-0,Thin=1]3:[0-0,Thin=1]4:[5-6,Thin=0]5:[1-2,Thin=0])
+2017/11/22 17:48:59.577,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=0,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.577,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=1,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.577,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=2,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.640,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=3,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 17:48:59.640,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=4,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.686,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=5,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 17:48:59.686,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=6,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.686,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=7,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 17:48:59.686,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=8,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.686,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=9,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 17:48:59.686,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=10,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.702,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=11,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.702,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=12,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.702,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=13,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.702,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=14,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.718,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=15,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.718,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=16,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.718,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=17,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.733,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=18,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.733,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=19,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.733,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=20,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.733,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=21,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.733,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=22,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.749,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=23,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.749,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=24,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.749,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=25,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.749,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=26,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.765,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=27,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.765,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=28,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.765,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=29,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.765,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=30,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.765,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=31,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.765,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=32,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.765,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=33,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.780,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=34,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.780,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=35,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.780,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=36,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.780,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=37,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.796,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=38,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.796,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=39,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.796,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=40,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.796,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=41,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.796,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=42,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.796,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=43,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.811,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=44,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.811,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=45,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.811,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=46,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.827,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=47,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.827,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=48,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.827,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=49,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.827,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=50,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.827,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=51,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.827,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=52,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.843,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=53,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.843,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=54,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.843,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=55,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.843,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=56,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.843,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=57,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.843,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=58,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.843,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=59,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.858,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=60,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.858,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=61,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.858,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=62,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.858,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=63,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.858,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=64,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.874,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=65,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.874,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=66,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.874,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=67,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.890,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=68,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.890,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=69,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.890,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=70,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.890,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=71,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.890,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=72,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.890,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=73,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.905,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=74,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.905,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=75,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.905,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=76,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.905,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=77,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.905,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=78,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.936,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=79,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.936,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=80,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.936,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=81,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.952,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=82,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.952,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=83,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.952,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=84,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.968,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=85,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.968,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=86,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.983,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=87,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.983,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=88,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.983,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=89,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.983,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=90,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.983,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=91,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.983,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=92,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.983,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=93,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.999,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=94,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.999,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=95,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.999,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=96,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.999,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=97,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.999,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=98,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.999,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=99,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:48:59.999,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=100,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:49:00.015,MC,McReqWorkPositionChange.Execute,INF,SendCommand(REQ_WORGPOSCHG,AxisFlag=0x11ff,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:49:00.015,MC,McGcdInitData.Initialize,ERR,RtcTime=0,Collect=1000.
+2017/11/22 17:49:00.030,MC,McReqProgramDelete.Execute,INF,SendCommand(REQ_PRGDEL,NNo=0
+2017/11/22 17:49:00.030,MC,McReqProgramDelete.SendCommand(Desktop),ERR,McCommErrorUnknown(-1),Type=REQ_PRGDEL(0x64),Handle=201
+2017/11/22 17:49:00.952,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6102,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:00.952,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6103,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:00.952,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6106,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:00.952,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6107,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:00.952,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6110,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:00.952,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6111,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:00.968,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6114,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:00.968,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6115,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:00.968,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,X,TASK(-1),Occur(True)
+2017/11/22 17:49:00.968,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,X,TASK(-1),Occur(True)
+2017/11/22 17:49:00.968,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,X,TASK(-1),Occur(True)
+2017/11/22 17:49:00.968,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,X,TASK(-1),Occur(True)
+2017/11/22 17:49:00.968,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,X,TASK(-1),Occur(True)
+2017/11/22 17:49:00.968,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,X,TASK(-1),Occur(True)
+2017/11/22 17:49:00.968,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,X,TASK(-1),Occur(True)
+2017/11/22 17:49:00.968,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,X,TASK(-1),Occur(True)
+2017/11/22 17:49:00.968,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,Y,TASK(-1),Occur(True)
+2017/11/22 17:49:00.968,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,Y,TASK(-1),Occur(True)
+2017/11/22 17:49:00.968,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,Y,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,Y,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,Y,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,Y,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,Y,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,Y,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,W,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,W,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,W,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,W,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,W,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,W,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,W,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,W,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,Z,TASK(-1),Occur(True)
+2017/11/22 17:49:00.983,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,Z,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,Z,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,Z,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,Z,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,Z,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,Z,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,Z,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,A,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,A,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,A,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,A,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,A,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,A,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,A,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,A,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,B,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,B,TASK(-1),Occur(True)
+2017/11/22 17:49:00.999,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,B,TASK(-1),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,B,TASK(-1),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,B,TASK(-1),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,B,TASK(-1),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,B,TASK(-1),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,B,TASK(-1),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,C,TASK(-1),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,C,TASK(-1),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,C,TASK(-1),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,C,TASK(-1),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,C,TASK(-1),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,C,TASK(-1),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,C,TASK(-1),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,C,TASK(-1),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.015,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.030,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.030,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.030,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.030,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.030,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.030,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.030,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.030,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.030,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.030,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.030,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.030,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.030,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(0),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(1),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.046,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(2),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.062,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(3),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.077,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(4),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.093,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(5),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(6),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.108,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(7),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6252,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6253,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6256,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6257,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6260,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6261,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6264,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.124,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6265,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6302,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6303,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6306,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6307,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6310,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6311,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6314,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6315,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6352,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6353,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6356,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6357,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6360,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6361,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6364,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.140,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6365,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.155,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6402,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.155,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6403,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.155,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6406,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.155,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6407,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.155,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6410,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.155,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6411,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.155,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6414,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.155,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6415,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:49:01.611,UI,MANUALForm.SeqFunc.SequenceMonitoring,ERR,CHG_CONTACTSENSER_ON
+2017/11/22 17:49:01.611,UI,MANUALForm.SeqFunc.SequenceMonitoring,ERR,CHG_INITIALSET_ON
+2017/11/22 17:49:05.815,ButtonEx_Click,OPE,CLK,SFR UP
+2017/11/22 17:49:05.924,ButtonEx_Click,OPE,CLK,_btnSfrUp
+2017/11/22 17:49:05.924,ButtonEx_Click,OPE,CLK,_btnSfrUp
+2017/11/22 17:49:06.784,ButtonEx_Click,OPE,CLK,SFR UP
+2017/11/22 17:49:08.027,ButtonEx_Click,OPE,CLK,IP
+2017/11/22 17:49:08.058,ButtonEx_Click,OPE,CLK,_btnIp
+2017/11/22 17:49:08.074,ButtonEx_Click,OPE,CLK,_btnIp
+2017/11/22 17:49:14.482,ButtonEx_Click,OPE,CLK,_btnIp
+2017/11/22 17:49:15.842,MC,McDatProcessConditionTable.Write,INF,P#9,perpetuation=(False)
+2017/11/22 17:49:15.842,MC,McDatProcessConditionTable.Write,INF,NOW:Turn(On=0,Off=0),IP=0,SFIP=0,CAP=0,CRS=0,SFR(Fr=0,Bk=0),Inv=0,Svo(Ctl=0,Sel=0),PS=0,POL=0
+2017/11/22 17:49:15.842,MC,McDatProcessConditionTable.Write,INF,NEW:Turn(On=40,Off=20),IP=57000,SFIP=0,CAP=0,CRS=10,SFR(Fr=0,Bk=0),Inv=0,Svo(Ctl=18,Sel=0),PS=0,POL=0
+2017/11/22 17:49:15.842,MC,McDatProcessConditionTable.Write,INF,+ Dia=0,Mat=0,[],Protected=0
+2017/11/22 17:49:15.842,MC,McDatProcessConditionTable.Write,INF,SendData(DAT_PCOND_TABLE)
+2017/11/22 17:49:15.858,MC,McDatProcessConditionTable.SendData(Desktop),ERR,McCommErrorUnknown(-1),Type=DAT_PCOND_TABLE(0xBA),Handle=201
+2017/11/22 17:49:15.873,NOT SET,OPE,MSG,Hand,4000,MC I/F,不明なエラー DAT_PCOND_TABLE
+2017/11/22 17:49:17.711,ButtonEx_Click,OPE,CLK,OK
+2017/11/22 17:49:18.859,ButtonEx_Click,OPE,CLK,CAP
+2017/11/22 17:49:18.906,ButtonEx_Click,OPE,CLK,_btnCap
+2017/11/22 17:49:18.906,ButtonEx_Click,OPE,CLK,_btnCap
+2017/11/22 17:49:19.812,ButtonEx_Click,OPE,CLK,閉じる
+2017/11/22 17:49:19.828,MC,McDatProcessConditionTable.Write,INF,P#9,perpetuation=(False)
+2017/11/22 17:49:19.828,MC,McDatProcessConditionTable.Write,INF,NOW:Turn(On=0,Off=0),IP=0,SFIP=0,CAP=0,CRS=0,SFR(Fr=0,Bk=0),Inv=0,Svo(Ctl=0,Sel=0),PS=0,POL=0
+2017/11/22 17:49:19.828,MC,McDatProcessConditionTable.Write,INF,NEW:Turn(On=40,Off=20),IP=57000,SFIP=0,CAP=0,CRS=10,SFR(Fr=0,Bk=0),Inv=0,Svo(Ctl=18,Sel=0),PS=0,POL=0
+2017/11/22 17:49:19.828,MC,McDatProcessConditionTable.Write,INF,+ Dia=0,Mat=0,[],Protected=0
+2017/11/22 17:49:19.828,MC,McDatProcessConditionTable.Write,INF,SendData(DAT_PCOND_TABLE)
+2017/11/22 17:49:19.828,MC,McDatProcessConditionTable.SendData(Desktop),ERR,McCommErrorUnknown(-1),Type=DAT_PCOND_TABLE(0xBA),Handle=201
+2017/11/22 17:49:19.843,NOT SET,OPE,MSG,Hand,4000,MC I/F,不明なエラー DAT_PCOND_TABLE
+2017/11/22 17:49:21.125,ButtonEx_Click,OPE,CLK,OK
+2017/11/22 17:49:22.514,ButtonEx_Click,OPE,CLK,SFR UP
+2017/11/22 17:49:22.561,ButtonEx_Click,OPE,CLK,_btnSfrUp
+2017/11/22 17:49:22.561,ButtonEx_Click,OPE,CLK,_btnSfrUp
+2017/11/22 17:49:23.546,ButtonEx_Click,OPE,CLK,閉じる
+2017/11/22 17:49:23.546,MC,McDatProcessConditionTable.Write,INF,P#9,perpetuation=(False)
+2017/11/22 17:49:23.546,MC,McDatProcessConditionTable.Write,INF,NOW:Turn(On=0,Off=0),IP=0,SFIP=0,CAP=0,CRS=0,SFR(Fr=0,Bk=0),Inv=0,Svo(Ctl=0,Sel=0),PS=0,POL=0
+2017/11/22 17:49:23.546,MC,McDatProcessConditionTable.Write,INF,NEW:Turn(On=40,Off=20),IP=57000,SFIP=0,CAP=0,CRS=10,SFR(Fr=0,Bk=0),Inv=0,Svo(Ctl=18,Sel=0),PS=0,POL=0
+2017/11/22 17:49:23.546,MC,McDatProcessConditionTable.Write,INF,+ Dia=0,Mat=0,[],Protected=0
+2017/11/22 17:49:23.546,MC,McDatProcessConditionTable.Write,INF,SendData(DAT_PCOND_TABLE)
+2017/11/22 17:49:23.546,MC,McDatProcessConditionTable.SendData(Desktop),ERR,McCommErrorUnknown(-1),Type=DAT_PCOND_TABLE(0xBA),Handle=201
+2017/11/22 17:49:23.561,NOT SET,OPE,MSG,Hand,4000,MC I/F,不明なエラー DAT_PCOND_TABLE
+2017/11/22 17:49:25.631,ButtonEx_Click,OPE,CLK,OK
+2017/11/22 17:49:26.958,ButtonEx_Click,OPE,CLK,回転
+2017/11/22 17:49:27.005,ButtonEx_Click,OPE,CLK,_btnCrs
+2017/11/22 17:49:27.005,ButtonEx_Click,OPE,CLK,_btnCrs
+2017/11/22 17:49:28.720,ButtonEx_Click,OPE,CLK,テンキー
+2017/11/22 17:49:32.208,MC,McDatProcessConditionTable.Write,INF,P#9,perpetuation=(False)
+2017/11/22 17:49:32.208,MC,McDatProcessConditionTable.Write,INF,NOW:Turn(On=0,Off=0),IP=0,SFIP=0,CAP=0,CRS=0,SFR(Fr=0,Bk=0),Inv=0,Svo(Ctl=0,Sel=0),PS=0,POL=0
+2017/11/22 17:49:32.208,MC,McDatProcessConditionTable.Write,INF,NEW:Turn(On=40,Off=20),IP=57000,SFIP=0,CAP=0,CRS=10,SFR(Fr=0,Bk=0),Inv=0,Svo(Ctl=18,Sel=0),PS=0,POL=0
+2017/11/22 17:49:32.208,MC,McDatProcessConditionTable.Write,INF,+ Dia=0,Mat=0,[],Protected=0
+2017/11/22 17:49:32.208,MC,McDatProcessConditionTable.Write,INF,SendData(DAT_PCOND_TABLE)
+2017/11/22 17:49:32.224,MC,McDatProcessConditionTable.SendData(Desktop),ERR,McCommErrorUnknown(-1),Type=DAT_PCOND_TABLE(0xBA),Handle=201
+2017/11/22 17:49:32.224,NOT SET,OPE,MSG,Hand,4000,MC I/F,不明なエラー DAT_PCOND_TABLE
+2017/11/22 17:49:33.537,ButtonEx_Click,OPE,CLK,OK
+2017/11/22 17:53:50.656,MC,McCommProc.Initialize,INF,################ ECNC3 UI APLICATION START! (Desktop MODE) ###############
+2017/11/22 17:53:50.656,ECNC3Log.Initialize,INF,Lv=Debug/Count=7
+2017/11/22 17:53:50.937,MC,McCommProc.McConnect,DBG,RetryDelayTime=3000(1st=0,2nd=0),RetryCount=10
+2017/11/22 17:53:50.937,MC,McCommProc.McConnect,INF,InitCommProc(NodeName=NodeA,Flag=0x1ff,LogFile=RT64EC.log,Size=24)
+2017/11/22 17:53:50.937,MC,McCommProc.McConnect,INF,Comm.handle=201
+2017/11/22 17:53:50.937,MC,McReqReset.Execute,INF,SendCommand(REQ_RESET)
+2017/11/22 17:53:50.953,MC,McReqModeChange.Execute,INF,SendCommand(REQ_MODECHG,mode=0(Setting))
+2017/11/22 17:53:50.953,MC,McDatRomSwitch.Initialize,INF,SendData(DAT_ROMSWITCH,st_en=0x491647,axis_en=0x7f,io_en=0x78000)
+2017/11/22 17:53:50.953,MC,McDatRomSwitch.WriteData,INF,SendData(DAT_ROMSWITCH,size=25600,axis_en=007f)
+2017/11/22 17:53:50.968,MC,McDatServoParameter.WriteData,INF,SendData(DAT_PARAMETER)
+2017/11/22 17:53:50.968,MC,McDatPitchAdjust.Initialize,INF,SendCommand(REQ_PITCHERR_CLR)
+2017/11/22 17:53:50.968,MC,McDatPitchAdjust.WriteData(axis=0),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.968,MC,McDatPitchAdjust.WriteData(axis=1),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.968,MC,McDatPitchAdjust.WriteData(axis=2),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.968,MC,McDatPitchAdjust.WriteData(axis=3),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=4),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=5),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=6),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=7),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=8),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=9),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=10),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=11),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=12),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=13),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=14),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=15),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=16),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=17),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=18),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=19),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=20),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=21),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=22),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:50.984,MC,McDatPitchAdjust.WriteData(axis=23),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=24),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=25),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=26),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=27),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=28),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=29),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=30),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=31),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=32),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=33),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=34),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=35),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=36),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=37),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=38),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=39),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=40),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=41),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=42),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=43),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=44),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=45),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=46),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=47),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.000,MC,McDatPitchAdjust.WriteData(axis=48),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=49),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=50),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=51),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=52),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=53),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=54),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=55),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=56),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=57),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=58),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=59),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=60),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=61),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=62),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatPitchAdjust.WriteData(axis=63),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:53:51.015,MC,McDatRomVersion.Read,INF,Version=ROM VERSION     ,EvenSum=101,OddSum=102,FlashSum=103,FlashFlg=104KindID=105,SerialID=106,ProductID=107
+2017/11/22 17:53:51.015,MC,McDatInitialPrm.WriteData,INF,SendData(DAT_INITIALPRM,size=2048,AecEnable=0x01,Sf02Enable=0x00)
+2017/11/22 17:53:51.047,MC,McDatProcessConditionTable.Write,INF,SendData(DAT_PCOND_TABLE)
+2017/11/22 17:53:51.047,MC,McReqModeChange.Execute,INF,SendCommand(REQ_MODECHG,mode=1(Manual))
+2017/11/22 17:53:51.078,MC,McReqOptionalStopEnabled.Initalize,INF,SendCommand(REQ_OPTSTOP,enable=1)
+2017/11/22 17:53:51.078,MC,McReqTouchSensorEnabled.Initalize,INF,SendCommand(REQ_TOUCHSENSE,enable=1)
+2017/11/22 17:53:51.093,MC,McReqSettingWAxisUpperLimit.ExecuteByValue,INF,SendCommand(REQ_WTOPPOS,WTopPos=0
+2017/11/22 17:53:51.093,MC,McReqProcessConditionNumberSelect.Execute,INF,SendCommand(REQ_PNOSEL,PNo=9
+2017/11/22 17:53:51.093,MC,McReqDryRunEnabled.Initalize,INF,SendCommand(REQ_DRYRUN,enable=0)
+2017/11/22 17:53:51.109,MC,McReqAecByLifeEnabled.Initalize,INF,SendCommand(REQ_ELCTDCHGEN,enable=1)
+2017/11/22 17:53:51.125,MC,McReqIncrimentalReferenceAxisMoveEnable.Initalize,INF,SendCommand(REQ_INCREFSET_MOV,enable=0)
+2017/11/22 17:53:51.140,MC,McReqPartitionChange.Execute,INF,SendCommand(REQ_PARTITIONCHG,PartitionDis=0,0:[0-0,Thin=1]1:[0-0,Thin=1]2:[0-0,Thin=1]3:[0-0,Thin=1]4:[5-6,Thin=0]5:[1-2,Thin=0])
+2017/11/22 17:53:51.156,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=0,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.156,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=1,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.156,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=2,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.156,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=3,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 17:53:51.156,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=4,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.156,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=5,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 17:53:51.172,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=6,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.172,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=7,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 17:53:51.172,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=8,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.172,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=9,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 17:53:51.172,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=10,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.172,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=11,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.187,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=12,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.187,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=13,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.187,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=14,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.187,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=15,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.187,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=16,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.187,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=17,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.203,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=18,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.203,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=19,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.203,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=20,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.203,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=21,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.203,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=22,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.218,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=23,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.218,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=24,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.218,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=25,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.218,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=26,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.218,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=27,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.218,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=28,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.234,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=29,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.234,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=30,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.234,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=31,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.234,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=32,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.234,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=33,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.234,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=34,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.250,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=35,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.250,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=36,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.250,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=37,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.250,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=38,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.250,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=39,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.250,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=40,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.250,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=41,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.265,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=42,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.265,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=43,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.265,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=44,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.265,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=45,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.265,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=46,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.265,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=47,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.281,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=48,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.281,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=49,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.281,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=50,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.281,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=51,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.281,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=52,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.281,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=53,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.297,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=54,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.297,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=55,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.297,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=56,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.297,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=57,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.297,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=58,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.297,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=59,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.297,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=60,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.312,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=61,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.312,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=62,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.312,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=63,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.312,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=64,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.312,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=65,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.328,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=66,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.328,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=67,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.328,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=68,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.328,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=69,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.328,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=70,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.343,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=71,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.343,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=72,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.343,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=73,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.343,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=74,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.359,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=75,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.359,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=76,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.359,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=77,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.359,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=78,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.359,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=79,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.375,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=80,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.375,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=81,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.375,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=82,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.375,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=83,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.375,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=84,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.390,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=85,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.390,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=86,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.390,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=87,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.390,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=88,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.390,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=89,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.390,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=90,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.406,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=91,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.406,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=92,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.406,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=93,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.406,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=94,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.406,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=95,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.406,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=96,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.406,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=97,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.422,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=98,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.437,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=99,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.453,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=100,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.453,MC,McReqWorkPositionChange.Execute,INF,SendCommand(REQ_WORGPOSCHG,AxisFlag=0x11ff,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:53:51.469,MC,McGcdInitData.Initialize,ERR,RtcTime=0,Collect=1000.
+2017/11/22 17:53:51.469,MC,McReqProgramDelete.Execute,INF,SendCommand(REQ_PRGDEL,NNo=0
+2017/11/22 17:53:51.469,MC,McReqProgramDelete.SendCommand(Desktop),ERR,McCommErrorUnknown(-1),Type=REQ_PRGDEL(0x64),Handle=201
+2017/11/22 17:53:52.203,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6102,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.203,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6103,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.203,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6106,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6107,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6110,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6111,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6114,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6115,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,X,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,X,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,X,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,X,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,X,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,X,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,X,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,X,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,Y,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,Y,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,Y,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,Y,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,Y,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,Y,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,Y,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,Y,TASK(-1),Occur(True)
+2017/11/22 17:53:52.219,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,W,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,W,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,W,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,W,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,W,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,W,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,W,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,W,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,Z,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,Z,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,Z,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,Z,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,Z,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,Z,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,Z,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,Z,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,A,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,A,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,A,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,A,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,A,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,A,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,A,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,A,TASK(-1),Occur(True)
+2017/11/22 17:53:52.234,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,B,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,B,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,B,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,B,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,B,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,B,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,B,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,B,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,C,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,C,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,C,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,C,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,C,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,C,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,C,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,C,TASK(-1),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.250,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.265,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.265,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.265,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.265,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.265,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.265,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(0),Occur(True)
+2017/11/22 17:53:52.265,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.265,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.265,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(1),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.297,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(2),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(3),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.312,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(4),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.328,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.344,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.344,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.344,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.344,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.344,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.344,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.344,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.344,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.344,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.359,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.359,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.359,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.359,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(5),Occur(True)
+2017/11/22 17:53:52.359,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.359,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.359,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.359,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.359,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.359,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.359,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.359,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.375,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.375,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.375,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.375,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.375,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.375,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.375,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.375,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(6),Occur(True)
+2017/11/22 17:53:52.375,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.375,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.375,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(7),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6252,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.390,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6253,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6256,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6257,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6260,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6261,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6264,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6265,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6302,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6303,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6306,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6307,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6310,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6311,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6314,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6315,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6352,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6353,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6356,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6357,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6360,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6361,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6364,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6365,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6402,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.406,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6403,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.422,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6406,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.422,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6407,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.422,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6410,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.422,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6411,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.422,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6414,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.422,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6415,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:53:52.786,UI,MANUALForm.SeqFunc.SequenceMonitoring,ERR,CHG_CONTACTSENSER_ON
+2017/11/22 17:53:52.802,UI,MANUALForm.SeqFunc.SequenceMonitoring,ERR,CHG_INITIALSET_ON
+2017/11/22 17:53:54.583,ButtonEx_Click,OPE,CLK,SC
+2017/11/22 17:53:54.684,ButtonEx_Click,OPE,CLK,_btnServoControl
+2017/11/22 17:53:54.684,ButtonEx_Click,OPE,CLK,_btnServoControl
+2017/11/22 17:53:56.278,ButtonEx_Click,OPE,CLK,SC
+2017/11/22 17:53:56.872,ButtonEx_Click,OPE,CLK,SFR DOWN
+2017/11/22 17:53:56.919,ButtonEx_Click,OPE,CLK,_btnSfrDown
+2017/11/22 17:53:56.919,ButtonEx_Click,OPE,CLK,_btnSfrDown
+2017/11/22 17:53:58.200,ButtonEx_Click,OPE,CLK,SFR DOWN
+2017/11/22 17:53:58.997,ButtonEx_Click,OPE,CLK,SFR DOWN
+2017/11/22 17:53:59.044,ButtonEx_Click,OPE,CLK,_btnSfrDown
+2017/11/22 17:53:59.044,ButtonEx_Click,OPE,CLK,_btnSfrDown
+2017/11/22 17:54:00.138,ButtonEx_Click,OPE,CLK,SFR DOWN
+2017/11/22 17:55:33.138,MC,McCommProc.Initialize,INF,################ ECNC3 UI APLICATION START! (Desktop MODE) ###############
+2017/11/22 17:55:33.154,ECNC3Log.Initialize,INF,Lv=Debug/Count=7
+2017/11/22 17:55:33.294,MC,McCommProc.McConnect,DBG,RetryDelayTime=3000(1st=0,2nd=0),RetryCount=10
+2017/11/22 17:55:33.294,MC,McCommProc.McConnect,INF,InitCommProc(NodeName=NodeA,Flag=0x1ff,LogFile=RT64EC.log,Size=24)
+2017/11/22 17:55:33.294,MC,McCommProc.McConnect,INF,Comm.handle=201
+2017/11/22 17:55:33.310,MC,McReqReset.Execute,INF,SendCommand(REQ_RESET)
+2017/11/22 17:55:33.310,MC,McReqModeChange.Execute,INF,SendCommand(REQ_MODECHG,mode=0(Setting))
+2017/11/22 17:55:33.310,MC,McDatRomSwitch.Initialize,INF,SendData(DAT_ROMSWITCH,st_en=0x491647,axis_en=0x7f,io_en=0x78000)
+2017/11/22 17:55:33.310,MC,McDatRomSwitch.WriteData,INF,SendData(DAT_ROMSWITCH,size=25600,axis_en=007f)
+2017/11/22 17:55:33.310,MC,McDatServoParameter.WriteData,INF,SendData(DAT_PARAMETER)
+2017/11/22 17:55:33.310,MC,McDatPitchAdjust.Initialize,INF,SendCommand(REQ_PITCHERR_CLR)
+2017/11/22 17:55:33.310,MC,McDatPitchAdjust.WriteData(axis=0),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.310,MC,McDatPitchAdjust.WriteData(axis=1),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.310,MC,McDatPitchAdjust.WriteData(axis=2),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.310,MC,McDatPitchAdjust.WriteData(axis=3),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.310,MC,McDatPitchAdjust.WriteData(axis=4),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.310,MC,McDatPitchAdjust.WriteData(axis=5),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.310,MC,McDatPitchAdjust.WriteData(axis=6),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.310,MC,McDatPitchAdjust.WriteData(axis=7),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.310,MC,McDatPitchAdjust.WriteData(axis=8),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.310,MC,McDatPitchAdjust.WriteData(axis=9),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.310,MC,McDatPitchAdjust.WriteData(axis=10),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.310,MC,McDatPitchAdjust.WriteData(axis=11),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=12),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=13),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=14),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=15),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=16),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=17),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=18),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=19),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=20),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=21),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=22),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=23),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=24),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=25),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=26),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=27),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=28),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=29),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=30),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=31),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=32),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=33),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=34),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=35),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=36),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=37),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=38),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=39),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=40),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=41),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=42),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=43),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=44),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=45),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=46),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=47),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=48),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=49),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=50),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=51),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=52),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=53),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=54),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=55),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=56),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=57),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=58),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=59),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=60),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=61),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=62),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatPitchAdjust.WriteData(axis=63),INF,InvalidData(RevMagnify : 0, RevSpace : 0, RevCnt(M+P) : 0)
+2017/11/22 17:55:33.326,MC,McDatRomVersion.Read,INF,Version=ROM VERSION     ,EvenSum=101,OddSum=102,FlashSum=103,FlashFlg=104KindID=105,SerialID=106,ProductID=107
+2017/11/22 17:55:33.326,MC,McDatInitialPrm.WriteData,INF,SendData(DAT_INITIALPRM,size=2048,AecEnable=0x01,Sf02Enable=0x00)
+2017/11/22 17:55:33.357,MC,McDatProcessConditionTable.Write,INF,SendData(DAT_PCOND_TABLE)
+2017/11/22 17:55:33.357,MC,McReqModeChange.Execute,INF,SendCommand(REQ_MODECHG,mode=1(Manual))
+2017/11/22 17:55:33.357,MC,McReqOptionalStopEnabled.Initalize,INF,SendCommand(REQ_OPTSTOP,enable=1)
+2017/11/22 17:55:33.357,MC,McReqTouchSensorEnabled.Initalize,INF,SendCommand(REQ_TOUCHSENSE,enable=1)
+2017/11/22 17:55:33.357,MC,McReqSettingWAxisUpperLimit.ExecuteByValue,INF,SendCommand(REQ_WTOPPOS,WTopPos=0
+2017/11/22 17:55:33.372,MC,McReqProcessConditionNumberSelect.Execute,INF,SendCommand(REQ_PNOSEL,PNo=9
+2017/11/22 17:55:33.372,MC,McReqDryRunEnabled.Initalize,INF,SendCommand(REQ_DRYRUN,enable=0)
+2017/11/22 17:55:33.372,MC,McReqAecByLifeEnabled.Initalize,INF,SendCommand(REQ_ELCTDCHGEN,enable=1)
+2017/11/22 17:55:33.372,MC,McReqIncrimentalReferenceAxisMoveEnable.Initalize,INF,SendCommand(REQ_INCREFSET_MOV,enable=0)
+2017/11/22 17:55:33.372,MC,McReqPartitionChange.Execute,INF,SendCommand(REQ_PARTITIONCHG,PartitionDis=0,0:[0-0,Thin=1]1:[0-0,Thin=1]2:[0-0,Thin=1]3:[0-0,Thin=1]4:[5-6,Thin=0]5:[1-2,Thin=0])
+2017/11/22 17:55:33.372,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=0,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.388,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=1,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.388,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=2,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.388,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=3,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 17:55:33.388,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=4,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.388,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=5,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 17:55:33.388,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=6,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.388,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=7,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 17:55:33.388,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=8,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.388,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=9,[147392,145166,0,0,144424,143136,41666,0,0]
+2017/11/22 17:55:33.388,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=10,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.388,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=11,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.388,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=12,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.404,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=13,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.404,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=14,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.404,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=15,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.404,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=16,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.404,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=17,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.404,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=18,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.404,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=19,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.404,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=20,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.404,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=21,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.404,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=22,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.404,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=23,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.404,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=24,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.419,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=25,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.419,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=26,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.419,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=27,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.419,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=28,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.419,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=29,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.419,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=30,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.419,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=31,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.419,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=32,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.419,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=33,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.419,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=34,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.419,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=35,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.419,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=36,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.435,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=37,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.435,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=38,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.435,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=39,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.435,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=40,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.435,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=41,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.435,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=42,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.435,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=43,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.435,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=44,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.435,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=45,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.435,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=46,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.435,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=47,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.435,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=48,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.451,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=49,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.451,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=50,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.451,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=51,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.451,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=52,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.451,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=53,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.451,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=54,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.451,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=55,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.451,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=56,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.451,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=57,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.451,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=58,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.451,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=59,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.451,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=60,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.466,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=61,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.466,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=62,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.466,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=63,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.466,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=64,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.466,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=65,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.466,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=66,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.466,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=67,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.466,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=68,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.466,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=69,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.466,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=70,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.466,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=71,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.482,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=72,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.482,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=73,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.497,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=74,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.497,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=75,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.497,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=76,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.497,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=77,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.497,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=78,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.497,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=79,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.497,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=80,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.497,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=81,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.497,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=82,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.497,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=83,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.497,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=84,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.497,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=85,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.513,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=86,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.513,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=87,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.513,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=88,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.513,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=89,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.513,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=90,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.513,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=91,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.513,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=92,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.513,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=93,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.513,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=94,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.513,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=95,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.513,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=96,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.513,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=97,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.529,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=98,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.529,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=99,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.529,MC,McReqVirtualPositionChange.Execute,INF,SendCommand(REQ_VIRPOSCHG_EX,VirNo=100,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.529,MC,McReqWorkPositionChange.Execute,INF,SendCommand(REQ_WORGPOSCHG,AxisFlag=0x11ff,[0,0,0,0,0,0,0,0,0]
+2017/11/22 17:55:33.529,MC,McGcdInitData.Initialize,ERR,RtcTime=0,Collect=1000.
+2017/11/22 17:55:33.529,MC,McReqProgramDelete.Execute,INF,SendCommand(REQ_PRGDEL,NNo=0
+2017/11/22 17:55:33.529,MC,McReqProgramDelete.SendCommand(Desktop),ERR,McCommErrorUnknown(-1),Type=REQ_PRGDEL(0x64),Handle=201
+2017/11/22 17:55:34.076,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6102,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.076,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6103,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.076,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6106,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.076,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6107,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.076,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6110,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.076,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6111,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.076,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6114,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.076,MC,CheckAlarmBit.Execute,INF,ALM,AlarmMain,#6115,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.076,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,X,TASK(-1),Occur(True)
+2017/11/22 17:55:34.076,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,X,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,X,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,X,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,X,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,X,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,X,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,X,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,Y,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,Y,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,Y,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,Y,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,Y,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,Y,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,Y,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,Y,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,W,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,W,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,W,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,W,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,W,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,W,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,W,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,W,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,Z,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,Z,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,Z,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,Z,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,Z,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,Z,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,Z,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,Z,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,A,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,A,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,A,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,A,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,A,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,A,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,A,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,A,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,B,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,B,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,B,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,B,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,B,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,B,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,B,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,B,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6152,C,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6153,C,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6156,C,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6157,C,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6160,C,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6161,C,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6164,C,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmAxis,#6165,C,TASK(-1),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.091,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(0),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(1),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(2),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.107,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(3),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(4),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(5),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(6),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6202,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6203,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6206,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6207,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6210,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6211,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6214,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6215,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6218,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6219,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6222,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6223,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6226,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6227,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6230,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmTask,#6231,Unknown,TASK(7),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6252,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6253,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.123,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6256,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6257,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6260,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6261,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6264,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6265,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6302,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6303,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6306,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6307,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6310,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6311,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6314,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6315,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6352,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6353,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6356,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6357,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6360,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6361,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6364,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6365,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6402,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6403,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6406,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6407,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6410,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6411,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6414,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.138,MC,CheckAlarmBit.Execute,INF,ALM,AlarmEcnc,#6415,Unknown,TASK(-1),Occur(True)
+2017/11/22 17:55:34.533,UI,MANUALForm.SeqFunc.SequenceMonitoring,ERR,CHG_CONTACTSENSER_ON
+2017/11/22 17:55:34.533,UI,MANUALForm.SeqFunc.SequenceMonitoring,ERR,CHG_INITIALSET_ON
+2017/11/22 17:55:39.841,ButtonEx_Click,OPE,CLK,SFR DOWN
+2017/11/22 17:55:39.935,ButtonEx_Click,OPE,CLK,_btnSfrDown
+2017/11/22 17:55:39.935,ButtonEx_Click,OPE,CLK,_btnSfrDown
+2017/11/22 17:55:41.732,ButtonEx_Click,OPE,CLK,▼
+2017/11/22 17:55:41.732,MC,McDatProcessConditionTable.Write,INF,P#9,perpetuation=(False)
+2017/11/22 17:55:41.747,MC,McDatProcessConditionTable.Write,INF,NOW:Turn(On=0,Off=0),IP=0,SFIP=0,CAP=0,CRS=0,SFR(Fr=0,Bk=0),Inv=0,Svo(Ctl=0,Sel=0),PS=0,POL=0
+2017/11/22 17:55:41.747,MC,McDatProcessConditionTable.Write,INF,NEW:Turn(On=40,Off=20),IP=57000,SFIP=0,CAP=0,CRS=10,SFR(Fr=0,Bk=0),Inv=0,Svo(Ctl=18,Sel=0),PS=0,POL=0
+2017/11/22 17:55:41.747,MC,McDatProcessConditionTable.Write,INF,+ Dia=0,Mat=0,[],Protected=0
+2017/11/22 17:55:41.747,MC,McDatProcessConditionTable.Write,INF,SendData(DAT_PCOND_TABLE)
+2017/11/22 17:55:41.747,MC,McDatProcessConditionTable.SendData(Desktop),ERR,McCommErrorUnknown(-1),Type=DAT_PCOND_TABLE(0xBA),Handle=201
+2017/11/22 17:55:41.763,NOT SET,OPE,MSG,Hand,4000,MC I/F,不明なエラー DAT_PCOND_TABLE
+2017/11/22 17:55:43.456,ButtonEx_Click,OPE,CLK,OK
+2017/11/22 17:55:53.431,ButtonEx_Click,OPE,CLK,_btnSfrDown
+2017/11/22 17:55:55.550,ButtonEx_Click,OPE,CLK,_btnSfrDown
+2017/11/22 17:55:57.990,ButtonEx_Click,OPE,CLK,_btnSfrDown
+2017/11/22 17:55:59.146,ButtonEx_Click,OPE,CLK,_btnSfrDown
+2017/11/22 17:56:01.647,MC,McDatProcessConditionTable.Write,INF,P#9,perpetuation=(False)
+2017/11/22 17:56:01.647,MC,McDatProcessConditionTable.Write,INF,NOW:Turn(On=0,Off=0),IP=0,SFIP=0,CAP=0,CRS=0,SFR(Fr=0,Bk=0),Inv=0,Svo(Ctl=0,Sel=0),PS=0,POL=0
+2017/11/22 17:56:01.647,MC,McDatProcessConditionTable.Write,INF,NEW:Turn(On=40,Off=20),IP=57000,SFIP=0,CAP=0,CRS=10,SFR(Fr=0,Bk=0),Inv=0,Svo(Ctl=18,Sel=0),PS=0,POL=0
+2017/11/22 17:56:01.647,MC,McDatProcessConditionTable.Write,INF,+ Dia=0,Mat=0,[],Protected=0
+2017/11/22 17:56:01.647,MC,McDatProcessConditionTable.Write,INF,SendData(DAT_PCOND_TABLE)
+2017/11/22 17:56:01.647,MC,McDatProcessConditionTable.SendData(Desktop),ERR,McCommErrorUnknown(-1),Type=DAT_PCOND_TABLE(0xBA),Handle=201
+2017/11/22 17:56:01.662,NOT SET,OPE,MSG,Hand,4000,MC I/F,不明なエラー DAT_PCOND_TABLE
+2017/11/22 17:56:02.737,ButtonEx_Click,OPE,CLK,OK
+2017/11/22 17:56:06.956,MC,McReqProgramDelete.Execute,INF,SendCommand(REQ_PRGDEL,NNo=0
+2017/11/22 17:56:06.956,MC,McReqProgramDelete.SendCommand(Desktop),ERR,McCommErrorUnknown(-1),Type=REQ_PRGDEL(0x64),Handle=201
+2017/11/22 17:56:07.018,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.UIParamTable...Success
+2017/11/22 17:56:07.018,MC,McCommProc.Backup,INF,BACKUP ECNC3.Views.UIDatInitialParam...Success
+2017/11/22 17:56:07.018,MC,McDatServoParameter.ReadData,INF,ReceiveData(DAT_PARAMETER,size=9080)
+2017/11/22 17:56:07.018,MC,McCommProc.Backup,INF,BACKUP ECNC3.Views.UIDatServoPrm...Success
+2017/11/22 17:56:07.033,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileCncIOCheck...Success
+2017/11/22 17:56:07.033,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileOperatorMessage...Success
+2017/11/22 17:56:07.033,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileOrgPos...Success
+2017/11/22 17:56:07.033,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileTeachTable...Success
+2017/11/22 17:56:07.033,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileProcessCondition...Success
+2017/11/22 17:56:07.033,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileProcessConditionParameter...Success
+2017/11/22 17:56:07.033,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileSettingsGMCodeDisable...Success
+2017/11/22 17:56:07.049,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileUIStringTable...Success
+2017/11/22 17:56:07.049,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileSettings...Success
+2017/11/22 17:56:07.049,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FilePathInfo...Success
+2017/11/22 17:56:07.049,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileVersionInfo...Success
+2017/11/22 17:56:07.049,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileUIStyleTable...Success
+2017/11/22 17:56:07.049,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.UserSettings...Success
+2017/11/22 17:56:07.049,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.McIf.McDatInitialPrm...Success
+2017/11/22 17:56:07.049,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.McIf.McDatPitchAdjust...Success
+2017/11/22 17:56:07.065,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.McIf.McDatRomSwitch...Success
+2017/11/22 17:56:07.065,MC,McDatServoParameter.ReadData,INF,ReceiveData(DAT_PARAMETER,size=9080)
+2017/11/22 17:56:07.065,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.McIf.McDatServoParameter...Success
+2017/11/22 17:56:07.143,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.UIParamTable...Success
+2017/11/22 17:56:07.143,MC,McCommProc.Backup,INF,BACKUP ECNC3.Views.UIDatInitialParam...Success
+2017/11/22 17:56:07.143,MC,McDatServoParameter.ReadData,INF,ReceiveData(DAT_PARAMETER,size=9080)
+2017/11/22 17:56:07.143,MC,McCommProc.Backup,INF,BACKUP ECNC3.Views.UIDatServoPrm...Success
+2017/11/22 17:56:07.143,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileCncIOCheck...Success
+2017/11/22 17:56:07.143,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileOperatorMessage...Success
+2017/11/22 17:56:07.158,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileOrgPos...Success
+2017/11/22 17:56:07.158,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileTeachTable...Success
+2017/11/22 17:56:07.158,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileProcessCondition...Success
+2017/11/22 17:56:07.158,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileProcessConditionParameter...Success
+2017/11/22 17:56:07.158,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileSettingsGMCodeDisable...Success
+2017/11/22 17:56:07.158,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileUIStringTable...Success
+2017/11/22 17:56:07.158,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileSettings...Success
+2017/11/22 17:56:07.158,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FilePathInfo...Success
+2017/11/22 17:56:07.158,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileVersionInfo...Success
+2017/11/22 17:56:07.158,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.FileUIStyleTable...Success
+2017/11/22 17:56:07.158,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.UserSettings...Success
+2017/11/22 17:56:07.158,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.McIf.McDatInitialPrm...Success
+2017/11/22 17:56:07.158,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.McIf.McDatPitchAdjust...Success
+2017/11/22 17:56:07.174,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.McIf.McDatRomSwitch...Success
+2017/11/22 17:56:07.174,MC,McDatServoParameter.ReadData,INF,ReceiveData(DAT_PARAMETER,size=9080)
+2017/11/22 17:56:07.174,MC,McCommProc.Backup,INF,BACKUP ECNC3.Models.McIf.McDatServoParameter...Success
+2017/11/22 17:56:07.221,MC,McCommProc.Terminate,INF,############################### ECNC3 UI APLICATION END! ###################################

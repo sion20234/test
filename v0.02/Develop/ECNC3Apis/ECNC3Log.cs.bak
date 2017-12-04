@@ -1,0 +1,164 @@
+﻿using System;
+using System.IO;
+using ECNC3.Enumeration;
+
+namespace ECNC3.Models.Common
+{
+	/// <summary>ECNC3ログ出力</summary>
+	/// <code>
+	/// ECNC3Log logs = new ECNC3Log( "クラス名.メソッド名" );
+	/// logs.Error( "ログ出力内容" );
+	/// </code>
+	public class ECNC3Log
+	{
+		/// <summary>ログファイルの拡張子</summary>
+		private const string LogFileExtension = ".log";
+		/// <summary>ログファイル保存先ディレクトリパス</summary>
+		private string SaveDirectory
+		{
+			get
+			{
+				using( ECNC3Settings fs = new ECNC3Settings() ) {
+					return fs.DirectoryLog;
+				}
+			}
+		}
+		/// <summary>出力ファイル名</summary>
+		private string OutputFileName
+		{
+			get { return $"{DateTime.Now.ToString( "yyyyMMdd", System.Globalization.CultureInfo.InvariantCulture )}{LogFileExtension}"; }
+		}
+		/// <summary>出力ファイルパス</summary>
+		public string OutputFilePath
+		{
+			get { return Path.Combine( SaveDirectory, OutputFileName ); }
+		}
+		/// <summary>関数名</summary>
+		protected string FunctionName { get; set; }
+
+		/// <summary>コンストラクタ</summary>
+		public ECNC3Log()
+		{
+			FunctionName = @"NOT SET";
+		}
+		/// <summary>コンストラクタ</summary>
+		/// <param name="functionName">関数名
+		/// 「クラス名.メソッド名」の書式で設定する。
+		/// </param>
+		/// <remarks>
+		/// StackTraceを使用しないのはコストを抑えるため。
+		/// </remarks>
+		public ECNC3Log( string functionName )
+		{
+			FunctionName = functionName;
+		}
+        /// <summary>コンストラクタ</summary>
+        /// <param name="functionName">関数名
+		/// 「クラス名.メソッド名」の書式で設定する。
+        /// </param>
+        /// <param name="LogMode">ログ種別
+        /// 0--機械制御--MachineControl
+        /// 1--画面操作--UserInterfase
+        /// </param>
+        public ECNC3Log(string functionName, int LogMode)
+        {
+            if (LogMode == 0)
+            {
+                FunctionName = "MC," + functionName;
+            }
+            else if (LogMode == 1)
+            {
+                FunctionName = "UI," + FunctionName;
+            }
+        }
+
+        /// <summary>エラーログ</summary>
+        /// <param name="note">出力内容</param>
+        public void Error( string note )
+		{
+			Output( $"{FunctionName},ERR,{note}" );
+		}
+		/// <summary>例外ログ</summary>
+		/// <param name="obj">例外オブジェクト</param>
+		/// <param name="note">補足</param>
+		public void Exception( Exception obj, string note = null )
+		{
+			string msg = $"{FunctionName},EXP,{obj.Message},{obj.StackTrace}";
+			if( false == string.IsNullOrEmpty( note ) ) {
+				msg += note;
+			}
+			Output( msg );
+		}
+		/// <summary>正常ログ</summary>
+		/// <param name="note">出力内容</param>
+		/// <remarks>
+		/// 正常系であっても必ず出力したいログ出力
+		/// </remarks>
+		public void Sure( string note )
+		{
+			Output( $"{FunctionName},INF,{note}" );
+		}
+		/// <summary>オペレーション</summary>
+		/// <param name="note">出力内容</param>
+		public void Operate( string note )
+		{
+			Output( $"{FunctionName},OPE,{note}" );
+		}
+		/// <summary>デバッグログ</summary>
+		/// <param name="note">出力内容</param>
+		public void Debug( string note )
+		{
+			using( ECNC3Settings cmn = new ECNC3Settings() ) {
+				LogLevels level = LogLevels.Error;
+				if( null != cmn ) {
+					level = cmn.LogLevel;
+				}
+				if( level <= LogLevels.Debug ) {
+					Output( $"{FunctionName},DBG,{note}" );
+				}
+			}
+		}
+
+		/// <summary>ログ出力</summary>
+		/// <param name="msg">取得される文字列</param>
+		private void Output( string msg )
+		{
+			try {
+				//	ログ出力文字列作成
+				string output = DateTime.Now.ToString( "yyyy/MM/dd HH:mm:ss.fff", System.Globalization.CultureInfo.InvariantCulture ) + "," + msg;
+				StreamWriter sw = null;
+				try {
+					//	ログ出力
+					sw = new StreamWriter( OutputFilePath, true, System.Text.Encoding.GetEncoding( "UTF-8" ) );
+					if( null != sw ) {
+						sw.WriteLine( output );
+					}
+				} catch {
+					;
+				} finally {
+					System.Diagnostics.Debug.WriteLine( output );
+					if( sw != null ) {
+						sw.Close();
+					}
+				}
+			} catch {
+				;
+			}
+		}
+		/// <summary>初期化</summary>
+		/// <remarks>
+		/// 出力されたログが設定された保持数以上である場合、削除します。
+		/// </remarks>
+		public void Initialize()
+		{
+			FunctionName = "ECNC3Log.Initialize";
+			int saveCount = 5;
+			using( ECNC3Settings cmn = new ECNC3Settings() ) {
+				saveCount = cmn.LogSaveCount;
+				Sure( $"Lv={cmn.LogLevel}/Count={cmn.LogSaveCount}" );
+				FileAccessCommon fa = new FileAccessCommon();
+				fa.BackupStandBy( cmn.DirectoryLog, saveCount, $"????????{LogFileExtension}" );
+			}
+		}
+	}
+}

@@ -1,0 +1,2883 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+	<Item tgt="1" addr="0" bit="0" nam="CYS001" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="1" nam="CYS002" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="2" nam="CYS003" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="3" nam="CYS004" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="4" nam="CYS005" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="5" nam="CYS006" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="6" nam="CYS007" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="7" nam="CYS008" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="8" nam="CYS009" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="9" nam="CYS010" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="10" nam="CYS011" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="11" nam="CYS012" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="12" nam="CYS013" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="13" nam="CYS014" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="14" nam="CYS015" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="0" bit="15" nam="CYS016" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="0" nam="CYS017" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="1" nam="CYS018" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="2" nam="CYS019" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="3" nam="CYS020" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="4" nam="CYS021" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="5" nam="CYS022" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="6" nam="CYS023" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="7" nam="CYS024" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="8" nam="CYS025" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="9" nam="CYS026" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="10" nam="CYS027" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="11" nam="CYS028" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="12" nam="CYS029" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="13" nam="CYS030" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="14" nam="CYS031" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="1" bit="15" nam="CYS032" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="0" nam="CYS033" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="1" nam="CYS034" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="2" nam="CYS035" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="3" nam="CYS036" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="4" nam="CYS037" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="5" nam="CYS038" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="6" nam="CYS039" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="7" nam="CYS040" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="8" nam="CYS041" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="9" nam="CYS042" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="10" nam="CYS043" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="11" nam="CYS044" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="12" nam="CYS045" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="13" nam="CYS046" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="14" nam="CYS047" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="2" bit="15" nam="CYS048" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="0" nam="CYS049" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="1" nam="CYS050" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="2" nam="CYS051" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="3" nam="CYS052" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="4" nam="CYS053" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="5" nam="CYS054" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="6" nam="CYS055" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="7" nam="CYS056" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="8" nam="CYS057" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="9" nam="CYS058" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="10" nam="CYS059" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="11" nam="CYS060" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="12" nam="CYS061" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="13" nam="CYS062" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="14" nam="CYS063" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="3" bit="15" nam="CYS064" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="0" nam="CYS065" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="1" nam="CYS066" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="2" nam="CYS067" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="3" nam="CYS068" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="4" nam="CYS069" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="5" nam="CYS070" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="6" nam="CYS071" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="7" nam="CYS072" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="8" nam="CYS073" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="9" nam="CYS074" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="10" nam="CYS075" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="11" nam="CYS076" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="12" nam="CYS077" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="13" nam="CYS078" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="14" nam="CYS079" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="4" bit="15" nam="CYS080" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="0" nam="CYS081" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="1" nam="CYS082" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="2" nam="CYS083" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="3" nam="CYS084" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="4" nam="CYS085" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="5" nam="CYS086" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="6" nam="CYS087" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="7" nam="CYS088" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="8" nam="CYS089" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="9" nam="CYS090" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="10" nam="CYS091" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="11" nam="CYS092" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="12" nam="CYS093" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="13" nam="CYS094" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="14" nam="CYS095" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="5" bit="15" nam="CYS096" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="0" nam="CYS097" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="1" nam="CYS098" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="2" nam="CYS099" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="3" nam="CYS100" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="4" nam="CYS101" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="5" nam="CYS102" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="6" nam="CYS103" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="7" nam="CYS104" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="8" nam="CYS105" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="9" nam="CYS106" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="10" nam="CYS107" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="11" nam="CYS108" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="12" nam="CYS109" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="13" nam="CYS110" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="14" nam="CYS111" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="6" bit="15" nam="CYS112" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="0" nam="CYS113" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="1" nam="CYS114" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="2" nam="CYS115" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="3" nam="CYS116" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="4" nam="CYS117" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="5" nam="CYS118" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="6" nam="CYS119" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="7" nam="CYS120" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="8" nam="CYS121" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="9" nam="CYS122" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="10" nam="CYS123" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="11" nam="CYS124" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="12" nam="CYS125" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="13" nam="CYS126" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="14" nam="CYS127" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="7" bit="15" nam="CYS128" note="入力条件判定、及び専用入力"/>
+	<Item tgt="1" addr="8" bit="0" nam="SPN CLAMP" note="コレットクランプ確認"/>
+	<Item tgt="1" addr="8" bit="1" nam="SPN UNCLAMP" note="コレットアンクランプ確認"/>
+	<Item tgt="1" addr="8" bit="2" nam="(Rio0130)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="8" bit="3" nam="(Rio0131)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="8" bit="4" nam="(Rio0132)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="8" bit="5" nam="(Rio0133)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="8" bit="6" nam="(Rio0134)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="8" bit="7" nam="(Rio0135)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="8" bit="8" nam="PS SW1(BASE)" note="圧力SW1(元圧)"/>
+	<Item tgt="1" addr="8" bit="9" nam="PS SW2(COLLET)" note="圧力SW2(コレット圧)"/>
+	<Item tgt="1" addr="8" bit="10" nam="PS SW3(HLDR)" note="圧力SW3(ホルダ圧)"/>
+	<Item tgt="1" addr="8" bit="11" nam="AEC COMPLETE" note="電極交換完了"/>
+	<Item tgt="1" addr="8" bit="12" nam="Bnd Sensor" note="座屈センサー"/>
+	<Item tgt="1" addr="8" bit="13" nam="(Rio0141)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="8" bit="14" nam="(Rio0142)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="8" bit="15" nam="(Rio0143)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="9" bit="0" nam="ESF ARM BACK1" note="ESFアーム後退端1"/>
+	<Item tgt="1" addr="9" bit="1" nam="ESF ARM BACK2" note="ESFアーム後退端2"/>
+	<Item tgt="1" addr="9" bit="2" nam="ESF ARM MIDDLE" note="ESFアーム中間位置"/>
+	<Item tgt="1" addr="9" bit="3" nam="ESF ARM FOWARD" note="ESFアーム前進端"/>
+	<Item tgt="1" addr="9" bit="4" nam="(Rio0148)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="9" bit="5" nam="(Rio0149)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="9" bit="6" nam="(Rio0150)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="9" bit="7" nam="(Rio0151)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="9" bit="8" nam="ORIGIN FLAG" note="インデックス軸原点フラグ"/>
+	<Item tgt="1" addr="9" bit="9" nam="ORIGIN SLOW" note="インデックス軸原点前減速"/>
+	<Item tgt="1" addr="9" bit="10" nam="ORIGIN" note="インデックス軸原点"/>
+	<Item tgt="1" addr="9" bit="11" nam="ESF CHECK" note="コレット有"/>
+	<Item tgt="1" addr="9" bit="12" nam="(Rio0156)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="9" bit="13" nam="(Rio0157)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="9" bit="14" nam="(Rio0158)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="9" bit="15" nam="(Rio0159)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="10" bit="0" nam="GSF ARM BACK" note="GSFホルダアーム後退端"/>
+	<Item tgt="1" addr="10" bit="1" nam="GSF ARM FOWARD" note="GSFホルダアーム前進端"/>
+	<Item tgt="1" addr="10" bit="2" nam="(Rio0162)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="10" bit="3" nam="(Rio0163)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="10" bit="4" nam="(Rio0164)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="10" bit="5" nam="(Rio0165)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="10" bit="6" nam="(Rio0166)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="10" bit="7" nam="(Rio0167)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="10" bit="8" nam="GSF CHECK" note="ガイド交換確認"/>
+	<Item tgt="1" addr="10" bit="9" nam="GSF HIT" note="ガイドホルダー干渉"/>
+	<Item tgt="1" addr="10" bit="10" nam="(Rio0170)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="10" bit="11" nam="(Rio0171)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="10" bit="12" nam="(Rio0172)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="10" bit="13" nam="(Rio0173)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="10" bit="14" nam="(Rio0174)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="10" bit="15" nam="(Rio0175)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="11" bit="0" nam="Z0 CLR INPUT Z0" note="クリアー入力"/>
+	<Item tgt="1" addr="11" bit="1" nam="THRU DETECTOR" note="貫通検出"/>
+	<Item tgt="1" addr="11" bit="2" nam="(Rio0178)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="11" bit="3" nam="CONTACT SENSOR" note="接触感知"/>
+	<Item tgt="1" addr="11" bit="4" nam="SRV FWD" note="放電加工時前進入力"/>
+	<Item tgt="1" addr="11" bit="5" nam="SRV BKWD" note="放電加工時後退入力"/>
+	<Item tgt="1" addr="11" bit="6" nam="SRV PROCESSING" note="Vスパーク信号"/>
+	<Item tgt="1" addr="11" bit="7" nam="VS EXT OFF" note="OFF伸ばし中信号"/>
+	<Item tgt="1" addr="11" bit="8" nam="V SHORT" note="ショート信号"/>
+	<Item tgt="1" addr="11" bit="9" nam="V MEAN" note="VMEAN信号"/>
+	<Item tgt="1" addr="11" bit="10" nam="BON INPUT" note="加工中"/>
+	<Item tgt="1" addr="11" bit="11" nam="(Rio0187)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="11" bit="12" nam="(Rio0188)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="11" bit="13" nam="(Rio0189)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="11" bit="14" nam="(Rio0190)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="11" bit="15" nam="PW OFF SW" note="電源OFFスイッチ"/>
+	<Item tgt="1" addr="12" bit="0" nam="(Rio0192)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="1" nam="(Rio0193)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="2" nam="(Rio0194)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="3" nam="(Rio0195)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="4" nam="(Rio0196)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="5" nam="(Rio0197)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="6" nam="(Rio0198)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="7" nam="(Rio0199)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="8" nam="(Rio0200)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="9" nam="(Rio0201)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="10" nam="(Rio0202)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="11" nam="(Rio0203)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="12" nam="(Rio0204)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="13" nam="(Rio0205)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="14" nam="(Rio0206)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="12" bit="15" nam="(Rio0207)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="0" nam="(Rio0208)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="1" nam="(Rio0209)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="2" nam="(Rio0210)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="3" nam="(Rio0211)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="4" nam="(Rio0212)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="5" nam="(Rio0213)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="6" nam="(Rio0214)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="7" nam="(Rio0215)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="8" nam="(Rio0216)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="9" nam="(Rio0217)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="10" nam="(Rio0218)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="11" nam="(Rio0219)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="12" nam="(Rio0220)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="13" nam="(Rio0221)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="14" nam="(Rio0222)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="13" bit="15" nam="(Rio0223)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="0" nam="(Rio0224)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="1" nam="(Rio0225)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="2" nam="(Rio0226)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="3" nam="(Rio0227)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="4" nam="(Rio0228)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="5" nam="(Rio0229)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="6" nam="(Rio0230)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="7" nam="(Rio0231)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="8" nam="(Rio0232)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="9" nam="(Rio0233)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="10" nam="(Rio0234)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="11" nam="(Rio0235)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="12" nam="(Rio0236)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="13" nam="(Rio0237)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="14" nam="(Rio0238)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="14" bit="15" nam="(Rio0239)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="0" nam="(Rio0240)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="1" nam="(Rio0241)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="2" nam="(Rio0242)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="3" nam="(Rio0243)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="4" nam="(Rio0244)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="5" nam="(Rio0245)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="6" nam="(Rio0246)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="7" nam="(Rio0247)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="8" nam="(Rio0248)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="9" nam="(Rio0249)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="10" nam="(Rio0250)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="11" nam="(Rio0251)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="12" nam="(Rio0252)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="13" nam="(Rio0253)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="14" nam="(Rio0254)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="15" bit="15" nam="(Rio0255)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="0" nam="(Rio0256)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="1" nam="(Rio0257)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="2" nam="(Rio0258)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="3" nam="(Rio0259)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="4" nam="(Rio0260)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="5" nam="(Rio0261)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="6" nam="(Rio0262)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="7" nam="(Rio0263)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="8" nam="(Rio0264)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="9" nam="(Rio0265)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="10" nam="(Rio0266)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="11" nam="(Rio0267)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="12" nam="(Rio0268)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="13" nam="(Rio0269)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="14" nam="(Rio0270)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="16" bit="15" nam="(Rio0271)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="0" nam="(Rio0272)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="1" nam="(Rio0273)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="2" nam="(Rio0274)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="3" nam="(Rio0275)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="4" nam="(Rio0276)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="5" nam="(Rio0277)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="6" nam="(Rio0278)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="7" nam="(Rio0279)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="8" nam="(Rio0280)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="9" nam="(Rio0281)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="10" nam="(Rio0282)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="11" nam="(Rio0283)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="12" nam="(Rio0284)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="13" nam="(Rio0285)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="14" nam="(Rio0286)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="17" bit="15" nam="(Rio0287)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="0" nam="(Rio0288)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="1" nam="(Rio0289)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="2" nam="(Rio0290)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="3" nam="(Rio0291)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="4" nam="(Rio0292)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="5" nam="(Rio0293)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="6" nam="(Rio0294)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="7" nam="(Rio0295)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="8" nam="(Rio0296)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="9" nam="(Rio0297)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="10" nam="(Rio0298)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="11" nam="(Rio0299)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="12" nam="(Rio0300)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="13" nam="(Rio0301)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="14" nam="(Rio0302)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="18" bit="15" nam="(Rio0303)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="0" nam="(Rio0304)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="1" nam="(Rio0305)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="2" nam="(Rio0306)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="3" nam="(Rio0307)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="4" nam="(Rio0308)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="5" nam="(Rio0309)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="6" nam="(Rio0310)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="7" nam="(Rio0311)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="8" nam="(Rio0312)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="9" nam="(Rio0313)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="10" nam="(Rio0314)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="11" nam="(Rio0315)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="12" nam="(Rio0316)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="13" nam="(Rio0317)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="14" nam="(Rio0318)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="19" bit="15" nam="(Rio0319)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="0" nam="(Rio0320)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="1" nam="(Rio0321)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="2" nam="(Rio0322)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="3" nam="(Rio0323)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="4" nam="(Rio0324)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="5" nam="(Rio0325)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="6" nam="(Rio0326)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="7" nam="(Rio0327)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="8" nam="(Rio0328)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="9" nam="(Rio0329)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="10" nam="(Rio0330)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="11" nam="(Rio0331)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="12" nam="(Rio0332)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="13" nam="(Rio0333)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="14" nam="(Rio0334)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="20" bit="15" nam="(Rio0335)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="0" nam="(Rio0336)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="1" nam="(Rio0337)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="2" nam="(Rio0338)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="3" nam="(Rio0339)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="4" nam="(Rio0340)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="5" nam="(Rio0341)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="6" nam="(Rio0342)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="7" nam="(Rio0343)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="8" nam="(Rio0344)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="9" nam="(Rio0345)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="10" nam="(Rio0346)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="11" nam="(Rio0347)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="12" nam="(Rio0348)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="13" nam="(Rio0349)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="14" nam="(Rio0350)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="21" bit="15" nam="(Rio0351)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="0" nam="(Rio0352)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="1" nam="(Rio0353)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="2" nam="(Rio0354)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="3" nam="(Rio0355)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="4" nam="(Rio0356)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="5" nam="(Rio0357)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="6" nam="(Rio0358)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="7" nam="(Rio0359)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="8" nam="(Rio0360)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="9" nam="(Rio0361)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="10" nam="(Rio0362)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="11" nam="(Rio0363)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="12" nam="(Rio0364)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="13" nam="(Rio0365)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="14" nam="(Rio0366)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="22" bit="15" nam="(Rio0367)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="0" nam="(Rio0368)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="1" nam="(Rio0369)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="2" nam="(Rio0370)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="3" nam="(Rio0371)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="4" nam="(Rio0372)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="5" nam="(Rio0373)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="6" nam="(Rio0374)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="7" nam="(Rio0375)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="8" nam="(Rio0376)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="9" nam="(Rio0377)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="10" nam="(Rio0378)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="11" nam="(Rio0379)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="12" nam="(Rio0380)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="13" nam="(Rio0381)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="14" nam="(Rio0382)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="23" bit="15" nam="(Rio0383)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="0" nam="(Rio0384)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="1" nam="(Rio0385)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="2" nam="(Rio0386)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="3" nam="(Rio0387)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="4" nam="(Rio0388)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="5" nam="(Rio0389)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="6" nam="(Rio0390)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="7" nam="(Rio0391)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="8" nam="(Rio0392)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="9" nam="(Rio0393)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="10" nam="(Rio0394)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="11" nam="(Rio0395)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="12" nam="(Rio0396)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="13" nam="(Rio0397)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="14" nam="(Rio0398)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="24" bit="15" nam="(Rio0399)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="0" nam="(Rio0400)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="1" nam="(Rio0401)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="2" nam="(Rio0402)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="3" nam="(Rio0403)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="4" nam="(Rio0404)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="5" nam="(Rio0405)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="6" nam="(Rio0406)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="7" nam="(Rio0407)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="8" nam="(Rio0408)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="9" nam="(Rio0409)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="10" nam="(Rio0410)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="11" nam="(Rio0411)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="12" nam="(Rio0412)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="13" nam="(Rio0413)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="14" nam="(Rio0414)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="25" bit="15" nam="(Rio0415)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="0" nam="(Rio0416)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="1" nam="(Rio0417)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="2" nam="(Rio0418)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="3" nam="(Rio0419)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="4" nam="(Rio0420)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="5" nam="(Rio0421)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="6" nam="(Rio0422)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="7" nam="(Rio0423)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="8" nam="(Rio0424)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="9" nam="(Rio0425)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="10" nam="(Rio0426)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="11" nam="(Rio0427)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="12" nam="(Rio0428)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="13" nam="(Rio0429)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="14" nam="(Rio0430)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="26" bit="15" nam="(Rio0431)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="0" nam="(Rio0432)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="1" nam="(Rio0433)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="2" nam="(Rio0434)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="3" nam="(Rio0435)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="4" nam="(Rio0436)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="5" nam="(Rio0437)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="6" nam="(Rio0438)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="7" nam="(Rio0439)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="8" nam="(Rio0440)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="9" nam="(Rio0441)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="10" nam="(Rio0442)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="11" nam="(Rio0443)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="12" nam="(Rio0444)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="13" nam="(Rio0445)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="14" nam="(Rio0446)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="27" bit="15" nam="(Rio0447)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="0" nam="(Rio0448)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="1" nam="(Rio0449)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="2" nam="(Rio0450)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="3" nam="(Rio0451)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="4" nam="(Rio0452)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="5" nam="(Rio0453)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="6" nam="(Rio0454)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="7" nam="(Rio0455)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="8" nam="(Rio0456)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="9" nam="(Rio0457)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="10" nam="(Rio0458)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="11" nam="(Rio0459)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="12" nam="(Rio0460)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="13" nam="(Rio0461)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="14" nam="(Rio0462)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="28" bit="15" nam="(Rio0463)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="0" nam="(Rio0464)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="1" nam="(Rio0465)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="2" nam="(Rio0466)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="3" nam="(Rio0467)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="4" nam="(Rio0468)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="5" nam="(Rio0469)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="6" nam="(Rio0470)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="7" nam="(Rio0471)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="8" nam="(Rio0472)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="9" nam="(Rio0473)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="10" nam="(Rio0474)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="11" nam="(Rio0475)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="12" nam="(Rio0476)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="13" nam="(Rio0477)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="14" nam="(Rio0478)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="29" bit="15" nam="(Rio0479)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="0" nam="(Rio0480)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="1" nam="(Rio0481)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="2" nam="(Rio0482)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="3" nam="(Rio0483)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="4" nam="(Rio0484)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="5" nam="(Rio0485)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="6" nam="(Rio0486)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="7" nam="(Rio0487)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="8" nam="(Rio0488)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="9" nam="(Rio0489)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="10" nam="(Rio0490)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="11" nam="(Rio0491)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="12" nam="(Rio0492)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="13" nam="(Rio0493)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="14" nam="(Rio0494)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="30" bit="15" nam="(Rio0495)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="0" nam="(Rio0496)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="1" nam="(Rio0497)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="2" nam="(Rio0498)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="3" nam="(Rio0499)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="4" nam="(Rio0500)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="5" nam="(Rio0501)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="6" nam="(Rio0502)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="7" nam="(Rio0503)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="8" nam="(Rio0504)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="9" nam="(Rio0505)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="10" nam="(Rio0506)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="11" nam="(Rio0507)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="12" nam="(Rio0508)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="13" nam="(Rio0509)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="14" nam="(Rio0510)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="31" bit="15" nam="(Rio0511)" note="(汎用入出力)"/>
+	<Item tgt="1" addr="32" bit="0" nam="OTP01" note="第01物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="1" nam="OTP02" note="第02物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="2" nam="OTP03" note="第03物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="3" nam="OTP04" note="第04物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="4" nam="OTP05" note="第05物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="5" nam="OTP06" note="第06物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="6" nam="OTP07" note="第07物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="7" nam="OTP08" note="第08物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="8" nam="OTP09" note="第09物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="9" nam="OTP10" note="第10物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="10" nam="OTP11" note="第11物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="11" nam="OTP12" note="第12物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="12" nam="OTP13" note="第13物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="13" nam="OTP14" note="第14物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="14" nam="OTP15" note="第15物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="32" bit="15" nam="OTP16" note="第16物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="0" nam="OTP17" note="第17物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="1" nam="OTP18" note="第18物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="2" nam="OTP19" note="第19物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="3" nam="OTP20" note="第20物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="4" nam="OTP21" note="第21物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="5" nam="OTP22" note="第22物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="6" nam="OTP23" note="第23物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="7" nam="OTP24" note="第24物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="8" nam="OTP25" note="第25物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="9" nam="OTP26" note="第26物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="10" nam="OTP27" note="第27物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="11" nam="OTP28" note="第28物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="12" nam="OTP29" note="第29物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="13" nam="OTP30" note="第30物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="14" nam="OTP31" note="第31物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="33" bit="15" nam="OTP32" note="第32物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="0" nam="OTP33" note="第33物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="1" nam="OTP34" note="第34物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="2" nam="OTP35" note="第35物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="3" nam="OTP36" note="第36物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="4" nam="OTP37" note="第37物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="5" nam="OTP38" note="第38物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="6" nam="OTP39" note="第39物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="7" nam="OTP40" note="第40物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="8" nam="OTP41" note="第41物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="9" nam="OTP42" note="第42物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="10" nam="OTP43" note="第43物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="11" nam="OTP44" note="第44物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="12" nam="OTP45" note="第45物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="13" nam="OTP46" note="第46物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="14" nam="OTP47" note="第47物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="34" bit="15" nam="OTP48" note="第48物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="0" nam="OTP49" note="第49物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="1" nam="OTP50" note="第50物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="2" nam="OTP51" note="第51物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="3" nam="OTP52" note="第52物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="4" nam="OTP53" note="第53物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="5" nam="OTP54" note="第54物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="6" nam="OTP55" note="第55物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="7" nam="OTP56" note="第56物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="8" nam="OTP57" note="第57物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="9" nam="OTP58" note="第58物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="10" nam="OTP59" note="第59物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="11" nam="OTP60" note="第60物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="12" nam="OTP61" note="第61物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="13" nam="OTP62" note="第62物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="14" nam="OTP63" note="第63物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="35" bit="15" nam="OTP64" note="第64物理軸+側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="0" nam="OTM01" note="第01物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="1" nam="OTM02" note="第02物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="2" nam="OTM03" note="第03物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="3" nam="OTM04" note="第04物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="4" nam="OTM05" note="第05物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="5" nam="OTM06" note="第06物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="6" nam="OTM07" note="第07物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="7" nam="OTM08" note="第08物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="8" nam="OTM09" note="第09物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="9" nam="OTM10" note="第10物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="10" nam="OTM11" note="第11物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="11" nam="OTM12" note="第12物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="12" nam="OTM13" note="第13物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="13" nam="OTM14" note="第14物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="14" nam="OTM15" note="第15物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="36" bit="15" nam="OTM16" note="第16物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="0" nam="OTM17" note="第17物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="1" nam="OTM18" note="第18物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="2" nam="OTM19" note="第19物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="3" nam="OTM20" note="第20物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="4" nam="OTM21" note="第21物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="5" nam="OTM22" note="第22物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="6" nam="OTM23" note="第23物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="7" nam="OTM24" note="第24物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="8" nam="OTM25" note="第25物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="9" nam="OTM26" note="第26物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="10" nam="OTM27" note="第27物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="11" nam="OTM28" note="第28物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="12" nam="OTM29" note="第29物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="13" nam="OTM30" note="第30物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="14" nam="OTM31" note="第31物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="37" bit="15" nam="OTM32" note="第32物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="0" nam="OTM33" note="第33物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="1" nam="OTM34" note="第34物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="2" nam="OTM35" note="第35物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="3" nam="OTM36" note="第36物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="4" nam="OTM37" note="第37物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="5" nam="OTM38" note="第38物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="6" nam="OTM39" note="第39物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="7" nam="OTM40" note="第40物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="8" nam="OTM41" note="第41物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="9" nam="OTM42" note="第42物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="10" nam="OTM43" note="第43物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="11" nam="OTM44" note="第44物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="12" nam="OTM45" note="第45物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="13" nam="OTM46" note="第46物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="14" nam="OTM47" note="第47物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="38" bit="15" nam="OTM48" note="第48物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="0" nam="OTM49" note="第49物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="1" nam="OTM50" note="第50物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="2" nam="OTM51" note="第51物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="3" nam="OTM52" note="第52物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="4" nam="OTM53" note="第53物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="5" nam="OTM54" note="第54物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="6" nam="OTM55" note="第55物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="7" nam="OTM56" note="第56物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="8" nam="OTM57" note="第57物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="9" nam="OTM58" note="第58物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="10" nam="OTM59" note="第59物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="11" nam="OTM60" note="第60物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="12" nam="OTM61" note="第61物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="13" nam="OTM62" note="第62物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="14" nam="OTM63" note="第63物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="39" bit="15" nam="OTM64" note="第64物理軸-側オーバトラベル"/>
+	<Item tgt="1" addr="40" bit="0" nam="DEC01" note="第01物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="1" nam="DEC02" note="第02物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="2" nam="DEC03" note="第03物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="3" nam="DEC04" note="第04物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="4" nam="DEC05" note="第05物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="5" nam="DEC06" note="第06物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="6" nam="DEC07" note="第07物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="7" nam="DEC08" note="第08物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="8" nam="DEC09" note="第09物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="9" nam="DEC10" note="第10物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="10" nam="DEC11" note="第11物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="11" nam="DEC12" note="第12物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="12" nam="DEC13" note="第13物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="13" nam="DEC14" note="第14物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="14" nam="DEC15" note="第15物理軸原点信号"/>
+	<Item tgt="1" addr="40" bit="15" nam="DEC16" note="第16物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="0" nam="DEC17" note="第17物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="1" nam="DEC18" note="第18物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="2" nam="DEC19" note="第19物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="3" nam="DEC20" note="第20物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="4" nam="DEC21" note="第21物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="5" nam="DEC22" note="第22物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="6" nam="DEC23" note="第23物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="7" nam="DEC24" note="第24物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="8" nam="DEC25" note="第25物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="9" nam="DEC26" note="第26物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="10" nam="DEC27" note="第27物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="11" nam="DEC28" note="第28物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="12" nam="DEC29" note="第29物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="13" nam="DEC30" note="第30物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="14" nam="DEC31" note="第31物理軸原点信号"/>
+	<Item tgt="1" addr="41" bit="15" nam="DEC32" note="第32物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="0" nam="DEC33" note="第33物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="1" nam="DEC34" note="第34物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="2" nam="DEC35" note="第35物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="3" nam="DEC36" note="第36物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="4" nam="DEC37" note="第37物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="5" nam="DEC38" note="第38物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="6" nam="DEC39" note="第39物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="7" nam="DEC40" note="第40物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="8" nam="DEC41" note="第41物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="9" nam="DEC42" note="第42物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="10" nam="DEC43" note="第43物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="11" nam="DEC44" note="第44物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="12" nam="DEC45" note="第45物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="13" nam="DEC46" note="第46物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="14" nam="DEC47" note="第47物理軸原点信号"/>
+	<Item tgt="1" addr="42" bit="15" nam="DEC48" note="第48物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="0" nam="DEC49" note="第49物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="1" nam="DEC50" note="第50物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="2" nam="DEC51" note="第51物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="3" nam="DEC52" note="第52物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="4" nam="DEC53" note="第53物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="5" nam="DEC54" note="第54物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="6" nam="DEC55" note="第55物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="7" nam="DEC56" note="第56物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="8" nam="DEC57" note="第57物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="9" nam="DEC58" note="第58物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="10" nam="DEC59" note="第59物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="11" nam="DEC60" note="第60物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="12" nam="DEC61" note="第61物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="13" nam="DEC62" note="第62物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="14" nam="DEC63" note="第63物理軸原点信号"/>
+	<Item tgt="1" addr="43" bit="15" nam="DEC64" note="第64物理軸原点信号"/>
+	<Item tgt="1" addr="44" bit="0" note="予約"/>
+	<Item tgt="1" addr="44" bit="1" note="予約"/>
+	<Item tgt="1" addr="44" bit="2" note="予約"/>
+	<Item tgt="1" addr="44" bit="3" note="予約"/>
+	<Item tgt="1" addr="44" bit="4" note="予約"/>
+	<Item tgt="1" addr="44" bit="5" note="予約"/>
+	<Item tgt="1" addr="44" bit="6" note="予約"/>
+	<Item tgt="1" addr="44" bit="7" note="予約"/>
+	<Item tgt="1" addr="44" bit="8" note="予約"/>
+	<Item tgt="1" addr="44" bit="9" note="予約"/>
+	<Item tgt="1" addr="44" bit="10" note="予約"/>
+	<Item tgt="1" addr="44" bit="11" note="予約"/>
+	<Item tgt="1" addr="44" bit="12" note="予約"/>
+	<Item tgt="1" addr="44" bit="13" note="予約"/>
+	<Item tgt="1" addr="44" bit="14" note="予約"/>
+	<Item tgt="1" addr="44" bit="15" note="予約"/>
+	<Item tgt="1" addr="45" bit="0" note="予約"/>
+	<Item tgt="1" addr="45" bit="1" note="予約"/>
+	<Item tgt="1" addr="45" bit="2" note="予約"/>
+	<Item tgt="1" addr="45" bit="3" note="予約"/>
+	<Item tgt="1" addr="45" bit="4" note="予約"/>
+	<Item tgt="1" addr="45" bit="5" note="予約"/>
+	<Item tgt="1" addr="45" bit="6" note="予約"/>
+	<Item tgt="1" addr="45" bit="7" note="予約"/>
+	<Item tgt="1" addr="45" bit="8" note="予約"/>
+	<Item tgt="1" addr="45" bit="9" note="予約"/>
+	<Item tgt="1" addr="45" bit="10" note="予約"/>
+	<Item tgt="1" addr="45" bit="11" note="予約"/>
+	<Item tgt="1" addr="45" bit="12" note="予約"/>
+	<Item tgt="1" addr="45" bit="13" note="予約"/>
+	<Item tgt="1" addr="45" bit="14" note="予約"/>
+	<Item tgt="1" addr="45" bit="15" note="予約"/>
+	<Item tgt="1" addr="46" bit="0" note="予約"/>
+	<Item tgt="1" addr="46" bit="1" note="予約"/>
+	<Item tgt="1" addr="46" bit="2" note="予約"/>
+	<Item tgt="1" addr="46" bit="3" note="予約"/>
+	<Item tgt="1" addr="46" bit="4" note="予約"/>
+	<Item tgt="1" addr="46" bit="5" note="予約"/>
+	<Item tgt="1" addr="46" bit="6" note="予約"/>
+	<Item tgt="1" addr="46" bit="7" note="予約"/>
+	<Item tgt="1" addr="46" bit="8" note="予約"/>
+	<Item tgt="1" addr="46" bit="9" note="予約"/>
+	<Item tgt="1" addr="46" bit="10" note="予約"/>
+	<Item tgt="1" addr="46" bit="11" note="予約"/>
+	<Item tgt="1" addr="46" bit="12" note="予約"/>
+	<Item tgt="1" addr="46" bit="13" note="予約"/>
+	<Item tgt="1" addr="46" bit="14" note="予約"/>
+	<Item tgt="1" addr="46" bit="15" note="予約"/>
+	<Item tgt="1" addr="47" bit="0" note="予約"/>
+	<Item tgt="1" addr="47" bit="1" note="予約"/>
+	<Item tgt="1" addr="47" bit="2" note="予約"/>
+	<Item tgt="1" addr="47" bit="3" note="予約"/>
+	<Item tgt="1" addr="47" bit="4" note="予約"/>
+	<Item tgt="1" addr="47" bit="5" note="予約"/>
+	<Item tgt="1" addr="47" bit="6" note="予約"/>
+	<Item tgt="1" addr="47" bit="7" note="予約"/>
+	<Item tgt="1" addr="47" bit="8" note="予約"/>
+	<Item tgt="1" addr="47" bit="9" note="予約"/>
+	<Item tgt="1" addr="47" bit="10" note="予約"/>
+	<Item tgt="1" addr="47" bit="11" note="予約"/>
+	<Item tgt="1" addr="47" bit="12" note="予約"/>
+	<Item tgt="1" addr="47" bit="13" note="予約"/>
+	<Item tgt="1" addr="47" bit="14" note="予約"/>
+	<Item tgt="1" addr="47" bit="15" note="予約"/>
+	<Item tgt="1" addr="48" bit="0" note="予約"/>
+	<Item tgt="1" addr="48" bit="1" note="予約"/>
+	<Item tgt="1" addr="48" bit="2" note="予約"/>
+	<Item tgt="1" addr="48" bit="3" note="予約"/>
+	<Item tgt="1" addr="48" bit="4" note="予約"/>
+	<Item tgt="1" addr="48" bit="5" note="予約"/>
+	<Item tgt="1" addr="48" bit="6" note="予約"/>
+	<Item tgt="1" addr="48" bit="7" note="予約"/>
+	<Item tgt="1" addr="48" bit="8" note="予約"/>
+	<Item tgt="1" addr="48" bit="9" note="予約"/>
+	<Item tgt="1" addr="48" bit="10" note="予約"/>
+	<Item tgt="1" addr="48" bit="11" note="予約"/>
+	<Item tgt="1" addr="48" bit="12" note="予約"/>
+	<Item tgt="1" addr="48" bit="13" note="予約"/>
+	<Item tgt="1" addr="48" bit="14" note="予約"/>
+	<Item tgt="1" addr="48" bit="15" note="予約"/>
+	<Item tgt="1" addr="49" bit="0" note="予約"/>
+	<Item tgt="1" addr="49" bit="1" note="予約"/>
+	<Item tgt="1" addr="49" bit="2" note="予約"/>
+	<Item tgt="1" addr="49" bit="3" note="予約"/>
+	<Item tgt="1" addr="49" bit="4" note="予約"/>
+	<Item tgt="1" addr="49" bit="5" note="予約"/>
+	<Item tgt="1" addr="49" bit="6" note="予約"/>
+	<Item tgt="1" addr="49" bit="7" note="予約"/>
+	<Item tgt="1" addr="49" bit="8" note="予約"/>
+	<Item tgt="1" addr="49" bit="9" note="予約"/>
+	<Item tgt="1" addr="49" bit="10" note="予約"/>
+	<Item tgt="1" addr="49" bit="11" note="予約"/>
+	<Item tgt="1" addr="49" bit="12" note="予約"/>
+	<Item tgt="1" addr="49" bit="13" note="予約"/>
+	<Item tgt="1" addr="49" bit="14" note="予約"/>
+	<Item tgt="1" addr="49" bit="15" note="予約"/>
+	<Item tgt="1" addr="50" bit="0" note="予約"/>
+	<Item tgt="1" addr="50" bit="1" note="予約"/>
+	<Item tgt="1" addr="50" bit="2" note="予約"/>
+	<Item tgt="1" addr="50" bit="3" note="予約"/>
+	<Item tgt="1" addr="50" bit="4" note="予約"/>
+	<Item tgt="1" addr="50" bit="5" note="予約"/>
+	<Item tgt="1" addr="50" bit="6" note="予約"/>
+	<Item tgt="1" addr="50" bit="7" note="予約"/>
+	<Item tgt="1" addr="50" bit="8" note="予約"/>
+	<Item tgt="1" addr="50" bit="9" note="予約"/>
+	<Item tgt="1" addr="50" bit="10" note="予約"/>
+	<Item tgt="1" addr="50" bit="11" note="予約"/>
+	<Item tgt="1" addr="50" bit="12" note="予約"/>
+	<Item tgt="1" addr="50" bit="13" note="予約"/>
+	<Item tgt="1" addr="50" bit="14" note="予約"/>
+	<Item tgt="1" addr="50" bit="15" note="予約"/>
+	<Item tgt="1" addr="51" bit="0" note="予約"/>
+	<Item tgt="1" addr="51" bit="1" note="予約"/>
+	<Item tgt="1" addr="51" bit="2" note="予約"/>
+	<Item tgt="1" addr="51" bit="3" note="予約"/>
+	<Item tgt="1" addr="51" bit="4" note="予約"/>
+	<Item tgt="1" addr="51" bit="5" note="予約"/>
+	<Item tgt="1" addr="51" bit="6" note="予約"/>
+	<Item tgt="1" addr="51" bit="7" note="予約"/>
+	<Item tgt="1" addr="51" bit="8" note="予約"/>
+	<Item tgt="1" addr="51" bit="9" note="予約"/>
+	<Item tgt="1" addr="51" bit="10" note="予約"/>
+	<Item tgt="1" addr="51" bit="11" note="予約"/>
+	<Item tgt="1" addr="51" bit="12" note="予約"/>
+	<Item tgt="1" addr="51" bit="13" note="予約"/>
+	<Item tgt="1" addr="51" bit="14" note="予約"/>
+	<Item tgt="1" addr="51" bit="15" note="予約"/>
+	<Item tgt="1" addr="52" bit="0" nam="T0EMS" note="非常停止"/>
+	<Item tgt="1" addr="52" bit="1" nam="T0ONSW" note="オンスイッチ"/>
+	<Item tgt="1" addr="52" bit="2" nam="T0MFIN" note="Mコード読取完了"/>
+	<Item tgt="1" addr="52" bit="3" nam="T0MOK" note="Mコード正常終了"/>
+	<Item tgt="1" addr="52" bit="4" nam="T0RESET" note="リセット"/>
+	<Item tgt="1" addr="52" bit="5" nam="T0START" note="起動"/>
+	<Item tgt="1" addr="52" bit="6" nam="T0STOP" note="停止"/>
+	<Item tgt="1" addr="52" bit="7" nam="T0EXTALMA" note="外部アラームA"/>
+	<Item tgt="1" addr="52" bit="8" nam="T0EXTALMB" note="外部アラームB"/>
+	<Item tgt="1" addr="52" bit="9" nam="T0EXTALMC" note="外部アラームC"/>
+	<Item tgt="1" addr="52" bit="10" nam="T0OPT" note="オプショナルストップ&lt;無効&gt;"/>
+	<Item tgt="1" addr="52" bit="11" nam="T0RETURN" note="原点復帰"/>
+	<Item tgt="1" addr="52" bit="12" nam="T0CRCLR" note="原点設定"/>
+	<Item tgt="1" addr="52" bit="13" nam="T0REWND" note="リワインド"/>
+	<Item tgt="1" addr="52" bit="14" nam="T0VCAMSON" note="電子カムサイクル入力&lt;開発中&gt;"/>
+	<Item tgt="1" addr="52" bit="15" note="予約"/>
+	<Item tgt="1" addr="53" bit="0" note="予約"/>
+	<Item tgt="1" addr="53" bit="1" note="予約"/>
+	<Item tgt="1" addr="53" bit="2" note="予約"/>
+	<Item tgt="1" addr="53" bit="3" note="予約"/>
+	<Item tgt="1" addr="53" bit="4" note="予約"/>
+	<Item tgt="1" addr="53" bit="5" note="予約"/>
+	<Item tgt="1" addr="53" bit="6" note="予約"/>
+	<Item tgt="1" addr="53" bit="7" note="予約"/>
+	<Item tgt="1" addr="53" bit="8" note="予約"/>
+	<Item tgt="1" addr="53" bit="9" note="予約"/>
+	<Item tgt="1" addr="53" bit="10" note="予約"/>
+	<Item tgt="1" addr="53" bit="11" note="予約"/>
+	<Item tgt="1" addr="53" bit="12" note="予約"/>
+	<Item tgt="1" addr="53" bit="13" note="予約"/>
+	<Item tgt="1" addr="53" bit="14" note="予約"/>
+	<Item tgt="1" addr="53" bit="15" note="予約"/>
+	<Item tgt="1" addr="54" bit="0" nam="T0MP_ENABLE" note="パネル有効"/>
+	<Item tgt="1" addr="54" bit="1" nam="T0MP_MDSET" note="セッティングモード"/>
+	<Item tgt="1" addr="54" bit="2" nam="T0MP_MDAUTO" note="連続運転モード"/>
+	<Item tgt="1" addr="54" bit="3" nam="T0MP_MDDNC" note="DNCモード"/>
+	<Item tgt="1" addr="54" bit="4" nam="T0MP_MDSNGL" note="シングルステップモード"/>
+	<Item tgt="1" addr="54" bit="5" nam="T0MP_MDZRN" note="原点復帰モード"/>
+	<Item tgt="1" addr="54" bit="6" nam="T0MP_MDJOG" note="JOGモード"/>
+	<Item tgt="1" addr="54" bit="7" nam="T0MP_MDINCH" note="インチングモード"/>
+	<Item tgt="1" addr="54" bit="8" nam="T0MP_MDHNDL" note="手動パルサモード"/>
+	<Item tgt="1" addr="54" bit="9" nam="T0MP_MDOTDIS" note="OT無視モード"/>
+	<Item tgt="1" addr="54" bit="10" nam="T0MP_TEACH" note="ティーチング"/>
+	<Item tgt="1" addr="54" bit="11" note="予約"/>
+	<Item tgt="1" addr="54" bit="12" note="予約"/>
+	<Item tgt="1" addr="54" bit="13" note="予約"/>
+	<Item tgt="1" addr="54" bit="14" note="予約"/>
+	<Item tgt="1" addr="54" bit="15" note="予約"/>
+	<Item tgt="1" addr="55" bit="0" nam="T0MP_AXSEL0" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="55" bit="1" nam="T0MP_AXSEL1" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="55" bit="2" nam="T0MP_AXSEL2" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="55" bit="3" nam="T0MP_AXSEL3" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="55" bit="4" nam="T0MP_AXSEL4" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="55" bit="5" nam="T0MP_AXSEL5" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="55" bit="6" nam="T0MP_AXSEL6" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="55" bit="7" nam="T0MP_AXSEL7" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="55" bit="8" nam="T0MP_OVR0" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="55" bit="9" nam="T0MP_OVR1" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="55" bit="10" nam="T0MP_OVR2" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="55" bit="11" nam="T0MP_OVR3" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="55" bit="12" nam="T0MP_OVR4" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="55" bit="13" nam="T0MP_OVR5" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="55" bit="14" nam="T0MP_OVR6" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="55" bit="15" nam="T0MP_OVR7" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="56" bit="0" nam="T0MP_COVR0" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="56" bit="1" nam="T0MP_COVR1" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="56" bit="2" nam="T0MP_COVR2" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="56" bit="3" nam="T0MP_COVR3" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="56" bit="4" nam="T0MP_COVR4" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="56" bit="5" nam="T0MP_COVR5" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="56" bit="6" nam="T0MP_COVR6" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="56" bit="7" nam="T0MP_COVR7" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="56" bit="8" nam="T0MP_SOVR0" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="56" bit="9" nam="T0MP_SOVR1" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="56" bit="10" nam="T0MP_SOVR2" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="56" bit="11" nam="T0MP_SOVR3" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="56" bit="12" nam="T0MP_SOVR4" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="56" bit="13" nam="T0MP_SOVR5" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="56" bit="14" nam="T0MP_SOVR6" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="56" bit="15" nam="T0MP_SOVR7" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="57" bit="0" nam="T0MP_PSEL00" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="1" nam="T0MP_PSEL01" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="2" nam="T0MP_PSEL02" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="3" nam="T0MP_PSEL03" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="4" nam="T0MP_PSEL04" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="5" nam="T0MP_PSEL05" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="6" nam="T0MP_PSEL06" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="7" nam="T0MP_PSEL07" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="8" nam="T0MP_PSEL08" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="9" nam="T0MP_PSEL09" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="10" nam="T0MP_PSEL10" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="11" nam="T0MP_PSEL11" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="12" nam="T0MP_PSEL12" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="13" nam="T0MP_PSEL13" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="14" nam="T0MP_PSEL14" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="57" bit="15" nam="T0MP_PSEL15" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="58" bit="0" nam="T0MP_INCH0" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="58" bit="1" nam="T0MP_INCH1" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="58" bit="2" nam="T0MP_INCH2" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="58" bit="3" nam="T0MP_INCH3" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="58" bit="4" nam="T0MP_HSEL0" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="58" bit="5" nam="T0MP_HSEL1" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="58" bit="6" nam="T0MP_HSEL2" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="58" bit="7" nam="T0MP_HSEL3" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="58" bit="8" note="予約"/>
+	<Item tgt="1" addr="58" bit="9" note="予約"/>
+	<Item tgt="1" addr="58" bit="10" note="予約"/>
+	<Item tgt="1" addr="58" bit="11" note="予約"/>
+	<Item tgt="1" addr="58" bit="12" note="予約"/>
+	<Item tgt="1" addr="58" bit="13" note="予約"/>
+	<Item tgt="1" addr="58" bit="14" note="予約"/>
+	<Item tgt="1" addr="58" bit="15" note="予約"/>
+	<Item tgt="1" addr="59" bit="0" note="予約"/>
+	<Item tgt="1" addr="59" bit="1" note="予約"/>
+	<Item tgt="1" addr="59" bit="2" note="予約"/>
+	<Item tgt="1" addr="59" bit="3" note="予約"/>
+	<Item tgt="1" addr="59" bit="4" note="予約"/>
+	<Item tgt="1" addr="59" bit="5" note="予約"/>
+	<Item tgt="1" addr="59" bit="6" note="予約"/>
+	<Item tgt="1" addr="59" bit="7" note="予約"/>
+	<Item tgt="1" addr="59" bit="8" note="予約"/>
+	<Item tgt="1" addr="59" bit="9" note="予約"/>
+	<Item tgt="1" addr="59" bit="10" note="予約"/>
+	<Item tgt="1" addr="59" bit="11" note="予約"/>
+	<Item tgt="1" addr="59" bit="12" note="予約"/>
+	<Item tgt="1" addr="59" bit="13" note="予約"/>
+	<Item tgt="1" addr="59" bit="14" note="予約"/>
+	<Item tgt="1" addr="59" bit="15" note="予約"/>
+	<Item tgt="1" addr="60" bit="0" nam="T1EMS" note="非常停止"/>
+	<Item tgt="1" addr="60" bit="1" nam="T1ONSW" note="オンスイッチ"/>
+	<Item tgt="1" addr="60" bit="2" nam="T1MFIN" note="Mコード読取完了"/>
+	<Item tgt="1" addr="60" bit="3" nam="T1MOK" note="Mコード正常終了"/>
+	<Item tgt="1" addr="60" bit="4" nam="T1RESET" note="リセット"/>
+	<Item tgt="1" addr="60" bit="5" nam="T1START" note="起動"/>
+	<Item tgt="1" addr="60" bit="6" nam="T1STOP" note="停止"/>
+	<Item tgt="1" addr="60" bit="7" nam="T1EXTALMA" note="外部アラームA"/>
+	<Item tgt="1" addr="60" bit="8" nam="T1EXTALMB" note="外部アラームB"/>
+	<Item tgt="1" addr="60" bit="9" nam="T1EXTALMC" note="外部アラームC"/>
+	<Item tgt="1" addr="60" bit="10" nam="T1OPT" note="オプショナルストップ&lt;無効&gt;"/>
+	<Item tgt="1" addr="60" bit="11" nam="T1RETURN" note="原点復帰"/>
+	<Item tgt="1" addr="60" bit="12" nam="T1CRCLR" note="原点設定"/>
+	<Item tgt="1" addr="60" bit="13" nam="T1REWND" note="リワインド"/>
+	<Item tgt="1" addr="60" bit="14" nam="T1VCAMSON" note="電子カムサイクル入力&lt;開発中&gt;"/>
+	<Item tgt="1" addr="60" bit="15" note="予約"/>
+	<Item tgt="1" addr="61" bit="0" note="予約"/>
+	<Item tgt="1" addr="61" bit="1" note="予約"/>
+	<Item tgt="1" addr="61" bit="2" note="予約"/>
+	<Item tgt="1" addr="61" bit="3" note="予約"/>
+	<Item tgt="1" addr="61" bit="4" note="予約"/>
+	<Item tgt="1" addr="61" bit="5" note="予約"/>
+	<Item tgt="1" addr="61" bit="6" note="予約"/>
+	<Item tgt="1" addr="61" bit="7" note="予約"/>
+	<Item tgt="1" addr="61" bit="8" note="予約"/>
+	<Item tgt="1" addr="61" bit="9" note="予約"/>
+	<Item tgt="1" addr="61" bit="10" note="予約"/>
+	<Item tgt="1" addr="61" bit="11" note="予約"/>
+	<Item tgt="1" addr="61" bit="12" note="予約"/>
+	<Item tgt="1" addr="61" bit="13" note="予約"/>
+	<Item tgt="1" addr="61" bit="14" note="予約"/>
+	<Item tgt="1" addr="61" bit="15" note="予約"/>
+	<Item tgt="1" addr="62" bit="0" nam="T1MP_ENABLE" note="パネル有効"/>
+	<Item tgt="1" addr="62" bit="1" nam="T1MP_MDSET" note="セッティングモード"/>
+	<Item tgt="1" addr="62" bit="2" nam="T1MP_MDAUTO" note="連続運転モード"/>
+	<Item tgt="1" addr="62" bit="3" nam="T1MP_MDDNC" note="DNCモード"/>
+	<Item tgt="1" addr="62" bit="4" nam="T1MP_MDSNGL" note="シングルステップモード"/>
+	<Item tgt="1" addr="62" bit="5" nam="T1MP_MDZRN" note="原点復帰モード"/>
+	<Item tgt="1" addr="62" bit="6" nam="T1MP_MDJOG" note="JOGモード"/>
+	<Item tgt="1" addr="62" bit="7" nam="T1MP_MDINCH" note="インチングモード"/>
+	<Item tgt="1" addr="62" bit="8" nam="T1MP_MDHNDL" note="手動パルサモード"/>
+	<Item tgt="1" addr="62" bit="9" nam="T1MP_MDOTDIS" note="OT無視モード"/>
+	<Item tgt="1" addr="62" bit="10" nam="T1MP_TEACH" note="ティーチング"/>
+	<Item tgt="1" addr="62" bit="11" note="予約"/>
+	<Item tgt="1" addr="62" bit="12" note="予約"/>
+	<Item tgt="1" addr="62" bit="13" note="予約"/>
+	<Item tgt="1" addr="62" bit="14" note="予約"/>
+	<Item tgt="1" addr="62" bit="15" note="予約"/>
+	<Item tgt="1" addr="63" bit="0" nam="T1MP_AXSEL0" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="63" bit="1" nam="T1MP_AXSEL1" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="63" bit="2" nam="T1MP_AXSEL2" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="63" bit="3" nam="T1MP_AXSEL3" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="63" bit="4" nam="T1MP_AXSEL4" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="63" bit="5" nam="T1MP_AXSEL5" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="63" bit="6" nam="T1MP_AXSEL6" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="63" bit="7" nam="T1MP_AXSEL7" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="63" bit="8" nam="T1MP_OVR0" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="63" bit="9" nam="T1MP_OVR1" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="63" bit="10" nam="T1MP_OVR2" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="63" bit="11" nam="T1MP_OVR3" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="63" bit="12" nam="T1MP_OVR4" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="63" bit="13" nam="T1MP_OVR5" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="63" bit="14" nam="T1MP_OVR6" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="63" bit="15" nam="T1MP_OVR7" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="64" bit="0" nam="T1MP_COVR0" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="64" bit="1" nam="T1MP_COVR1" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="64" bit="2" nam="T1MP_COVR2" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="64" bit="3" nam="T1MP_COVR3" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="64" bit="4" nam="T1MP_COVR4" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="64" bit="5" nam="T1MP_COVR5" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="64" bit="6" nam="T1MP_COVR6" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="64" bit="7" nam="T1MP_COVR7" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="64" bit="8" nam="T1MP_SOVR0" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="64" bit="9" nam="T1MP_SOVR1" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="64" bit="10" nam="T1MP_SOVR2" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="64" bit="11" nam="T1MP_SOVR3" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="64" bit="12" nam="T1MP_SOVR4" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="64" bit="13" nam="T1MP_SOVR5" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="64" bit="14" nam="T1MP_SOVR6" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="64" bit="15" nam="T1MP_SOVR7" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="65" bit="0" nam="T1MP_PSEL00" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="1" nam="T1MP_PSEL01" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="2" nam="T1MP_PSEL02" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="3" nam="T1MP_PSEL03" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="4" nam="T1MP_PSEL04" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="5" nam="T1MP_PSEL05" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="6" nam="T1MP_PSEL06" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="7" nam="T1MP_PSEL07" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="8" nam="T1MP_PSEL08" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="9" nam="T1MP_PSEL09" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="10" nam="T1MP_PSEL10" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="11" nam="T1MP_PSEL11" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="12" nam="T1MP_PSEL12" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="13" nam="T1MP_PSEL13" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="14" nam="T1MP_PSEL14" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="65" bit="15" nam="T1MP_PSEL15" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="66" bit="0" nam="T1MP_INCH0" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="66" bit="1" nam="T1MP_INCH1" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="66" bit="2" nam="T1MP_INCH2" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="66" bit="3" nam="T1MP_INCH3" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="66" bit="4" nam="T1MP_HSEL0" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="66" bit="5" nam="T1MP_HSEL1" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="66" bit="6" nam="T1MP_HSEL2" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="66" bit="7" nam="T1MP_HSEL3" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="66" bit="8" note="予約"/>
+	<Item tgt="1" addr="66" bit="9" note="予約"/>
+	<Item tgt="1" addr="66" bit="10" note="予約"/>
+	<Item tgt="1" addr="66" bit="11" note="予約"/>
+	<Item tgt="1" addr="66" bit="12" note="予約"/>
+	<Item tgt="1" addr="66" bit="13" note="予約"/>
+	<Item tgt="1" addr="66" bit="14" note="予約"/>
+	<Item tgt="1" addr="66" bit="15" note="予約"/>
+	<Item tgt="1" addr="67" bit="0" note="予約"/>
+	<Item tgt="1" addr="67" bit="1" note="予約"/>
+	<Item tgt="1" addr="67" bit="2" note="予約"/>
+	<Item tgt="1" addr="67" bit="3" note="予約"/>
+	<Item tgt="1" addr="67" bit="4" note="予約"/>
+	<Item tgt="1" addr="67" bit="5" note="予約"/>
+	<Item tgt="1" addr="67" bit="6" note="予約"/>
+	<Item tgt="1" addr="67" bit="7" note="予約"/>
+	<Item tgt="1" addr="67" bit="8" note="予約"/>
+	<Item tgt="1" addr="67" bit="9" note="予約"/>
+	<Item tgt="1" addr="67" bit="10" note="予約"/>
+	<Item tgt="1" addr="67" bit="11" note="予約"/>
+	<Item tgt="1" addr="67" bit="12" note="予約"/>
+	<Item tgt="1" addr="67" bit="13" note="予約"/>
+	<Item tgt="1" addr="67" bit="14" note="予約"/>
+	<Item tgt="1" addr="67" bit="15" note="予約"/>
+	<Item tgt="1" addr="68" bit="0" nam="T2EMS" note="非常停止"/>
+	<Item tgt="1" addr="68" bit="1" nam="T2ONSW" note="オンスイッチ"/>
+	<Item tgt="1" addr="68" bit="2" nam="T2MFIN" note="Mコード読取完了"/>
+	<Item tgt="1" addr="68" bit="3" nam="T2MOK" note="Mコード正常終了"/>
+	<Item tgt="1" addr="68" bit="4" nam="T2RESET" note="リセット"/>
+	<Item tgt="1" addr="68" bit="5" nam="T2START" note="起動"/>
+	<Item tgt="1" addr="68" bit="6" nam="T2STOP" note="停止"/>
+	<Item tgt="1" addr="68" bit="7" nam="T2EXTALMA" note="外部アラームA"/>
+	<Item tgt="1" addr="68" bit="8" nam="T2EXTALMB" note="外部アラームB"/>
+	<Item tgt="1" addr="68" bit="9" nam="T2EXTALMC" note="外部アラームC"/>
+	<Item tgt="1" addr="68" bit="10" nam="T2OPT" note="オプショナルストップ&lt;無効&gt;"/>
+	<Item tgt="1" addr="68" bit="11" nam="T2RETURN" note="原点復帰"/>
+	<Item tgt="1" addr="68" bit="12" nam="T2CRCLR" note="原点設定"/>
+	<Item tgt="1" addr="68" bit="13" nam="T2REWND" note="リワインド"/>
+	<Item tgt="1" addr="68" bit="14" nam="T2VCAMSON" note="電子カムサイクル入力&lt;開発中&gt;"/>
+	<Item tgt="1" addr="68" bit="15" note="予約"/>
+	<Item tgt="1" addr="69" bit="0" note="予約"/>
+	<Item tgt="1" addr="69" bit="1" note="予約"/>
+	<Item tgt="1" addr="69" bit="2" note="予約"/>
+	<Item tgt="1" addr="69" bit="3" note="予約"/>
+	<Item tgt="1" addr="69" bit="4" note="予約"/>
+	<Item tgt="1" addr="69" bit="5" note="予約"/>
+	<Item tgt="1" addr="69" bit="6" note="予約"/>
+	<Item tgt="1" addr="69" bit="7" note="予約"/>
+	<Item tgt="1" addr="69" bit="8" note="予約"/>
+	<Item tgt="1" addr="69" bit="9" note="予約"/>
+	<Item tgt="1" addr="69" bit="10" note="予約"/>
+	<Item tgt="1" addr="69" bit="11" note="予約"/>
+	<Item tgt="1" addr="69" bit="12" note="予約"/>
+	<Item tgt="1" addr="69" bit="13" note="予約"/>
+	<Item tgt="1" addr="69" bit="14" note="予約"/>
+	<Item tgt="1" addr="69" bit="15" note="予約"/>
+	<Item tgt="1" addr="70" bit="0" nam="T2MP_ENABLE" note="パネル有効"/>
+	<Item tgt="1" addr="70" bit="1" nam="T2MP_MDSET" note="セッティングモード"/>
+	<Item tgt="1" addr="70" bit="2" nam="T2MP_MDAUTO" note="連続運転モード"/>
+	<Item tgt="1" addr="70" bit="3" nam="T2MP_MDDNC" note="DNCモード"/>
+	<Item tgt="1" addr="70" bit="4" nam="T2MP_MDSNGL" note="シングルステップモード"/>
+	<Item tgt="1" addr="70" bit="5" nam="T2MP_MDZRN" note="原点復帰モード"/>
+	<Item tgt="1" addr="70" bit="6" nam="T2MP_MDJOG" note="JOGモード"/>
+	<Item tgt="1" addr="70" bit="7" nam="T2MP_MDINCH" note="インチングモード"/>
+	<Item tgt="1" addr="70" bit="8" nam="T2MP_MDHNDL" note="手動パルサモード"/>
+	<Item tgt="1" addr="70" bit="9" nam="T2MP_MDOTDIS" note="OT無視モード"/>
+	<Item tgt="1" addr="70" bit="10" nam="T2MP_TEACH" note="ティーチング"/>
+	<Item tgt="1" addr="70" bit="11" note="予約"/>
+	<Item tgt="1" addr="70" bit="12" note="予約"/>
+	<Item tgt="1" addr="70" bit="13" note="予約"/>
+	<Item tgt="1" addr="70" bit="14" note="予約"/>
+	<Item tgt="1" addr="70" bit="15" note="予約"/>
+	<Item tgt="1" addr="71" bit="0" nam="T2MP_AXSEL0" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="71" bit="1" nam="T2MP_AXSEL1" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="71" bit="2" nam="T2MP_AXSEL2" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="71" bit="3" nam="T2MP_AXSEL3" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="71" bit="4" nam="T2MP_AXSEL4" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="71" bit="5" nam="T2MP_AXSEL5" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="71" bit="6" nam="T2MP_AXSEL6" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="71" bit="7" nam="T2MP_AXSEL7" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="71" bit="8" nam="T2MP_OVR0" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="71" bit="9" nam="T2MP_OVR1" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="71" bit="10" nam="T2MP_OVR2" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="71" bit="11" nam="T2MP_OVR3" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="71" bit="12" nam="T2MP_OVR4" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="71" bit="13" nam="T2MP_OVR5" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="71" bit="14" nam="T2MP_OVR6" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="71" bit="15" nam="T2MP_OVR7" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="72" bit="0" nam="T2MP_COVR0" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="72" bit="1" nam="T2MP_COVR1" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="72" bit="2" nam="T2MP_COVR2" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="72" bit="3" nam="T2MP_COVR3" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="72" bit="4" nam="T2MP_COVR4" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="72" bit="5" nam="T2MP_COVR5" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="72" bit="6" nam="T2MP_COVR6" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="72" bit="7" nam="T2MP_COVR7" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="72" bit="8" nam="T2MP_SOVR0" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="72" bit="9" nam="T2MP_SOVR1" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="72" bit="10" nam="T2MP_SOVR2" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="72" bit="11" nam="T2MP_SOVR3" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="72" bit="12" nam="T2MP_SOVR4" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="72" bit="13" nam="T2MP_SOVR5" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="72" bit="14" nam="T2MP_SOVR6" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="72" bit="15" nam="T2MP_SOVR7" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="73" bit="0" nam="T2MP_PSEL00" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="1" nam="T2MP_PSEL01" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="2" nam="T2MP_PSEL02" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="3" nam="T2MP_PSEL03" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="4" nam="T2MP_PSEL04" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="5" nam="T2MP_PSEL05" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="6" nam="T2MP_PSEL06" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="7" nam="T2MP_PSEL07" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="8" nam="T2MP_PSEL08" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="9" nam="T2MP_PSEL09" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="10" nam="T2MP_PSEL10" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="11" nam="T2MP_PSEL11" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="12" nam="T2MP_PSEL12" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="13" nam="T2MP_PSEL13" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="14" nam="T2MP_PSEL14" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="73" bit="15" nam="T2MP_PSEL15" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="74" bit="0" nam="T2MP_INCH0" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="74" bit="1" nam="T2MP_INCH1" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="74" bit="2" nam="T2MP_INCH2" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="74" bit="3" nam="T2MP_INCH3" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="74" bit="4" nam="T2MP_HSEL0" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="74" bit="5" nam="T2MP_HSEL1" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="74" bit="6" nam="T2MP_HSEL2" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="74" bit="7" nam="T2MP_HSEL3" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="74" bit="8" note="予約"/>
+	<Item tgt="1" addr="74" bit="9" note="予約"/>
+	<Item tgt="1" addr="74" bit="10" note="予約"/>
+	<Item tgt="1" addr="74" bit="11" note="予約"/>
+	<Item tgt="1" addr="74" bit="12" note="予約"/>
+	<Item tgt="1" addr="74" bit="13" note="予約"/>
+	<Item tgt="1" addr="74" bit="14" note="予約"/>
+	<Item tgt="1" addr="74" bit="15" note="予約"/>
+	<Item tgt="1" addr="75" bit="0" note="予約"/>
+	<Item tgt="1" addr="75" bit="1" note="予約"/>
+	<Item tgt="1" addr="75" bit="2" note="予約"/>
+	<Item tgt="1" addr="75" bit="3" note="予約"/>
+	<Item tgt="1" addr="75" bit="4" note="予約"/>
+	<Item tgt="1" addr="75" bit="5" note="予約"/>
+	<Item tgt="1" addr="75" bit="6" note="予約"/>
+	<Item tgt="1" addr="75" bit="7" note="予約"/>
+	<Item tgt="1" addr="75" bit="8" note="予約"/>
+	<Item tgt="1" addr="75" bit="9" note="予約"/>
+	<Item tgt="1" addr="75" bit="10" note="予約"/>
+	<Item tgt="1" addr="75" bit="11" note="予約"/>
+	<Item tgt="1" addr="75" bit="12" note="予約"/>
+	<Item tgt="1" addr="75" bit="13" note="予約"/>
+	<Item tgt="1" addr="75" bit="14" note="予約"/>
+	<Item tgt="1" addr="75" bit="15" note="予約"/>
+	<Item tgt="1" addr="76" bit="0" nam="T3EMS" note="非常停止"/>
+	<Item tgt="1" addr="76" bit="1" nam="T3ONSW" note="オンスイッチ"/>
+	<Item tgt="1" addr="76" bit="2" nam="T3MFIN" note="Mコード読取完了"/>
+	<Item tgt="1" addr="76" bit="3" nam="T3MOK" note="Mコード正常終了"/>
+	<Item tgt="1" addr="76" bit="4" nam="T3RESET" note="リセット"/>
+	<Item tgt="1" addr="76" bit="5" nam="T3START" note="起動"/>
+	<Item tgt="1" addr="76" bit="6" nam="T3STOP" note="停止"/>
+	<Item tgt="1" addr="76" bit="7" nam="T3EXTALMA" note="外部アラームA"/>
+	<Item tgt="1" addr="76" bit="8" nam="T3EXTALMB" note="外部アラームB"/>
+	<Item tgt="1" addr="76" bit="9" nam="T3EXTALMC" note="外部アラームC"/>
+	<Item tgt="1" addr="76" bit="10" nam="T3OPT" note="オプショナルストップ&lt;無効&gt;"/>
+	<Item tgt="1" addr="76" bit="11" nam="T3RETURN" note="原点復帰"/>
+	<Item tgt="1" addr="76" bit="12" nam="T3CRCLR" note="原点設定"/>
+	<Item tgt="1" addr="76" bit="13" nam="T3REWND" note="リワインド"/>
+	<Item tgt="1" addr="76" bit="14" nam="T3VCAMSON" note="電子カムサイクル入力&lt;開発中&gt;"/>
+	<Item tgt="1" addr="76" bit="15" note="予約"/>
+	<Item tgt="1" addr="77" bit="0" note="予約"/>
+	<Item tgt="1" addr="77" bit="1" note="予約"/>
+	<Item tgt="1" addr="77" bit="2" note="予約"/>
+	<Item tgt="1" addr="77" bit="3" note="予約"/>
+	<Item tgt="1" addr="77" bit="4" note="予約"/>
+	<Item tgt="1" addr="77" bit="5" note="予約"/>
+	<Item tgt="1" addr="77" bit="6" note="予約"/>
+	<Item tgt="1" addr="77" bit="7" note="予約"/>
+	<Item tgt="1" addr="77" bit="8" note="予約"/>
+	<Item tgt="1" addr="77" bit="9" note="予約"/>
+	<Item tgt="1" addr="77" bit="10" note="予約"/>
+	<Item tgt="1" addr="77" bit="11" note="予約"/>
+	<Item tgt="1" addr="77" bit="12" note="予約"/>
+	<Item tgt="1" addr="77" bit="13" note="予約"/>
+	<Item tgt="1" addr="77" bit="14" note="予約"/>
+	<Item tgt="1" addr="77" bit="15" note="予約"/>
+	<Item tgt="1" addr="78" bit="0" nam="T3MP_ENABLE" note="パネル有効"/>
+	<Item tgt="1" addr="78" bit="1" nam="T3MP_MDSET" note="セッティングモード"/>
+	<Item tgt="1" addr="78" bit="2" nam="T3MP_MDAUTO" note="連続運転モード"/>
+	<Item tgt="1" addr="78" bit="3" nam="T3MP_MDDNC" note="DNCモード"/>
+	<Item tgt="1" addr="78" bit="4" nam="T3MP_MDSNGL" note="シングルステップモード"/>
+	<Item tgt="1" addr="78" bit="5" nam="T3MP_MDZRN" note="原点復帰モード"/>
+	<Item tgt="1" addr="78" bit="6" nam="T3MP_MDJOG" note="JOGモード"/>
+	<Item tgt="1" addr="78" bit="7" nam="T3MP_MDINCH" note="インチングモード"/>
+	<Item tgt="1" addr="78" bit="8" nam="T3MP_MDHNDL" note="手動パルサモード"/>
+	<Item tgt="1" addr="78" bit="9" nam="T3MP_MDOTDIS" note="OT無視モード"/>
+	<Item tgt="1" addr="78" bit="10" nam="T3MP_TEACH" note="ティーチング"/>
+	<Item tgt="1" addr="78" bit="11" note="予約"/>
+	<Item tgt="1" addr="78" bit="12" note="予約"/>
+	<Item tgt="1" addr="78" bit="13" note="予約"/>
+	<Item tgt="1" addr="78" bit="14" note="予約"/>
+	<Item tgt="1" addr="78" bit="15" note="予約"/>
+	<Item tgt="1" addr="79" bit="0" nam="T3MP_AXSEL0" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="79" bit="1" nam="T3MP_AXSEL1" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="79" bit="2" nam="T3MP_AXSEL2" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="79" bit="3" nam="T3MP_AXSEL3" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="79" bit="4" nam="T3MP_AXSEL4" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="79" bit="5" nam="T3MP_AXSEL5" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="79" bit="6" nam="T3MP_AXSEL6" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="79" bit="7" nam="T3MP_AXSEL7" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="79" bit="8" nam="T3MP_OVR0" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="79" bit="9" nam="T3MP_OVR1" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="79" bit="10" nam="T3MP_OVR2" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="79" bit="11" nam="T3MP_OVR3" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="79" bit="12" nam="T3MP_OVR4" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="79" bit="13" nam="T3MP_OVR5" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="79" bit="14" nam="T3MP_OVR6" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="79" bit="15" nam="T3MP_OVR7" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="80" bit="0" nam="T3MP_COVR0" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="80" bit="1" nam="T3MP_COVR1" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="80" bit="2" nam="T3MP_COVR2" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="80" bit="3" nam="T3MP_COVR3" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="80" bit="4" nam="T3MP_COVR4" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="80" bit="5" nam="T3MP_COVR5" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="80" bit="6" nam="T3MP_COVR6" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="80" bit="7" nam="T3MP_COVR7" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="80" bit="8" nam="T3MP_SOVR0" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="80" bit="9" nam="T3MP_SOVR1" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="80" bit="10" nam="T3MP_SOVR2" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="80" bit="11" nam="T3MP_SOVR3" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="80" bit="12" nam="T3MP_SOVR4" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="80" bit="13" nam="T3MP_SOVR5" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="80" bit="14" nam="T3MP_SOVR6" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="80" bit="15" nam="T3MP_SOVR7" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="81" bit="0" nam="T3MP_PSEL00" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="1" nam="T3MP_PSEL01" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="2" nam="T3MP_PSEL02" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="3" nam="T3MP_PSEL03" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="4" nam="T3MP_PSEL04" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="5" nam="T3MP_PSEL05" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="6" nam="T3MP_PSEL06" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="7" nam="T3MP_PSEL07" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="8" nam="T3MP_PSEL08" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="9" nam="T3MP_PSEL09" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="10" nam="T3MP_PSEL10" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="11" nam="T3MP_PSEL11" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="12" nam="T3MP_PSEL12" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="13" nam="T3MP_PSEL13" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="14" nam="T3MP_PSEL14" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="81" bit="15" nam="T3MP_PSEL15" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="82" bit="0" nam="T3MP_INCH0" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="82" bit="1" nam="T3MP_INCH1" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="82" bit="2" nam="T3MP_INCH2" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="82" bit="3" nam="T3MP_INCH3" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="82" bit="4" nam="T3MP_HSEL0" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="82" bit="5" nam="T3MP_HSEL1" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="82" bit="6" nam="T3MP_HSEL2" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="82" bit="7" nam="T3MP_HSEL3" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="82" bit="8" note="予約"/>
+	<Item tgt="1" addr="82" bit="9" note="予約"/>
+	<Item tgt="1" addr="82" bit="10" note="予約"/>
+	<Item tgt="1" addr="82" bit="11" note="予約"/>
+	<Item tgt="1" addr="82" bit="12" note="予約"/>
+	<Item tgt="1" addr="82" bit="13" note="予約"/>
+	<Item tgt="1" addr="82" bit="14" note="予約"/>
+	<Item tgt="1" addr="82" bit="15" note="予約"/>
+	<Item tgt="1" addr="83" bit="0" note="予約"/>
+	<Item tgt="1" addr="83" bit="1" note="予約"/>
+	<Item tgt="1" addr="83" bit="2" note="予約"/>
+	<Item tgt="1" addr="83" bit="3" note="予約"/>
+	<Item tgt="1" addr="83" bit="4" note="予約"/>
+	<Item tgt="1" addr="83" bit="5" note="予約"/>
+	<Item tgt="1" addr="83" bit="6" note="予約"/>
+	<Item tgt="1" addr="83" bit="7" note="予約"/>
+	<Item tgt="1" addr="83" bit="8" note="予約"/>
+	<Item tgt="1" addr="83" bit="9" note="予約"/>
+	<Item tgt="1" addr="83" bit="10" note="予約"/>
+	<Item tgt="1" addr="83" bit="11" note="予約"/>
+	<Item tgt="1" addr="83" bit="12" note="予約"/>
+	<Item tgt="1" addr="83" bit="13" note="予約"/>
+	<Item tgt="1" addr="83" bit="14" note="予約"/>
+	<Item tgt="1" addr="83" bit="15" note="予約"/>
+	<Item tgt="1" addr="84" bit="0" nam="T4EMS" note="非常停止"/>
+	<Item tgt="1" addr="84" bit="1" nam="T4ONSW" note="オンスイッチ"/>
+	<Item tgt="1" addr="84" bit="2" nam="T4MFIN" note="Mコード読取完了"/>
+	<Item tgt="1" addr="84" bit="3" nam="T4MOK" note="Mコード正常終了"/>
+	<Item tgt="1" addr="84" bit="4" nam="T4RESET" note="リセット"/>
+	<Item tgt="1" addr="84" bit="5" nam="T4START" note="起動"/>
+	<Item tgt="1" addr="84" bit="6" nam="T4STOP" note="停止"/>
+	<Item tgt="1" addr="84" bit="7" nam="T4EXTALMA" note="外部アラームA"/>
+	<Item tgt="1" addr="84" bit="8" nam="T4EXTALMB" note="外部アラームB"/>
+	<Item tgt="1" addr="84" bit="9" nam="T4EXTALMC" note="外部アラームC"/>
+	<Item tgt="1" addr="84" bit="10" nam="T4OPT" note="オプショナルストップ&lt;無効&gt;"/>
+	<Item tgt="1" addr="84" bit="11" nam="T4RETURN" note="原点復帰"/>
+	<Item tgt="1" addr="84" bit="12" nam="T4CRCLR" note="原点設定"/>
+	<Item tgt="1" addr="84" bit="13" nam="T4REWND" note="リワインド"/>
+	<Item tgt="1" addr="84" bit="14" nam="T4VCAMSON" note="電子カムサイクル入力&lt;開発中&gt;"/>
+	<Item tgt="1" addr="84" bit="15" note="予約"/>
+	<Item tgt="1" addr="85" bit="0" note="予約"/>
+	<Item tgt="1" addr="85" bit="1" note="予約"/>
+	<Item tgt="1" addr="85" bit="2" note="予約"/>
+	<Item tgt="1" addr="85" bit="3" note="予約"/>
+	<Item tgt="1" addr="85" bit="4" note="予約"/>
+	<Item tgt="1" addr="85" bit="5" note="予約"/>
+	<Item tgt="1" addr="85" bit="6" note="予約"/>
+	<Item tgt="1" addr="85" bit="7" note="予約"/>
+	<Item tgt="1" addr="85" bit="8" note="予約"/>
+	<Item tgt="1" addr="85" bit="9" note="予約"/>
+	<Item tgt="1" addr="85" bit="10" note="予約"/>
+	<Item tgt="1" addr="85" bit="11" note="予約"/>
+	<Item tgt="1" addr="85" bit="12" note="予約"/>
+	<Item tgt="1" addr="85" bit="13" note="予約"/>
+	<Item tgt="1" addr="85" bit="14" note="予約"/>
+	<Item tgt="1" addr="85" bit="15" note="予約"/>
+	<Item tgt="1" addr="86" bit="0" nam="T4MP_ENABLE" note="パネル有効"/>
+	<Item tgt="1" addr="86" bit="1" nam="T4MP_MDSET" note="セッティングモード"/>
+	<Item tgt="1" addr="86" bit="2" nam="T4MP_MDAUTO" note="連続運転モード"/>
+	<Item tgt="1" addr="86" bit="3" nam="T4MP_MDDNC" note="DNCモード"/>
+	<Item tgt="1" addr="86" bit="4" nam="T4MP_MDSNGL" note="シングルステップモード"/>
+	<Item tgt="1" addr="86" bit="5" nam="T4MP_MDZRN" note="原点復帰モード"/>
+	<Item tgt="1" addr="86" bit="6" nam="T4MP_MDJOG" note="JOGモード"/>
+	<Item tgt="1" addr="86" bit="7" nam="T4MP_MDINCH" note="インチングモード"/>
+	<Item tgt="1" addr="86" bit="8" nam="T4MP_MDHNDL" note="手動パルサモード"/>
+	<Item tgt="1" addr="86" bit="9" nam="T4MP_MDOTDIS" note="OT無視モード"/>
+	<Item tgt="1" addr="86" bit="10" nam="T4MP_TEACH" note="ティーチング"/>
+	<Item tgt="1" addr="86" bit="11" note="予約"/>
+	<Item tgt="1" addr="86" bit="12" note="予約"/>
+	<Item tgt="1" addr="86" bit="13" note="予約"/>
+	<Item tgt="1" addr="86" bit="14" note="予約"/>
+	<Item tgt="1" addr="86" bit="15" note="予約"/>
+	<Item tgt="1" addr="87" bit="0" nam="T4MP_AXSEL0" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="87" bit="1" nam="T4MP_AXSEL1" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="87" bit="2" nam="T4MP_AXSEL2" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="87" bit="3" nam="T4MP_AXSEL3" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="87" bit="4" nam="T4MP_AXSEL4" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="87" bit="5" nam="T4MP_AXSEL5" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="87" bit="6" nam="T4MP_AXSEL6" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="87" bit="7" nam="T4MP_AXSEL7" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="87" bit="8" nam="T4MP_OVR0" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="87" bit="9" nam="T4MP_OVR1" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="87" bit="10" nam="T4MP_OVR2" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="87" bit="11" nam="T4MP_OVR3" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="87" bit="12" nam="T4MP_OVR4" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="87" bit="13" nam="T4MP_OVR5" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="87" bit="14" nam="T4MP_OVR6" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="87" bit="15" nam="T4MP_OVR7" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="88" bit="0" nam="T4MP_COVR0" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="88" bit="1" nam="T4MP_COVR1" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="88" bit="2" nam="T4MP_COVR2" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="88" bit="3" nam="T4MP_COVR3" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="88" bit="4" nam="T4MP_COVR4" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="88" bit="5" nam="T4MP_COVR5" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="88" bit="6" nam="T4MP_COVR6" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="88" bit="7" nam="T4MP_COVR7" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="88" bit="8" nam="T4MP_SOVR0" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="88" bit="9" nam="T4MP_SOVR1" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="88" bit="10" nam="T4MP_SOVR2" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="88" bit="11" nam="T4MP_SOVR3" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="88" bit="12" nam="T4MP_SOVR4" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="88" bit="13" nam="T4MP_SOVR5" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="88" bit="14" nam="T4MP_SOVR6" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="88" bit="15" nam="T4MP_SOVR7" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="89" bit="0" nam="T4MP_PSEL00" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="1" nam="T4MP_PSEL01" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="2" nam="T4MP_PSEL02" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="3" nam="T4MP_PSEL03" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="4" nam="T4MP_PSEL04" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="5" nam="T4MP_PSEL05" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="6" nam="T4MP_PSEL06" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="7" nam="T4MP_PSEL07" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="8" nam="T4MP_PSEL08" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="9" nam="T4MP_PSEL09" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="10" nam="T4MP_PSEL10" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="11" nam="T4MP_PSEL11" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="12" nam="T4MP_PSEL12" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="13" nam="T4MP_PSEL13" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="14" nam="T4MP_PSEL14" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="89" bit="15" nam="T4MP_PSEL15" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="90" bit="0" nam="T4MP_INCH0" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="90" bit="1" nam="T4MP_INCH1" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="90" bit="2" nam="T4MP_INCH2" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="90" bit="3" nam="T4MP_INCH3" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="90" bit="4" nam="T4MP_HSEL0" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="90" bit="5" nam="T4MP_HSEL1" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="90" bit="6" nam="T4MP_HSEL2" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="90" bit="7" nam="T4MP_HSEL3" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="90" bit="8" note="予約"/>
+	<Item tgt="1" addr="90" bit="9" note="予約"/>
+	<Item tgt="1" addr="90" bit="10" note="予約"/>
+	<Item tgt="1" addr="90" bit="11" note="予約"/>
+	<Item tgt="1" addr="90" bit="12" note="予約"/>
+	<Item tgt="1" addr="90" bit="13" note="予約"/>
+	<Item tgt="1" addr="90" bit="14" note="予約"/>
+	<Item tgt="1" addr="90" bit="15" note="予約"/>
+	<Item tgt="1" addr="91" bit="0" note="予約"/>
+	<Item tgt="1" addr="91" bit="1" note="予約"/>
+	<Item tgt="1" addr="91" bit="2" note="予約"/>
+	<Item tgt="1" addr="91" bit="3" note="予約"/>
+	<Item tgt="1" addr="91" bit="4" note="予約"/>
+	<Item tgt="1" addr="91" bit="5" note="予約"/>
+	<Item tgt="1" addr="91" bit="6" note="予約"/>
+	<Item tgt="1" addr="91" bit="7" note="予約"/>
+	<Item tgt="1" addr="91" bit="8" note="予約"/>
+	<Item tgt="1" addr="91" bit="9" note="予約"/>
+	<Item tgt="1" addr="91" bit="10" note="予約"/>
+	<Item tgt="1" addr="91" bit="11" note="予約"/>
+	<Item tgt="1" addr="91" bit="12" note="予約"/>
+	<Item tgt="1" addr="91" bit="13" note="予約"/>
+	<Item tgt="1" addr="91" bit="14" note="予約"/>
+	<Item tgt="1" addr="91" bit="15" note="予約"/>
+	<Item tgt="1" addr="92" bit="0" nam="T5EMS" note="非常停止"/>
+	<Item tgt="1" addr="92" bit="1" nam="T5ONSW" note="オンスイッチ"/>
+	<Item tgt="1" addr="92" bit="2" nam="T5MFIN" note="Mコード読取完了"/>
+	<Item tgt="1" addr="92" bit="3" nam="T5MOK" note="Mコード正常終了"/>
+	<Item tgt="1" addr="92" bit="4" nam="T5RESET" note="リセット"/>
+	<Item tgt="1" addr="92" bit="5" nam="T5START" note="起動"/>
+	<Item tgt="1" addr="92" bit="6" nam="T5STOP" note="停止"/>
+	<Item tgt="1" addr="92" bit="7" nam="T5EXTALMA" note="外部アラームA"/>
+	<Item tgt="1" addr="92" bit="8" nam="T5EXTALMB" note="外部アラームB"/>
+	<Item tgt="1" addr="92" bit="9" nam="T5EXTALMC" note="外部アラームC"/>
+	<Item tgt="1" addr="92" bit="10" nam="T5OPT" note="オプショナルストップ&lt;無効&gt;"/>
+	<Item tgt="1" addr="92" bit="11" nam="T5RETURN" note="原点復帰"/>
+	<Item tgt="1" addr="92" bit="12" nam="T5CRCLR" note="原点設定"/>
+	<Item tgt="1" addr="92" bit="13" nam="T5REWND" note="リワインド"/>
+	<Item tgt="1" addr="92" bit="14" nam="T5VCAMSON" note="電子カムサイクル入力&lt;開発中&gt;"/>
+	<Item tgt="1" addr="92" bit="15" note="予約"/>
+	<Item tgt="1" addr="93" bit="0" note="予約"/>
+	<Item tgt="1" addr="93" bit="1" note="予約"/>
+	<Item tgt="1" addr="93" bit="2" note="予約"/>
+	<Item tgt="1" addr="93" bit="3" note="予約"/>
+	<Item tgt="1" addr="93" bit="4" note="予約"/>
+	<Item tgt="1" addr="93" bit="5" note="予約"/>
+	<Item tgt="1" addr="93" bit="6" note="予約"/>
+	<Item tgt="1" addr="93" bit="7" note="予約"/>
+	<Item tgt="1" addr="93" bit="8" note="予約"/>
+	<Item tgt="1" addr="93" bit="9" note="予約"/>
+	<Item tgt="1" addr="93" bit="10" note="予約"/>
+	<Item tgt="1" addr="93" bit="11" note="予約"/>
+	<Item tgt="1" addr="93" bit="12" note="予約"/>
+	<Item tgt="1" addr="93" bit="13" note="予約"/>
+	<Item tgt="1" addr="93" bit="14" note="予約"/>
+	<Item tgt="1" addr="93" bit="15" note="予約"/>
+	<Item tgt="1" addr="94" bit="0" nam="T5MP_ENABLE" note="パネル有効"/>
+	<Item tgt="1" addr="94" bit="1" nam="T5MP_MDSET" note="セッティングモード"/>
+	<Item tgt="1" addr="94" bit="2" nam="T5MP_MDAUTO" note="連続運転モード"/>
+	<Item tgt="1" addr="94" bit="3" nam="T5MP_MDDNC" note="DNCモード"/>
+	<Item tgt="1" addr="94" bit="4" nam="T5MP_MDSNGL" note="シングルステップモード"/>
+	<Item tgt="1" addr="94" bit="5" nam="T5MP_MDZRN" note="原点復帰モード"/>
+	<Item tgt="1" addr="94" bit="6" nam="T5MP_MDJOG" note="JOGモード"/>
+	<Item tgt="1" addr="94" bit="7" nam="T5MP_MDINCH" note="インチングモード"/>
+	<Item tgt="1" addr="94" bit="8" nam="T5MP_MDHNDL" note="手動パルサモード"/>
+	<Item tgt="1" addr="94" bit="9" nam="T5MP_MDOTDIS" note="OT無視モード"/>
+	<Item tgt="1" addr="94" bit="10" nam="T5MP_TEACH" note="ティーチング"/>
+	<Item tgt="1" addr="94" bit="11" note="予約"/>
+	<Item tgt="1" addr="94" bit="12" note="予約"/>
+	<Item tgt="1" addr="94" bit="13" note="予約"/>
+	<Item tgt="1" addr="94" bit="14" note="予約"/>
+	<Item tgt="1" addr="94" bit="15" note="予約"/>
+	<Item tgt="1" addr="95" bit="0" nam="T5MP_AXSEL0" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="95" bit="1" nam="T5MP_AXSEL1" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="95" bit="2" nam="T5MP_AXSEL2" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="95" bit="3" nam="T5MP_AXSEL3" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="95" bit="4" nam="T5MP_AXSEL4" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="95" bit="5" nam="T5MP_AXSEL5" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="95" bit="6" nam="T5MP_AXSEL6" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="95" bit="7" nam="T5MP_AXSEL7" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="95" bit="8" nam="T5MP_OVR0" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="95" bit="9" nam="T5MP_OVR1" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="95" bit="10" nam="T5MP_OVR2" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="95" bit="11" nam="T5MP_OVR3" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="95" bit="12" nam="T5MP_OVR4" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="95" bit="13" nam="T5MP_OVR5" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="95" bit="14" nam="T5MP_OVR6" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="95" bit="15" nam="T5MP_OVR7" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="96" bit="0" nam="T5MP_COVR0" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="96" bit="1" nam="T5MP_COVR1" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="96" bit="2" nam="T5MP_COVR2" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="96" bit="3" nam="T5MP_COVR3" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="96" bit="4" nam="T5MP_COVR4" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="96" bit="5" nam="T5MP_COVR5" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="96" bit="6" nam="T5MP_COVR6" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="96" bit="7" nam="T5MP_COVR7" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="96" bit="8" nam="T5MP_SOVR0" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="96" bit="9" nam="T5MP_SOVR1" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="96" bit="10" nam="T5MP_SOVR2" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="96" bit="11" nam="T5MP_SOVR3" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="96" bit="12" nam="T5MP_SOVR4" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="96" bit="13" nam="T5MP_SOVR5" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="96" bit="14" nam="T5MP_SOVR6" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="96" bit="15" nam="T5MP_SOVR7" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="97" bit="0" nam="T5MP_PSEL00" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="1" nam="T5MP_PSEL01" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="2" nam="T5MP_PSEL02" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="3" nam="T5MP_PSEL03" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="4" nam="T5MP_PSEL04" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="5" nam="T5MP_PSEL05" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="6" nam="T5MP_PSEL06" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="7" nam="T5MP_PSEL07" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="8" nam="T5MP_PSEL08" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="9" nam="T5MP_PSEL09" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="10" nam="T5MP_PSEL10" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="11" nam="T5MP_PSEL11" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="12" nam="T5MP_PSEL12" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="13" nam="T5MP_PSEL13" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="14" nam="T5MP_PSEL14" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="97" bit="15" nam="T5MP_PSEL15" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="98" bit="0" nam="T5MP_INCH0" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="98" bit="1" nam="T5MP_INCH1" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="98" bit="2" nam="T5MP_INCH2" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="98" bit="3" nam="T5MP_INCH3" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="98" bit="4" nam="T5MP_HSEL0" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="98" bit="5" nam="T5MP_HSEL1" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="98" bit="6" nam="T5MP_HSEL2" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="98" bit="7" nam="T5MP_HSEL3" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="98" bit="8" note="予約"/>
+	<Item tgt="1" addr="98" bit="9" note="予約"/>
+	<Item tgt="1" addr="98" bit="10" note="予約"/>
+	<Item tgt="1" addr="98" bit="11" note="予約"/>
+	<Item tgt="1" addr="98" bit="12" note="予約"/>
+	<Item tgt="1" addr="98" bit="13" note="予約"/>
+	<Item tgt="1" addr="98" bit="14" note="予約"/>
+	<Item tgt="1" addr="98" bit="15" note="予約"/>
+	<Item tgt="1" addr="99" bit="0" note="予約"/>
+	<Item tgt="1" addr="99" bit="1" note="予約"/>
+	<Item tgt="1" addr="99" bit="2" note="予約"/>
+	<Item tgt="1" addr="99" bit="3" note="予約"/>
+	<Item tgt="1" addr="99" bit="4" note="予約"/>
+	<Item tgt="1" addr="99" bit="5" note="予約"/>
+	<Item tgt="1" addr="99" bit="6" note="予約"/>
+	<Item tgt="1" addr="99" bit="7" note="予約"/>
+	<Item tgt="1" addr="99" bit="8" note="予約"/>
+	<Item tgt="1" addr="99" bit="9" note="予約"/>
+	<Item tgt="1" addr="99" bit="10" note="予約"/>
+	<Item tgt="1" addr="99" bit="11" note="予約"/>
+	<Item tgt="1" addr="99" bit="12" note="予約"/>
+	<Item tgt="1" addr="99" bit="13" note="予約"/>
+	<Item tgt="1" addr="99" bit="14" note="予約"/>
+	<Item tgt="1" addr="99" bit="15" note="予約"/>
+	<Item tgt="1" addr="100" bit="0" nam="T6EMS" note="非常停止"/>
+	<Item tgt="1" addr="100" bit="1" nam="T6ONSW" note="オンスイッチ"/>
+	<Item tgt="1" addr="100" bit="2" nam="T6MFIN" note="Mコード読取完了"/>
+	<Item tgt="1" addr="100" bit="3" nam="T6MOK" note="Mコード正常終了"/>
+	<Item tgt="1" addr="100" bit="4" nam="T6RESET" note="リセット"/>
+	<Item tgt="1" addr="100" bit="5" nam="T6START" note="起動"/>
+	<Item tgt="1" addr="100" bit="6" nam="T6STOP" note="停止"/>
+	<Item tgt="1" addr="100" bit="7" nam="T6EXTALMA" note="外部アラームA"/>
+	<Item tgt="1" addr="100" bit="8" nam="T6EXTALMB" note="外部アラームB"/>
+	<Item tgt="1" addr="100" bit="9" nam="T6EXTALMC" note="外部アラームC"/>
+	<Item tgt="1" addr="100" bit="10" nam="T6OPT" note="オプショナルストップ&lt;無効&gt;"/>
+	<Item tgt="1" addr="100" bit="11" nam="T6RETURN" note="原点復帰"/>
+	<Item tgt="1" addr="100" bit="12" nam="T6CRCLR" note="原点設定"/>
+	<Item tgt="1" addr="100" bit="13" nam="T6REWND" note="リワインド"/>
+	<Item tgt="1" addr="100" bit="14" nam="T6VCAMSON" note="電子カムサイクル入力&lt;開発中&gt;"/>
+	<Item tgt="1" addr="100" bit="15" note="予約"/>
+	<Item tgt="1" addr="101" bit="0" note="予約"/>
+	<Item tgt="1" addr="101" bit="1" note="予約"/>
+	<Item tgt="1" addr="101" bit="2" note="予約"/>
+	<Item tgt="1" addr="101" bit="3" note="予約"/>
+	<Item tgt="1" addr="101" bit="4" note="予約"/>
+	<Item tgt="1" addr="101" bit="5" note="予約"/>
+	<Item tgt="1" addr="101" bit="6" note="予約"/>
+	<Item tgt="1" addr="101" bit="7" note="予約"/>
+	<Item tgt="1" addr="101" bit="8" note="予約"/>
+	<Item tgt="1" addr="101" bit="9" note="予約"/>
+	<Item tgt="1" addr="101" bit="10" note="予約"/>
+	<Item tgt="1" addr="101" bit="11" note="予約"/>
+	<Item tgt="1" addr="101" bit="12" note="予約"/>
+	<Item tgt="1" addr="101" bit="13" note="予約"/>
+	<Item tgt="1" addr="101" bit="14" note="予約"/>
+	<Item tgt="1" addr="101" bit="15" note="予約"/>
+	<Item tgt="1" addr="102" bit="0" nam="T6MP_ENABLE" note="パネル有効"/>
+	<Item tgt="1" addr="102" bit="1" nam="T6MP_MDSET" note="セッティングモード"/>
+	<Item tgt="1" addr="102" bit="2" nam="T6MP_MDAUTO" note="連続運転モード"/>
+	<Item tgt="1" addr="102" bit="3" nam="T6MP_MDDNC" note="DNCモード"/>
+	<Item tgt="1" addr="102" bit="4" nam="T6MP_MDSNGL" note="シングルステップモード"/>
+	<Item tgt="1" addr="102" bit="5" nam="T6MP_MDZRN" note="原点復帰モード"/>
+	<Item tgt="1" addr="102" bit="6" nam="T6MP_MDJOG" note="JOGモード"/>
+	<Item tgt="1" addr="102" bit="7" nam="T6MP_MDINCH" note="インチングモード"/>
+	<Item tgt="1" addr="102" bit="8" nam="T6MP_MDHNDL" note="手動パルサモード"/>
+	<Item tgt="1" addr="102" bit="9" nam="T6MP_MDOTDIS" note="OT無視モード"/>
+	<Item tgt="1" addr="102" bit="10" nam="T6MP_TEACH" note="ティーチング"/>
+	<Item tgt="1" addr="102" bit="11" note="予約"/>
+	<Item tgt="1" addr="102" bit="12" note="予約"/>
+	<Item tgt="1" addr="102" bit="13" note="予約"/>
+	<Item tgt="1" addr="102" bit="14" note="予約"/>
+	<Item tgt="1" addr="102" bit="15" note="予約"/>
+	<Item tgt="1" addr="103" bit="0" nam="T6MP_AXSEL0" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="103" bit="1" nam="T6MP_AXSEL1" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="103" bit="2" nam="T6MP_AXSEL2" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="103" bit="3" nam="T6MP_AXSEL3" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="103" bit="4" nam="T6MP_AXSEL4" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="103" bit="5" nam="T6MP_AXSEL5" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="103" bit="6" nam="T6MP_AXSEL6" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="103" bit="7" nam="T6MP_AXSEL7" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="103" bit="8" nam="T6MP_OVR0" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="103" bit="9" nam="T6MP_OVR1" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="103" bit="10" nam="T6MP_OVR2" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="103" bit="11" nam="T6MP_OVR3" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="103" bit="12" nam="T6MP_OVR4" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="103" bit="13" nam="T6MP_OVR5" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="103" bit="14" nam="T6MP_OVR6" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="103" bit="15" nam="T6MP_OVR7" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="104" bit="0" nam="T6MP_COVR0" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="104" bit="1" nam="T6MP_COVR1" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="104" bit="2" nam="T6MP_COVR2" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="104" bit="3" nam="T6MP_COVR3" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="104" bit="4" nam="T6MP_COVR4" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="104" bit="5" nam="T6MP_COVR5" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="104" bit="6" nam="T6MP_COVR6" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="104" bit="7" nam="T6MP_COVR7" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="104" bit="8" nam="T6MP_SOVR0" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="104" bit="9" nam="T6MP_SOVR1" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="104" bit="10" nam="T6MP_SOVR2" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="104" bit="11" nam="T6MP_SOVR3" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="104" bit="12" nam="T6MP_SOVR4" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="104" bit="13" nam="T6MP_SOVR5" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="104" bit="14" nam="T6MP_SOVR6" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="104" bit="15" nam="T6MP_SOVR7" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="105" bit="0" nam="T6MP_PSEL00" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="1" nam="T6MP_PSEL01" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="2" nam="T6MP_PSEL02" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="3" nam="T6MP_PSEL03" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="4" nam="T6MP_PSEL04" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="5" nam="T6MP_PSEL05" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="6" nam="T6MP_PSEL06" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="7" nam="T6MP_PSEL07" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="8" nam="T6MP_PSEL08" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="9" nam="T6MP_PSEL09" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="10" nam="T6MP_PSEL10" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="11" nam="T6MP_PSEL11" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="12" nam="T6MP_PSEL12" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="13" nam="T6MP_PSEL13" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="14" nam="T6MP_PSEL14" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="105" bit="15" nam="T6MP_PSEL15" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="106" bit="0" nam="T6MP_INCH0" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="106" bit="1" nam="T6MP_INCH1" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="106" bit="2" nam="T6MP_INCH2" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="106" bit="3" nam="T6MP_INCH3" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="106" bit="4" nam="T6MP_HSEL0" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="106" bit="5" nam="T6MP_HSEL1" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="106" bit="6" nam="T6MP_HSEL2" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="106" bit="7" nam="T6MP_HSEL3" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="106" bit="8" note="予約"/>
+	<Item tgt="1" addr="106" bit="9" note="予約"/>
+	<Item tgt="1" addr="106" bit="10" note="予約"/>
+	<Item tgt="1" addr="106" bit="11" note="予約"/>
+	<Item tgt="1" addr="106" bit="12" note="予約"/>
+	<Item tgt="1" addr="106" bit="13" note="予約"/>
+	<Item tgt="1" addr="106" bit="14" note="予約"/>
+	<Item tgt="1" addr="106" bit="15" note="予約"/>
+	<Item tgt="1" addr="107" bit="0" note="予約"/>
+	<Item tgt="1" addr="107" bit="1" note="予約"/>
+	<Item tgt="1" addr="107" bit="2" note="予約"/>
+	<Item tgt="1" addr="107" bit="3" note="予約"/>
+	<Item tgt="1" addr="107" bit="4" note="予約"/>
+	<Item tgt="1" addr="107" bit="5" note="予約"/>
+	<Item tgt="1" addr="107" bit="6" note="予約"/>
+	<Item tgt="1" addr="107" bit="7" note="予約"/>
+	<Item tgt="1" addr="107" bit="8" note="予約"/>
+	<Item tgt="1" addr="107" bit="9" note="予約"/>
+	<Item tgt="1" addr="107" bit="10" note="予約"/>
+	<Item tgt="1" addr="107" bit="11" note="予約"/>
+	<Item tgt="1" addr="107" bit="12" note="予約"/>
+	<Item tgt="1" addr="107" bit="13" note="予約"/>
+	<Item tgt="1" addr="107" bit="14" note="予約"/>
+	<Item tgt="1" addr="107" bit="15" note="予約"/>
+	<Item tgt="1" addr="108" bit="0" nam="T7EMS" note="非常停止"/>
+	<Item tgt="1" addr="108" bit="1" nam="T7ONSW" note="オンスイッチ"/>
+	<Item tgt="1" addr="108" bit="2" nam="T7MFIN" note="Mコード読取完了"/>
+	<Item tgt="1" addr="108" bit="3" nam="T7MOK" note="Mコード正常終了"/>
+	<Item tgt="1" addr="108" bit="4" nam="T7RESET" note="リセット"/>
+	<Item tgt="1" addr="108" bit="5" nam="T7START" note="起動"/>
+	<Item tgt="1" addr="108" bit="6" nam="T7STOP" note="停止"/>
+	<Item tgt="1" addr="108" bit="7" nam="T7EXTALMA" note="外部アラームA"/>
+	<Item tgt="1" addr="108" bit="8" nam="T7EXTALMB" note="外部アラームB"/>
+	<Item tgt="1" addr="108" bit="9" nam="T7EXTALMC" note="外部アラームC"/>
+	<Item tgt="1" addr="108" bit="10" nam="T7OPT" note="オプショナルストップ&lt;無効&gt;"/>
+	<Item tgt="1" addr="108" bit="11" nam="T7RETURN" note="原点復帰"/>
+	<Item tgt="1" addr="108" bit="12" nam="T7CRCLR" note="原点設定"/>
+	<Item tgt="1" addr="108" bit="13" nam="T7REWND" note="リワインド"/>
+	<Item tgt="1" addr="108" bit="14" nam="T7VCAMSON" note="電子カムサイクル入力&lt;開発中&gt;"/>
+	<Item tgt="1" addr="108" bit="15" note="予約"/>
+	<Item tgt="1" addr="109" bit="0" note="予約"/>
+	<Item tgt="1" addr="109" bit="1" note="予約"/>
+	<Item tgt="1" addr="109" bit="2" note="予約"/>
+	<Item tgt="1" addr="109" bit="3" note="予約"/>
+	<Item tgt="1" addr="109" bit="4" note="予約"/>
+	<Item tgt="1" addr="109" bit="5" note="予約"/>
+	<Item tgt="1" addr="109" bit="6" note="予約"/>
+	<Item tgt="1" addr="109" bit="7" note="予約"/>
+	<Item tgt="1" addr="109" bit="8" note="予約"/>
+	<Item tgt="1" addr="109" bit="9" note="予約"/>
+	<Item tgt="1" addr="109" bit="10" note="予約"/>
+	<Item tgt="1" addr="109" bit="11" note="予約"/>
+	<Item tgt="1" addr="109" bit="12" note="予約"/>
+	<Item tgt="1" addr="109" bit="13" note="予約"/>
+	<Item tgt="1" addr="109" bit="14" note="予約"/>
+	<Item tgt="1" addr="109" bit="15" note="予約"/>
+	<Item tgt="1" addr="110" bit="0" nam="T7MP_ENABLE" note="パネル有効"/>
+	<Item tgt="1" addr="110" bit="1" nam="T7MP_MDSET" note="セッティングモード"/>
+	<Item tgt="1" addr="110" bit="2" nam="T7MP_MDAUTO" note="連続運転モード"/>
+	<Item tgt="1" addr="110" bit="3" nam="T7MP_MDDNC" note="DNCモード"/>
+	<Item tgt="1" addr="110" bit="4" nam="T7MP_MDSNGL" note="シングルステップモード"/>
+	<Item tgt="1" addr="110" bit="5" nam="T7MP_MDZRN" note="原点復帰モード"/>
+	<Item tgt="1" addr="110" bit="6" nam="T7MP_MDJOG" note="JOGモード"/>
+	<Item tgt="1" addr="110" bit="7" nam="T7MP_MDINCH" note="インチングモード"/>
+	<Item tgt="1" addr="110" bit="8" nam="T7MP_MDHNDL" note="手動パルサモード"/>
+	<Item tgt="1" addr="110" bit="9" nam="T7MP_MDOTDIS" note="OT無視モード"/>
+	<Item tgt="1" addr="110" bit="10" nam="T7MP_TEACH" note="ティーチング"/>
+	<Item tgt="1" addr="110" bit="11" note="予約"/>
+	<Item tgt="1" addr="110" bit="12" note="予約"/>
+	<Item tgt="1" addr="110" bit="13" note="予約"/>
+	<Item tgt="1" addr="110" bit="14" note="予約"/>
+	<Item tgt="1" addr="110" bit="15" note="予約"/>
+	<Item tgt="1" addr="111" bit="0" nam="T7MP_AXSEL0" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="111" bit="1" nam="T7MP_AXSEL1" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="111" bit="2" nam="T7MP_AXSEL2" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="111" bit="3" nam="T7MP_AXSEL3" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="111" bit="4" nam="T7MP_AXSEL4" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="111" bit="5" nam="T7MP_AXSEL5" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="111" bit="6" nam="T7MP_AXSEL6" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="111" bit="7" nam="T7MP_AXSEL7" note="MP:JOG/インチング軸選択"/>
+	<Item tgt="1" addr="111" bit="8" nam="T7MP_OVR0" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="111" bit="9" nam="T7MP_OVR1" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="111" bit="10" nam="T7MP_OVR2" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="111" bit="11" nam="T7MP_OVR3" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="111" bit="12" nam="T7MP_OVR4" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="111" bit="13" nam="T7MP_OVR5" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="111" bit="14" nam="T7MP_OVR6" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="111" bit="15" nam="T7MP_OVR7" note="MP:全体オーバーライド"/>
+	<Item tgt="1" addr="112" bit="0" nam="T7MP_COVR0" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="112" bit="1" nam="T7MP_COVR1" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="112" bit="2" nam="T7MP_COVR2" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="112" bit="3" nam="T7MP_COVR3" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="112" bit="4" nam="T7MP_COVR4" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="112" bit="5" nam="T7MP_COVR5" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="112" bit="6" nam="T7MP_COVR6" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="112" bit="7" nam="T7MP_COVR7" note="MP:補間オーバーライド"/>
+	<Item tgt="1" addr="112" bit="8" nam="T7MP_SOVR0" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="112" bit="9" nam="T7MP_SOVR1" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="112" bit="10" nam="T7MP_SOVR2" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="112" bit="11" nam="T7MP_SOVR3" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="112" bit="12" nam="T7MP_SOVR4" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="112" bit="13" nam="T7MP_SOVR5" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="112" bit="14" nam="T7MP_SOVR6" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="112" bit="15" nam="T7MP_SOVR7" note="MP:主軸オーバーライド"/>
+	<Item tgt="1" addr="113" bit="0" nam="T7MP_PSEL00" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="1" nam="T7MP_PSEL01" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="2" nam="T7MP_PSEL02" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="3" nam="T7MP_PSEL03" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="4" nam="T7MP_PSEL04" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="5" nam="T7MP_PSEL05" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="6" nam="T7MP_PSEL06" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="7" nam="T7MP_PSEL07" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="8" nam="T7MP_PSEL08" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="9" nam="T7MP_PSEL09" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="10" nam="T7MP_PSEL10" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="11" nam="T7MP_PSEL11" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="12" nam="T7MP_PSEL12" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="13" nam="T7MP_PSEL13" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="14" nam="T7MP_PSEL14" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="113" bit="15" nam="T7MP_PSEL15" note="MP:実行プログラム番号"/>
+	<Item tgt="1" addr="114" bit="0" nam="T7MP_INCH0" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="114" bit="1" nam="T7MP_INCH1" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="114" bit="2" nam="T7MP_INCH2" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="114" bit="3" nam="T7MP_INCH3" note="MP:手パ/インチング倍率選択"/>
+	<Item tgt="1" addr="114" bit="4" nam="T7MP_HSEL0" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="114" bit="5" nam="T7MP_HSEL1" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="114" bit="6" nam="T7MP_HSEL2" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="114" bit="7" nam="T7MP_HSEL3" note="MP:手パ軸選択"/>
+	<Item tgt="1" addr="114" bit="8" note="予約"/>
+	<Item tgt="1" addr="114" bit="9" note="予約"/>
+	<Item tgt="1" addr="114" bit="10" note="予約"/>
+	<Item tgt="1" addr="114" bit="11" note="予約"/>
+	<Item tgt="1" addr="114" bit="12" note="予約"/>
+	<Item tgt="1" addr="114" bit="13" note="予約"/>
+	<Item tgt="1" addr="114" bit="14" note="予約"/>
+	<Item tgt="1" addr="114" bit="15" note="予約"/>
+	<Item tgt="1" addr="115" bit="0" note="予約"/>
+	<Item tgt="1" addr="115" bit="1" note="予約"/>
+	<Item tgt="1" addr="115" bit="2" note="予約"/>
+	<Item tgt="1" addr="115" bit="3" note="予約"/>
+	<Item tgt="1" addr="115" bit="4" note="予約"/>
+	<Item tgt="1" addr="115" bit="5" note="予約"/>
+	<Item tgt="1" addr="115" bit="6" note="予約"/>
+	<Item tgt="1" addr="115" bit="7" note="予約"/>
+	<Item tgt="1" addr="115" bit="8" note="予約"/>
+	<Item tgt="1" addr="115" bit="9" note="予約"/>
+	<Item tgt="1" addr="115" bit="10" note="予約"/>
+	<Item tgt="1" addr="115" bit="11" note="予約"/>
+	<Item tgt="1" addr="115" bit="12" note="予約"/>
+	<Item tgt="1" addr="115" bit="13" note="予約"/>
+	<Item tgt="1" addr="115" bit="14" note="予約"/>
+	<Item tgt="1" addr="115" bit="15" note="予約"/>
+	<Item tgt="2" addr="116" bit="0" nam="CYL001" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="1" nam="CYL002" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="2" nam="CYL003" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="3" nam="CYL004" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="4" nam="CYL005" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="5" nam="CYL006" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="6" nam="CYL007" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="7" nam="CYL008" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="8" nam="CYL009" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="9" nam="CYL010" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="10" nam="CYL011" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="11" nam="CYL012" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="12" nam="CYL013" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="13" nam="CYL014" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="14" nam="CYL015" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="116" bit="15" nam="CYL016" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="0" nam="CYL017" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="1" nam="CYL018" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="2" nam="CYL019" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="3" nam="CYL020" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="4" nam="CYL021" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="5" nam="CYL022" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="6" nam="CYL023" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="7" nam="CYL024" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="8" nam="CYL025" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="9" nam="CYL026" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="10" nam="CYL027" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="11" nam="CYL028" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="12" nam="CYL029" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="13" nam="CYL030" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="14" nam="CYL031" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="117" bit="15" nam="CYL032" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="0" nam="CYL033" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="1" nam="CYL034" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="2" nam="CYL035" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="3" nam="CYL036" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="4" nam="CYL037" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="5" nam="CYL038" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="6" nam="CYL039" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="7" nam="CYL040" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="8" nam="CYL041" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="9" nam="CYL042" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="10" nam="CYL043" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="11" nam="CYL044" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="12" nam="CYL045" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="13" nam="CYL046" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="14" nam="CYL047" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="118" bit="15" nam="CYL048" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="0" nam="CYL049" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="1" nam="CYL050" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="2" nam="CYL051" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="3" nam="CYL052" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="4" nam="CYL053" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="5" nam="CYL054" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="6" nam="CYL055" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="7" nam="CYL056" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="8" nam="CYL057" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="9" nam="CYL058" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="10" nam="CYL059" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="11" nam="CYL060" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="12" nam="CYL061" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="13" nam="CYL062" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="14" nam="CYL063" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="119" bit="15" nam="CYL064" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="0" nam="CYL065" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="1" nam="CYL066" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="2" nam="CYL067" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="3" nam="CYL068" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="4" nam="CYL069" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="5" nam="CYL070" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="6" nam="CYL071" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="7" nam="CYL072" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="8" nam="CYL073" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="9" nam="CYL074" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="10" nam="CYL075" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="11" nam="CYL076" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="12" nam="CYL077" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="13" nam="CYL078" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="14" nam="CYL079" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="120" bit="15" nam="CYL080" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="0" nam="CYL081" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="1" nam="CYL082" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="2" nam="CYL083" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="3" nam="CYL084" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="4" nam="CYL085" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="5" nam="CYL086" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="6" nam="CYL087" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="7" nam="CYL088" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="8" nam="CYL089" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="9" nam="CYL090" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="10" nam="CYL091" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="11" nam="CYL092" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="12" nam="CYL093" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="13" nam="CYL094" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="14" nam="CYL095" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="121" bit="15" nam="CYL096" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="0" nam="CYL097" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="1" nam="CYL098" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="2" nam="CYL099" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="3" nam="CYL100" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="4" nam="CYL101" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="5" nam="CYL102" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="6" nam="CYL103" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="7" nam="CYL104" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="8" nam="CYL105" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="9" nam="CYL106" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="10" nam="CYL107" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="11" nam="CYL108" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="12" nam="CYL109" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="13" nam="CYL110" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="14" nam="CYL111" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="122" bit="15" nam="CYL112" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="0" nam="CYL113" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="1" nam="CYL114" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="2" nam="CYL115" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="3" nam="CYL116" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="4" nam="CYL117" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="5" nam="CYL118" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="6" nam="CYL119" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="7" nam="CYL120" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="8" nam="CYL121" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="9" nam="CYL122" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="10" nam="CYL123" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="11" nam="CYL124" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="12" nam="CYL125" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="13" nam="CYL126" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="14" nam="CYL127" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="123" bit="15" nam="CYL128" note="動作プログラム制御出力"/>
+	<Item tgt="2" addr="124" bit="0" nam="SPN CLAMP SL3A" note="コレットクランプ"/>
+	<Item tgt="2" addr="124" bit="1" nam="SPN UCLMP SL3B" note="コレットアンクランプ"/>
+	<Item tgt="2" addr="124" bit="2" nam="(Rio1986)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="124" bit="3" nam="(Rio1987)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="124" bit="4" nam="(Rio1988)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="124" bit="5" nam="(Rio1989)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="124" bit="6" nam="(Rio1990)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="124" bit="7" nam="(Rio1991)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="124" bit="8" nam="PATY" note="パトライト出力(黄)"/>
+	<Item tgt="2" addr="124" bit="9" nam="PATG" note="パトライト出力(緑)"/>
+	<Item tgt="2" addr="124" bit="10" nam="PATR" note="パトライト出力(赤)"/>
+	<Item tgt="2" addr="124" bit="11" nam="A_BREAK" note="A軸ブレーキ"/>
+	<Item tgt="2" addr="124" bit="12" nam="B_BREAK" note="B軸ブレーキ"/>
+	<Item tgt="2" addr="124" bit="13" nam="C_BREAK" note="C軸ブレーキ"/>
+	<Item tgt="2" addr="124" bit="14" nam="(Rio1998)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="124" bit="15" nam="(Rio1999)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="125" bit="0" nam="ESF BACK SL4A" note="ESFアーム後退"/>
+	<Item tgt="2" addr="125" bit="1" nam="ESF MID F SL4B" note="ESFアーム中間前進"/>
+	<Item tgt="2" addr="125" bit="2" nam="ESF MID B SL5A" note="ESFアーム中間戻り"/>
+	<Item tgt="2" addr="125" bit="3" nam="ESF FWARD SL5B" note="ESFアーム前進"/>
+	<Item tgt="2" addr="125" bit="4" nam="(Rio2004)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="125" bit="5" nam="(Rio2005)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="125" bit="6" nam="(Rio2006)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="125" bit="7" nam="(Rio2007)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="125" bit="8" nam="ESF CLEAN SL1" note="クリーニング"/>
+	<Item tgt="2" addr="125" bit="9" nam="ESF F CLMP SL2" note="フィンガークランプ"/>
+	<Item tgt="2" addr="125" bit="10" nam="(Rio2010)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="125" bit="11" nam="(Rio2011)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="125" bit="12" nam="(Rio2012)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="125" bit="13" nam="(Rio2013)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="125" bit="14" nam="(Rio2014)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="125" bit="15" nam="(Rio2015)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="126" bit="0" nam="GSF BACK SL6A" note="GSFホルダアーム後退"/>
+	<Item tgt="2" addr="126" bit="1" nam="GSF FWARD SL6B" note="GSFホルダアーム前進"/>
+	<Item tgt="2" addr="126" bit="2" nam="GSF CLMP SL7A" note="GSFホルダクランプ"/>
+	<Item tgt="2" addr="126" bit="3" nam="GSF UCLMP SL7B" note="GSFホルダアンクランプ"/>
+	<Item tgt="2" addr="126" bit="4" nam="(Rio2020)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="126" bit="5" nam="(Rio2021)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="126" bit="6" nam="(Rio2022)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="126" bit="7" nam="(Rio2023)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="126" bit="8" nam="Remote SVOFF" note="外部サーボOFF作動中"/>
+	<Item tgt="2" addr="126" bit="9" nam="ZRN FIN STAT" note="原点復帰済み"/>
+	<Item tgt="2" addr="126" bit="10" nam="AutoMode" note="自動モード中"/>
+	<Item tgt="2" addr="126" bit="11" nam="(Rio2027)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="126" bit="12" nam="(Rio2028)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="126" bit="13" nam="(Rio2029)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="126" bit="14" nam="(Rio2030)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="126" bit="15" nam="(Rio2031)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="127" bit="0" nam="BON" note="ディスチャージON"/>
+	<Item tgt="2" addr="127" bit="1" nam="BOFF" note="ディスチャージOFF"/>
+	<Item tgt="2" addr="127" bit="2" nam="PUMP ON" note="ポンプON"/>
+	<Item tgt="2" addr="127" bit="3" nam="PUMP OFF" note="ポンプOFF"/>
+	<Item tgt="2" addr="127" bit="4" nam="INITL SET REQ" note="イニシャルセット要求"/>
+	<Item tgt="2" addr="127" bit="5" nam="BUZZER ON" note="ブザーON"/>
+	<Item tgt="2" addr="127" bit="6" nam="(Rio2038)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="127" bit="7" nam="(Rio2039)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="127" bit="8" nam="C CW" note="SP軸CW"/>
+	<Item tgt="2" addr="127" bit="9" nam="C CCW" note="SP軸CCW"/>
+	<Item tgt="2" addr="127" bit="10" nam="C STOP" note="SP軸停止"/>
+	<Item tgt="2" addr="127" bit="11" nam="(Rio2043)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="127" bit="12" nam="(Rio2044)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="127" bit="13" nam="(Rio2045)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="127" bit="14" nam="(Rio2046)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="127" bit="15" nam="(Rio2047)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="128" bit="0" nam="POL" note="条件切替え信号"/>
+	<Item tgt="2" addr="128" bit="1" nam="FAN STOP" note="本機内FAN停止"/>
+	<Item tgt="2" addr="128" bit="2" nam="SP ALM RESET" note="SP軸アラーム解除"/>
+	<Item tgt="2" addr="128" bit="3" nam="-Z EVEN -Z" note="EVEN信号"/>
+	<Item tgt="2" addr="128" bit="4" nam="IPSEL_0" note="電源選択信号 SF02FX無し(IP出力1A固定)"/>
+	<Item tgt="2" addr="128" bit="5" nam="(Rio2053)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="128" bit="6" nam="(Rio2054)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="128" bit="7" nam="SHUT DOWN" note="ホストシャットダウン開始"/>
+	<Item tgt="2" addr="128" bit="8" nam="IPSELL0" note="電源選択信号 SF02FX有り(IP出力10mA固定)"/>
+	<Item tgt="2" addr="128" bit="9" nam="SF02FX FAN STOP" note="SF02FX内FAN停止"/>
+	<Item tgt="2" addr="128" bit="10" nam="(Rio2058)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="128" bit="11" nam="(Rio2059)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="128" bit="12" nam="(Rio2060)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="128" bit="13" nam="(Rio2061)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="128" bit="14" nam="(Rio2062)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="128" bit="15" nam="(Rio2063)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="0" nam="(Rio2064)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="1" nam="(Rio2065)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="2" nam="(Rio2066)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="3" nam="(Rio2067)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="4" nam="(Rio2068)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="5" nam="(Rio2069)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="6" nam="(Rio2070)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="7" nam="(Rio2071)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="8" nam="(Rio2072)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="9" nam="(Rio2073)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="10" nam="(Rio2074)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="11" nam="(Rio2075)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="12" nam="(Rio2076)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="13" nam="(Rio2077)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="14" nam="(Rio2078)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="129" bit="15" nam="(Rio2079)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="0" nam="(Rio2080)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="1" nam="(Rio2081)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="2" nam="(Rio2082)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="3" nam="(Rio2083)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="4" nam="(Rio2084)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="5" nam="(Rio2085)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="6" nam="(Rio2086)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="7" nam="(Rio2087)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="8" nam="(Rio2088)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="9" nam="(Rio2089)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="10" nam="(Rio2090)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="11" nam="(Rio2091)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="12" nam="(Rio2092)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="13" nam="(Rio2093)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="14" nam="(Rio2094)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="130" bit="15" nam="(Rio2095)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="0" nam="(Rio2096)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="1" nam="(Rio2097)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="2" nam="(Rio2098)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="3" nam="(Rio2099)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="4" nam="(Rio2100)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="5" nam="(Rio2101)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="6" nam="(Rio2102)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="7" nam="(Rio2103)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="8" nam="(Rio2104)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="9" nam="(Rio2105)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="10" nam="(Rio2106)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="11" nam="(Rio2107)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="12" nam="(Rio2108)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="13" nam="(Rio2109)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="14" nam="(Rio2110)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="131" bit="15" nam="(Rio2111)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="0" nam="(Rio2112)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="1" nam="(Rio2113)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="2" nam="(Rio2114)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="3" nam="(Rio2115)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="4" nam="(Rio2116)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="5" nam="(Rio2117)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="6" nam="(Rio2118)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="7" nam="(Rio2119)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="8" nam="(Rio2120)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="9" nam="(Rio2121)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="10" nam="(Rio2122)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="11" nam="(Rio2123)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="12" nam="(Rio2124)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="13" nam="(Rio2125)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="14" nam="(Rio2126)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="132" bit="15" nam="(Rio2127)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="0" nam="(Rio2128)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="1" nam="(Rio2129)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="2" nam="(Rio2130)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="3" nam="(Rio2131)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="4" nam="(Rio2132)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="5" nam="(Rio2133)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="6" nam="(Rio2134)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="7" nam="(Rio2135)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="8" nam="(Rio2136)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="9" nam="(Rio2137)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="10" nam="(Rio2138)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="11" nam="(Rio2139)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="12" nam="(Rio2140)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="13" nam="(Rio2141)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="14" nam="(Rio2142)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="133" bit="15" nam="(Rio2143)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="0" nam="(Rio2144)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="1" nam="(Rio2145)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="2" nam="(Rio2146)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="3" nam="(Rio2147)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="4" nam="(Rio2148)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="5" nam="(Rio2149)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="6" nam="(Rio2150)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="7" nam="(Rio2151)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="8" nam="(Rio2152)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="9" nam="(Rio2153)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="10" nam="(Rio2154)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="11" nam="(Rio2155)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="12" nam="(Rio2156)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="13" nam="(Rio2157)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="14" nam="(Rio2158)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="134" bit="15" nam="(Rio2159)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="0" nam="(Rio2160)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="1" nam="(Rio2161)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="2" nam="(Rio2162)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="3" nam="(Rio2163)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="4" nam="(Rio2164)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="5" nam="(Rio2165)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="6" nam="(Rio2166)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="7" nam="(Rio2167)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="8" nam="(Rio2168)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="9" nam="(Rio2169)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="10" nam="(Rio2170)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="11" nam="(Rio2171)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="12" nam="(Rio2172)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="13" nam="(Rio2173)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="14" nam="(Rio2174)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="135" bit="15" nam="(Rio2175)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="0" nam="(Rio2176)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="1" nam="(Rio2177)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="2" nam="(Rio2178)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="3" nam="(Rio2179)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="4" nam="(Rio2180)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="5" nam="(Rio2181)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="6" nam="(Rio2182)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="7" nam="(Rio2183)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="8" nam="(Rio2184)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="9" nam="(Rio2185)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="10" nam="(Rio2186)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="11" nam="(Rio2187)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="12" nam="(Rio2188)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="13" nam="(Rio2189)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="14" nam="(Rio2190)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="136" bit="15" nam="(Rio2191)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="0" nam="(Rio2192)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="1" nam="(Rio2193)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="2" nam="(Rio2194)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="3" nam="(Rio2195)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="4" nam="(Rio2196)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="5" nam="(Rio2197)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="6" nam="(Rio2198)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="7" nam="(Rio2199)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="8" nam="(Rio2200)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="9" nam="(Rio2201)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="10" nam="(Rio2202)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="11" nam="(Rio2203)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="12" nam="(Rio2204)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="13" nam="(Rio2205)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="14" nam="(Rio2206)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="137" bit="15" nam="(Rio2207)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="0" nam="(Rio2208)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="1" nam="(Rio2209)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="2" nam="(Rio2210)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="3" nam="(Rio2211)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="4" nam="(Rio2212)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="5" nam="(Rio2213)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="6" nam="(Rio2214)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="7" nam="(Rio2215)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="8" nam="(Rio2216)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="9" nam="(Rio2217)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="10" nam="(Rio2218)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="11" nam="(Rio2219)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="12" nam="(Rio2220)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="13" nam="(Rio2221)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="14" nam="(Rio2222)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="138" bit="15" nam="(Rio2223)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="0" nam="(Rio2224)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="1" nam="(Rio2225)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="2" nam="(Rio2226)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="3" nam="(Rio2227)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="4" nam="(Rio2228)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="5" nam="(Rio2229)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="6" nam="(Rio2230)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="7" nam="(Rio2231)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="8" nam="(Rio2232)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="9" nam="(Rio2233)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="10" nam="(Rio2234)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="11" nam="(Rio2235)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="12" nam="(Rio2236)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="13" nam="(Rio2237)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="14" nam="(Rio2238)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="139" bit="15" nam="(Rio2239)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="0" nam="(Rio2240)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="1" nam="(Rio2241)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="2" nam="(Rio2242)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="3" nam="(Rio2243)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="4" nam="(Rio2244)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="5" nam="(Rio2245)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="6" nam="(Rio2246)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="7" nam="(Rio2247)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="8" nam="(Rio2248)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="9" nam="(Rio2249)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="10" nam="(Rio2250)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="11" nam="(Rio2251)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="12" nam="(Rio2252)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="13" nam="(Rio2253)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="14" nam="(Rio2254)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="140" bit="15" nam="(Rio2255)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="0" nam="(Rio2256)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="1" nam="(Rio2257)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="2" nam="(Rio2258)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="3" nam="(Rio2259)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="4" nam="(Rio2260)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="5" nam="(Rio2261)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="6" nam="(Rio2262)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="7" nam="(Rio2263)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="8" nam="(Rio2264)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="9" nam="(Rio2265)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="10" nam="(Rio2266)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="11" nam="(Rio2267)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="12" nam="(Rio2268)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="13" nam="(Rio2269)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="14" nam="(Rio2270)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="141" bit="15" nam="(Rio2271)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="0" nam="(Rio2272)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="1" nam="(Rio2273)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="2" nam="(Rio2274)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="3" nam="(Rio2275)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="4" nam="(Rio2276)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="5" nam="(Rio2277)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="6" nam="(Rio2278)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="7" nam="(Rio2279)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="8" nam="(Rio2280)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="9" nam="(Rio2281)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="10" nam="(Rio2282)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="11" nam="(Rio2283)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="12" nam="(Rio2284)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="13" nam="(Rio2285)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="14" nam="(Rio2286)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="142" bit="15" nam="(Rio2287)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="0" nam="(Rio2288)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="1" nam="(Rio2289)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="2" nam="(Rio2290)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="3" nam="(Rio2291)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="4" nam="(Rio2292)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="5" nam="(Rio2293)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="6" nam="(Rio2294)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="7" nam="(Rio2295)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="8" nam="(Rio2296)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="9" nam="(Rio2297)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="10" nam="(Rio2298)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="11" nam="(Rio2299)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="12" nam="(Rio2300)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="13" nam="(Rio2301)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="14" nam="(Rio2302)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="143" bit="15" nam="(Rio2303)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="0" nam="(Rio2304)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="1" nam="(Rio2305)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="2" nam="(Rio2306)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="3" nam="(Rio2307)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="4" nam="(Rio2308)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="5" nam="(Rio2309)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="6" nam="(Rio2310)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="7" nam="(Rio2311)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="8" nam="(Rio2312)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="9" nam="(Rio2313)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="10" nam="(Rio2314)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="11" nam="(Rio2315)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="12" nam="(Rio2316)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="13" nam="(Rio2317)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="14" nam="(Rio2318)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="144" bit="15" nam="(Rio2319)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="0" nam="(Rio2320)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="1" nam="(Rio2321)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="2" nam="(Rio2322)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="3" nam="(Rio2323)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="4" nam="(Rio2324)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="5" nam="(Rio2325)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="6" nam="(Rio2326)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="7" nam="(Rio2327)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="8" nam="(Rio2328)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="9" nam="(Rio2329)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="10" nam="(Rio2330)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="11" nam="(Rio2331)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="12" nam="(Rio2332)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="13" nam="(Rio2333)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="14" nam="(Rio2334)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="145" bit="15" nam="(Rio2335)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="0" nam="(Rio2336)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="1" nam="(Rio2337)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="2" nam="(Rio2338)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="3" nam="(Rio2339)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="4" nam="(Rio2340)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="5" nam="(Rio2341)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="6" nam="(Rio2342)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="7" nam="(Rio2343)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="8" nam="(Rio2344)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="9" nam="(Rio2345)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="10" nam="(Rio2346)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="11" nam="(Rio2347)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="12" nam="(Rio2348)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="13" nam="(Rio2349)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="14" nam="(Rio2350)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="146" bit="15" nam="(Rio2351)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="0" nam="(Rio2352)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="1" nam="(Rio2353)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="2" nam="(Rio2354)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="3" nam="(Rio2355)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="4" nam="(Rio2356)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="5" nam="(Rio2357)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="6" nam="(Rio2358)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="7" nam="(Rio2359)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="8" nam="(Rio2360)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="9" nam="(Rio2361)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="10" nam="(Rio2362)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="11" nam="(Rio2363)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="12" nam="(Rio2364)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="13" nam="(Rio2365)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="14" nam="(Rio2366)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="147" bit="15" nam="(Rio2367)" note="(汎用入出力)"/>
+	<Item tgt="2" addr="148" bit="0" nam="T0READY" note="READY"/>
+	<Item tgt="2" addr="148" bit="1" nam="T0ALARM" note="アラーム発生中"/>
+	<Item tgt="2" addr="148" bit="2" nam="T0RUN" note="運転中"/>
+	<Item tgt="2" addr="148" bit="3" nam="T0PAUSE" note="途中停止中"/>
+	<Item tgt="2" addr="148" bit="4" nam="T0NPOS" note="インポジション"/>
+	<Item tgt="2" addr="148" bit="5" nam="T0PRGRDY" note="P起動可"/>
+	<Item tgt="2" addr="148" bit="6" nam="T0ZSTP" note="M00/01停止中"/>
+	<Item tgt="2" addr="148" bit="7" nam="T0MODOUT0" note="動作モード"/>
+	<Item tgt="2" addr="148" bit="8" nam="T0MODOUT1" note="動作モード"/>
+	<Item tgt="2" addr="148" bit="9" nam="T0MODOUT2" note="動作モード"/>
+	<Item tgt="2" addr="148" bit="10" nam="T0SVM" note="サーボ主電源"/>
+	<Item tgt="2" addr="148" bit="11" nam="T0SON1" note="主軸出力0"/>
+	<Item tgt="2" addr="148" bit="12" nam="T0SON2" note="主軸出力1"/>
+	<Item tgt="2" addr="148" bit="13" note="予約"/>
+	<Item tgt="2" addr="148" bit="14" note="予約"/>
+	<Item tgt="2" addr="148" bit="15" note="予約"/>
+	<Item tgt="2" addr="149" bit="0" nam="T0M0" note="Mコード出力"/>
+	<Item tgt="2" addr="149" bit="1" nam="T0M1" note="Mコード出力"/>
+	<Item tgt="2" addr="149" bit="2" nam="T0M2" note="Mコード出力"/>
+	<Item tgt="2" addr="149" bit="3" nam="T0M3" note="Mコード出力"/>
+	<Item tgt="2" addr="149" bit="4" nam="T0M4" note="Mコード出力"/>
+	<Item tgt="2" addr="149" bit="5" nam="T0M5" note="Mコード出力"/>
+	<Item tgt="2" addr="149" bit="6" nam="T0M6" note="Mコード出力"/>
+	<Item tgt="2" addr="149" bit="7" nam="T0M7" note="Mコード出力"/>
+	<Item tgt="2" addr="149" bit="8" nam="T0MSTRB" note="MSTRB"/>
+	<Item tgt="2" addr="149" bit="9" note="予約"/>
+	<Item tgt="2" addr="149" bit="10" note="予約"/>
+	<Item tgt="2" addr="149" bit="11" note="予約"/>
+	<Item tgt="2" addr="149" bit="12" note="予約"/>
+	<Item tgt="2" addr="149" bit="13" note="予約"/>
+	<Item tgt="2" addr="149" bit="14" note="予約"/>
+	<Item tgt="2" addr="149" bit="15" note="予約"/>
+	<Item tgt="2" addr="150" bit="0" note="予約"/>
+	<Item tgt="2" addr="150" bit="1" note="予約"/>
+	<Item tgt="2" addr="150" bit="2" note="予約"/>
+	<Item tgt="2" addr="150" bit="3" note="予約"/>
+	<Item tgt="2" addr="150" bit="4" note="予約"/>
+	<Item tgt="2" addr="150" bit="5" note="予約"/>
+	<Item tgt="2" addr="150" bit="6" note="予約"/>
+	<Item tgt="2" addr="150" bit="7" note="予約"/>
+	<Item tgt="2" addr="150" bit="8" note="予約"/>
+	<Item tgt="2" addr="150" bit="9" note="予約"/>
+	<Item tgt="2" addr="150" bit="10" note="予約"/>
+	<Item tgt="2" addr="150" bit="11" note="予約"/>
+	<Item tgt="2" addr="150" bit="12" note="予約"/>
+	<Item tgt="2" addr="150" bit="13" note="予約"/>
+	<Item tgt="2" addr="150" bit="14" note="予約"/>
+	<Item tgt="2" addr="150" bit="15" note="予約"/>
+	<Item tgt="2" addr="151" bit="0" note="予約"/>
+	<Item tgt="2" addr="151" bit="1" note="予約"/>
+	<Item tgt="2" addr="151" bit="2" note="予約"/>
+	<Item tgt="2" addr="151" bit="3" note="予約"/>
+	<Item tgt="2" addr="151" bit="4" note="予約"/>
+	<Item tgt="2" addr="151" bit="5" note="予約"/>
+	<Item tgt="2" addr="151" bit="6" note="予約"/>
+	<Item tgt="2" addr="151" bit="7" note="予約"/>
+	<Item tgt="2" addr="151" bit="8" note="予約"/>
+	<Item tgt="2" addr="151" bit="9" note="予約"/>
+	<Item tgt="2" addr="151" bit="10" note="予約"/>
+	<Item tgt="2" addr="151" bit="11" note="予約"/>
+	<Item tgt="2" addr="151" bit="12" note="予約"/>
+	<Item tgt="2" addr="151" bit="13" note="予約"/>
+	<Item tgt="2" addr="151" bit="14" note="予約"/>
+	<Item tgt="2" addr="151" bit="15" note="予約"/>
+	<Item tgt="2" addr="152" bit="0" nam="T1READY" note="READY"/>
+	<Item tgt="2" addr="152" bit="1" nam="T1ALARM" note="アラーム発生中"/>
+	<Item tgt="2" addr="152" bit="2" nam="T1RUN" note="運転中"/>
+	<Item tgt="2" addr="152" bit="3" nam="T1PAUSE" note="途中停止中"/>
+	<Item tgt="2" addr="152" bit="4" nam="T1NPOS" note="インポジション"/>
+	<Item tgt="2" addr="152" bit="5" nam="T1PRGRDY" note="P起動可"/>
+	<Item tgt="2" addr="152" bit="6" nam="T1ZSTP" note="M00/01停止中"/>
+	<Item tgt="2" addr="152" bit="7" nam="T1MODOUT0" note="動作モード"/>
+	<Item tgt="2" addr="152" bit="8" nam="T1MODOUT1" note="動作モード"/>
+	<Item tgt="2" addr="152" bit="9" nam="T1MODOUT2" note="動作モード"/>
+	<Item tgt="2" addr="152" bit="10" nam="T1SVM" note="サーボ主電源"/>
+	<Item tgt="2" addr="152" bit="11" nam="T1SON1" note="主軸出力0"/>
+	<Item tgt="2" addr="152" bit="12" nam="T1SON2" note="主軸出力1"/>
+	<Item tgt="2" addr="152" bit="13" note="予約"/>
+	<Item tgt="2" addr="152" bit="14" note="予約"/>
+	<Item tgt="2" addr="152" bit="15" note="予約"/>
+	<Item tgt="2" addr="153" bit="0" nam="T1M0" note="Mコード出力"/>
+	<Item tgt="2" addr="153" bit="1" nam="T1M1" note="Mコード出力"/>
+	<Item tgt="2" addr="153" bit="2" nam="T1M2" note="Mコード出力"/>
+	<Item tgt="2" addr="153" bit="3" nam="T1M3" note="Mコード出力"/>
+	<Item tgt="2" addr="153" bit="4" nam="T1M4" note="Mコード出力"/>
+	<Item tgt="2" addr="153" bit="5" nam="T1M5" note="Mコード出力"/>
+	<Item tgt="2" addr="153" bit="6" nam="T1M6" note="Mコード出力"/>
+	<Item tgt="2" addr="153" bit="7" nam="T1M7" note="Mコード出力"/>
+	<Item tgt="2" addr="153" bit="8" nam="T1MSTRB" note="MSTRB"/>
+	<Item tgt="2" addr="153" bit="9" note="予約"/>
+	<Item tgt="2" addr="153" bit="10" note="予約"/>
+	<Item tgt="2" addr="153" bit="11" note="予約"/>
+	<Item tgt="2" addr="153" bit="12" note="予約"/>
+	<Item tgt="2" addr="153" bit="13" note="予約"/>
+	<Item tgt="2" addr="153" bit="14" note="予約"/>
+	<Item tgt="2" addr="153" bit="15" note="予約"/>
+	<Item tgt="2" addr="154" bit="0" note="予約"/>
+	<Item tgt="2" addr="154" bit="1" note="予約"/>
+	<Item tgt="2" addr="154" bit="2" note="予約"/>
+	<Item tgt="2" addr="154" bit="3" note="予約"/>
+	<Item tgt="2" addr="154" bit="4" note="予約"/>
+	<Item tgt="2" addr="154" bit="5" note="予約"/>
+	<Item tgt="2" addr="154" bit="6" note="予約"/>
+	<Item tgt="2" addr="154" bit="7" note="予約"/>
+	<Item tgt="2" addr="154" bit="8" note="予約"/>
+	<Item tgt="2" addr="154" bit="9" note="予約"/>
+	<Item tgt="2" addr="154" bit="10" note="予約"/>
+	<Item tgt="2" addr="154" bit="11" note="予約"/>
+	<Item tgt="2" addr="154" bit="12" note="予約"/>
+	<Item tgt="2" addr="154" bit="13" note="予約"/>
+	<Item tgt="2" addr="154" bit="14" note="予約"/>
+	<Item tgt="2" addr="154" bit="15" note="予約"/>
+	<Item tgt="2" addr="155" bit="0" note="予約"/>
+	<Item tgt="2" addr="155" bit="1" note="予約"/>
+	<Item tgt="2" addr="155" bit="2" note="予約"/>
+	<Item tgt="2" addr="155" bit="3" note="予約"/>
+	<Item tgt="2" addr="155" bit="4" note="予約"/>
+	<Item tgt="2" addr="155" bit="5" note="予約"/>
+	<Item tgt="2" addr="155" bit="6" note="予約"/>
+	<Item tgt="2" addr="155" bit="7" note="予約"/>
+	<Item tgt="2" addr="155" bit="8" note="予約"/>
+	<Item tgt="2" addr="155" bit="9" note="予約"/>
+	<Item tgt="2" addr="155" bit="10" note="予約"/>
+	<Item tgt="2" addr="155" bit="11" note="予約"/>
+	<Item tgt="2" addr="155" bit="12" note="予約"/>
+	<Item tgt="2" addr="155" bit="13" note="予約"/>
+	<Item tgt="2" addr="155" bit="14" note="予約"/>
+	<Item tgt="2" addr="155" bit="15" note="予約"/>
+	<Item tgt="2" addr="156" bit="0" nam="T2READY" note="READY"/>
+	<Item tgt="2" addr="156" bit="1" nam="T2ALARM" note="アラーム発生中"/>
+	<Item tgt="2" addr="156" bit="2" nam="T2RUN" note="運転中"/>
+	<Item tgt="2" addr="156" bit="3" nam="T2PAUSE" note="途中停止中"/>
+	<Item tgt="2" addr="156" bit="4" nam="T2NPOS" note="インポジション"/>
+	<Item tgt="2" addr="156" bit="5" nam="T2PRGRDY" note="P起動可"/>
+	<Item tgt="2" addr="156" bit="6" nam="T2ZSTP" note="M00/01停止中"/>
+	<Item tgt="2" addr="156" bit="7" nam="T2MODOUT0" note="動作モード"/>
+	<Item tgt="2" addr="156" bit="8" nam="T2MODOUT1" note="動作モード"/>
+	<Item tgt="2" addr="156" bit="9" nam="T2MODOUT2" note="動作モード"/>
+	<Item tgt="2" addr="156" bit="10" nam="T2SVM" note="サーボ主電源"/>
+	<Item tgt="2" addr="156" bit="11" nam="T2SON1" note="主軸出力0"/>
+	<Item tgt="2" addr="156" bit="12" nam="T2SON2" note="主軸出力1"/>
+	<Item tgt="2" addr="156" bit="13" note="予約"/>
+	<Item tgt="2" addr="156" bit="14" note="予約"/>
+	<Item tgt="2" addr="156" bit="15" note="予約"/>
+	<Item tgt="2" addr="157" bit="0" nam="T2M0" note="Mコード出力"/>
+	<Item tgt="2" addr="157" bit="1" nam="T2M1" note="Mコード出力"/>
+	<Item tgt="2" addr="157" bit="2" nam="T2M2" note="Mコード出力"/>
+	<Item tgt="2" addr="157" bit="3" nam="T2M3" note="Mコード出力"/>
+	<Item tgt="2" addr="157" bit="4" nam="T2M4" note="Mコード出力"/>
+	<Item tgt="2" addr="157" bit="5" nam="T2M5" note="Mコード出力"/>
+	<Item tgt="2" addr="157" bit="6" nam="T2M6" note="Mコード出力"/>
+	<Item tgt="2" addr="157" bit="7" nam="T2M7" note="Mコード出力"/>
+	<Item tgt="2" addr="157" bit="8" nam="T2MSTRB" note="MSTRB"/>
+	<Item tgt="2" addr="157" bit="9" note="予約"/>
+	<Item tgt="2" addr="157" bit="10" note="予約"/>
+	<Item tgt="2" addr="157" bit="11" note="予約"/>
+	<Item tgt="2" addr="157" bit="12" note="予約"/>
+	<Item tgt="2" addr="157" bit="13" note="予約"/>
+	<Item tgt="2" addr="157" bit="14" note="予約"/>
+	<Item tgt="2" addr="157" bit="15" note="予約"/>
+	<Item tgt="2" addr="158" bit="0" note="予約"/>
+	<Item tgt="2" addr="158" bit="1" note="予約"/>
+	<Item tgt="2" addr="158" bit="2" note="予約"/>
+	<Item tgt="2" addr="158" bit="3" note="予約"/>
+	<Item tgt="2" addr="158" bit="4" note="予約"/>
+	<Item tgt="2" addr="158" bit="5" note="予約"/>
+	<Item tgt="2" addr="158" bit="6" note="予約"/>
+	<Item tgt="2" addr="158" bit="7" note="予約"/>
+	<Item tgt="2" addr="158" bit="8" note="予約"/>
+	<Item tgt="2" addr="158" bit="9" note="予約"/>
+	<Item tgt="2" addr="158" bit="10" note="予約"/>
+	<Item tgt="2" addr="158" bit="11" note="予約"/>
+	<Item tgt="2" addr="158" bit="12" note="予約"/>
+	<Item tgt="2" addr="158" bit="13" note="予約"/>
+	<Item tgt="2" addr="158" bit="14" note="予約"/>
+	<Item tgt="2" addr="158" bit="15" note="予約"/>
+	<Item tgt="2" addr="159" bit="0" note="予約"/>
+	<Item tgt="2" addr="159" bit="1" note="予約"/>
+	<Item tgt="2" addr="159" bit="2" note="予約"/>
+	<Item tgt="2" addr="159" bit="3" note="予約"/>
+	<Item tgt="2" addr="159" bit="4" note="予約"/>
+	<Item tgt="2" addr="159" bit="5" note="予約"/>
+	<Item tgt="2" addr="159" bit="6" note="予約"/>
+	<Item tgt="2" addr="159" bit="7" note="予約"/>
+	<Item tgt="2" addr="159" bit="8" note="予約"/>
+	<Item tgt="2" addr="159" bit="9" note="予約"/>
+	<Item tgt="2" addr="159" bit="10" note="予約"/>
+	<Item tgt="2" addr="159" bit="11" note="予約"/>
+	<Item tgt="2" addr="159" bit="12" note="予約"/>
+	<Item tgt="2" addr="159" bit="13" note="予約"/>
+	<Item tgt="2" addr="159" bit="14" note="予約"/>
+	<Item tgt="2" addr="159" bit="15" note="予約"/>
+	<Item tgt="2" addr="160" bit="0" nam="T3READY" note="READY"/>
+	<Item tgt="2" addr="160" bit="1" nam="T3ALARM" note="アラーム発生中"/>
+	<Item tgt="2" addr="160" bit="2" nam="T3RUN" note="運転中"/>
+	<Item tgt="2" addr="160" bit="3" nam="T3PAUSE" note="途中停止中"/>
+	<Item tgt="2" addr="160" bit="4" nam="T3NPOS" note="インポジション"/>
+	<Item tgt="2" addr="160" bit="5" nam="T3PRGRDY" note="P起動可"/>
+	<Item tgt="2" addr="160" bit="6" nam="T3ZSTP" note="M00/01停止中"/>
+	<Item tgt="2" addr="160" bit="7" nam="T3MODOUT0" note="動作モード"/>
+	<Item tgt="2" addr="160" bit="8" nam="T3MODOUT1" note="動作モード"/>
+	<Item tgt="2" addr="160" bit="9" nam="T3MODOUT2" note="動作モード"/>
+	<Item tgt="2" addr="160" bit="10" nam="T3SVM" note="サーボ主電源"/>
+	<Item tgt="2" addr="160" bit="11" nam="T3SON1" note="主軸出力0"/>
+	<Item tgt="2" addr="160" bit="12" nam="T3SON2" note="主軸出力1"/>
+	<Item tgt="2" addr="160" bit="13" note="予約"/>
+	<Item tgt="2" addr="160" bit="14" note="予約"/>
+	<Item tgt="2" addr="160" bit="15" note="予約"/>
+	<Item tgt="2" addr="161" bit="0" nam="T3M0" note="Mコード出力"/>
+	<Item tgt="2" addr="161" bit="1" nam="T3M1" note="Mコード出力"/>
+	<Item tgt="2" addr="161" bit="2" nam="T3M2" note="Mコード出力"/>
+	<Item tgt="2" addr="161" bit="3" nam="T3M3" note="Mコード出力"/>
+	<Item tgt="2" addr="161" bit="4" nam="T3M4" note="Mコード出力"/>
+	<Item tgt="2" addr="161" bit="5" nam="T3M5" note="Mコード出力"/>
+	<Item tgt="2" addr="161" bit="6" nam="T3M6" note="Mコード出力"/>
+	<Item tgt="2" addr="161" bit="7" nam="T3M7" note="Mコード出力"/>
+	<Item tgt="2" addr="161" bit="8" nam="T3MSTRB" note="MSTRB"/>
+	<Item tgt="2" addr="161" bit="9" note="予約"/>
+	<Item tgt="2" addr="161" bit="10" note="予約"/>
+	<Item tgt="2" addr="161" bit="11" note="予約"/>
+	<Item tgt="2" addr="161" bit="12" note="予約"/>
+	<Item tgt="2" addr="161" bit="13" note="予約"/>
+	<Item tgt="2" addr="161" bit="14" note="予約"/>
+	<Item tgt="2" addr="161" bit="15" note="予約"/>
+	<Item tgt="2" addr="162" bit="0" note="予約"/>
+	<Item tgt="2" addr="162" bit="1" note="予約"/>
+	<Item tgt="2" addr="162" bit="2" note="予約"/>
+	<Item tgt="2" addr="162" bit="3" note="予約"/>
+	<Item tgt="2" addr="162" bit="4" note="予約"/>
+	<Item tgt="2" addr="162" bit="5" note="予約"/>
+	<Item tgt="2" addr="162" bit="6" note="予約"/>
+	<Item tgt="2" addr="162" bit="7" note="予約"/>
+	<Item tgt="2" addr="162" bit="8" note="予約"/>
+	<Item tgt="2" addr="162" bit="9" note="予約"/>
+	<Item tgt="2" addr="162" bit="10" note="予約"/>
+	<Item tgt="2" addr="162" bit="11" note="予約"/>
+	<Item tgt="2" addr="162" bit="12" note="予約"/>
+	<Item tgt="2" addr="162" bit="13" note="予約"/>
+	<Item tgt="2" addr="162" bit="14" note="予約"/>
+	<Item tgt="2" addr="162" bit="15" note="予約"/>
+	<Item tgt="2" addr="163" bit="0" note="予約"/>
+	<Item tgt="2" addr="163" bit="1" note="予約"/>
+	<Item tgt="2" addr="163" bit="2" note="予約"/>
+	<Item tgt="2" addr="163" bit="3" note="予約"/>
+	<Item tgt="2" addr="163" bit="4" note="予約"/>
+	<Item tgt="2" addr="163" bit="5" note="予約"/>
+	<Item tgt="2" addr="163" bit="6" note="予約"/>
+	<Item tgt="2" addr="163" bit="7" note="予約"/>
+	<Item tgt="2" addr="163" bit="8" note="予約"/>
+	<Item tgt="2" addr="163" bit="9" note="予約"/>
+	<Item tgt="2" addr="163" bit="10" note="予約"/>
+	<Item tgt="2" addr="163" bit="11" note="予約"/>
+	<Item tgt="2" addr="163" bit="12" note="予約"/>
+	<Item tgt="2" addr="163" bit="13" note="予約"/>
+	<Item tgt="2" addr="163" bit="14" note="予約"/>
+	<Item tgt="2" addr="163" bit="15" note="予約"/>
+	<Item tgt="2" addr="164" bit="0" nam="T4READY" note="READY"/>
+	<Item tgt="2" addr="164" bit="1" nam="T4ALARM" note="アラーム発生中"/>
+	<Item tgt="2" addr="164" bit="2" nam="T4RUN" note="運転中"/>
+	<Item tgt="2" addr="164" bit="3" nam="T4PAUSE" note="途中停止中"/>
+	<Item tgt="2" addr="164" bit="4" nam="T4NPOS" note="インポジション"/>
+	<Item tgt="2" addr="164" bit="5" nam="T4PRGRDY" note="P起動可"/>
+	<Item tgt="2" addr="164" bit="6" nam="T4ZSTP" note="M00/01停止中"/>
+	<Item tgt="2" addr="164" bit="7" nam="T4MODOUT0" note="動作モード"/>
+	<Item tgt="2" addr="164" bit="8" nam="T4MODOUT1" note="動作モード"/>
+	<Item tgt="2" addr="164" bit="9" nam="T4MODOUT2" note="動作モード"/>
+	<Item tgt="2" addr="164" bit="10" nam="T4SVM" note="サーボ主電源"/>
+	<Item tgt="2" addr="164" bit="11" nam="T4SON1" note="主軸出力0"/>
+	<Item tgt="2" addr="164" bit="12" nam="T4SON2" note="主軸出力1"/>
+	<Item tgt="2" addr="164" bit="13" note="予約"/>
+	<Item tgt="2" addr="164" bit="14" note="予約"/>
+	<Item tgt="2" addr="164" bit="15" note="予約"/>
+	<Item tgt="2" addr="165" bit="0" nam="T4M0" note="Mコード出力"/>
+	<Item tgt="2" addr="165" bit="1" nam="T4M1" note="Mコード出力"/>
+	<Item tgt="2" addr="165" bit="2" nam="T4M2" note="Mコード出力"/>
+	<Item tgt="2" addr="165" bit="3" nam="T4M3" note="Mコード出力"/>
+	<Item tgt="2" addr="165" bit="4" nam="T4M4" note="Mコード出力"/>
+	<Item tgt="2" addr="165" bit="5" nam="T4M5" note="Mコード出力"/>
+	<Item tgt="2" addr="165" bit="6" nam="T4M6" note="Mコード出力"/>
+	<Item tgt="2" addr="165" bit="7" nam="T4M7" note="Mコード出力"/>
+	<Item tgt="2" addr="165" bit="8" nam="T4MSTRB" note="MSTRB"/>
+	<Item tgt="2" addr="165" bit="9" note="予約"/>
+	<Item tgt="2" addr="165" bit="10" note="予約"/>
+	<Item tgt="2" addr="165" bit="11" note="予約"/>
+	<Item tgt="2" addr="165" bit="12" note="予約"/>
+	<Item tgt="2" addr="165" bit="13" note="予約"/>
+	<Item tgt="2" addr="165" bit="14" note="予約"/>
+	<Item tgt="2" addr="165" bit="15" note="予約"/>
+	<Item tgt="2" addr="166" bit="0" note="予約"/>
+	<Item tgt="2" addr="166" bit="1" note="予約"/>
+	<Item tgt="2" addr="166" bit="2" note="予約"/>
+	<Item tgt="2" addr="166" bit="3" note="予約"/>
+	<Item tgt="2" addr="166" bit="4" note="予約"/>
+	<Item tgt="2" addr="166" bit="5" note="予約"/>
+	<Item tgt="2" addr="166" bit="6" note="予約"/>
+	<Item tgt="2" addr="166" bit="7" note="予約"/>
+	<Item tgt="2" addr="166" bit="8" note="予約"/>
+	<Item tgt="2" addr="166" bit="9" note="予約"/>
+	<Item tgt="2" addr="166" bit="10" note="予約"/>
+	<Item tgt="2" addr="166" bit="11" note="予約"/>
+	<Item tgt="2" addr="166" bit="12" note="予約"/>
+	<Item tgt="2" addr="166" bit="13" note="予約"/>
+	<Item tgt="2" addr="166" bit="14" note="予約"/>
+	<Item tgt="2" addr="166" bit="15" note="予約"/>
+	<Item tgt="2" addr="167" bit="0" note="予約"/>
+	<Item tgt="2" addr="167" bit="1" note="予約"/>
+	<Item tgt="2" addr="167" bit="2" note="予約"/>
+	<Item tgt="2" addr="167" bit="3" note="予約"/>
+	<Item tgt="2" addr="167" bit="4" note="予約"/>
+	<Item tgt="2" addr="167" bit="5" note="予約"/>
+	<Item tgt="2" addr="167" bit="6" note="予約"/>
+	<Item tgt="2" addr="167" bit="7" note="予約"/>
+	<Item tgt="2" addr="167" bit="8" note="予約"/>
+	<Item tgt="2" addr="167" bit="9" note="予約"/>
+	<Item tgt="2" addr="167" bit="10" note="予約"/>
+	<Item tgt="2" addr="167" bit="11" note="予約"/>
+	<Item tgt="2" addr="167" bit="12" note="予約"/>
+	<Item tgt="2" addr="167" bit="13" note="予約"/>
+	<Item tgt="2" addr="167" bit="14" note="予約"/>
+	<Item tgt="2" addr="167" bit="15" note="予約"/>
+	<Item tgt="2" addr="168" bit="0" nam="T5READY" note="READY"/>
+	<Item tgt="2" addr="168" bit="1" nam="T5ALARM" note="アラーム発生中"/>
+	<Item tgt="2" addr="168" bit="2" nam="T5RUN" note="運転中"/>
+	<Item tgt="2" addr="168" bit="3" nam="T5PAUSE" note="途中停止中"/>
+	<Item tgt="2" addr="168" bit="4" nam="T5NPOS" note="インポジション"/>
+	<Item tgt="2" addr="168" bit="5" nam="T5PRGRDY" note="P起動可"/>
+	<Item tgt="2" addr="168" bit="6" nam="T5ZSTP" note="M00/01停止中"/>
+	<Item tgt="2" addr="168" bit="7" nam="T5MODOUT0" note="動作モード"/>
+	<Item tgt="2" addr="168" bit="8" nam="T5MODOUT1" note="動作モード"/>
+	<Item tgt="2" addr="168" bit="9" nam="T5MODOUT2" note="動作モード"/>
+	<Item tgt="2" addr="168" bit="10" nam="T5SVM" note="サーボ主電源"/>
+	<Item tgt="2" addr="168" bit="11" nam="T5SON1" note="主軸出力0"/>
+	<Item tgt="2" addr="168" bit="12" nam="T5SON2" note="主軸出力1"/>
+	<Item tgt="2" addr="168" bit="13" note="予約"/>
+	<Item tgt="2" addr="168" bit="14" note="予約"/>
+	<Item tgt="2" addr="168" bit="15" note="予約"/>
+	<Item tgt="2" addr="169" bit="0" nam="T5M0" note="Mコード出力"/>
+	<Item tgt="2" addr="169" bit="1" nam="T5M1" note="Mコード出力"/>
+	<Item tgt="2" addr="169" bit="2" nam="T5M2" note="Mコード出力"/>
+	<Item tgt="2" addr="169" bit="3" nam="T5M3" note="Mコード出力"/>
+	<Item tgt="2" addr="169" bit="4" nam="T5M4" note="Mコード出力"/>
+	<Item tgt="2" addr="169" bit="5" nam="T5M5" note="Mコード出力"/>
+	<Item tgt="2" addr="169" bit="6" nam="T5M6" note="Mコード出力"/>
+	<Item tgt="2" addr="169" bit="7" nam="T5M7" note="Mコード出力"/>
+	<Item tgt="2" addr="169" bit="8" nam="T5MSTRB" note="MSTRB"/>
+	<Item tgt="2" addr="169" bit="9" note="予約"/>
+	<Item tgt="2" addr="169" bit="10" note="予約"/>
+	<Item tgt="2" addr="169" bit="11" note="予約"/>
+	<Item tgt="2" addr="169" bit="12" note="予約"/>
+	<Item tgt="2" addr="169" bit="13" note="予約"/>
+	<Item tgt="2" addr="169" bit="14" note="予約"/>
+	<Item tgt="2" addr="169" bit="15" note="予約"/>
+	<Item tgt="2" addr="170" bit="0" note="予約"/>
+	<Item tgt="2" addr="170" bit="1" note="予約"/>
+	<Item tgt="2" addr="170" bit="2" note="予約"/>
+	<Item tgt="2" addr="170" bit="3" note="予約"/>
+	<Item tgt="2" addr="170" bit="4" note="予約"/>
+	<Item tgt="2" addr="170" bit="5" note="予約"/>
+	<Item tgt="2" addr="170" bit="6" note="予約"/>
+	<Item tgt="2" addr="170" bit="7" note="予約"/>
+	<Item tgt="2" addr="170" bit="8" note="予約"/>
+	<Item tgt="2" addr="170" bit="9" note="予約"/>
+	<Item tgt="2" addr="170" bit="10" note="予約"/>
+	<Item tgt="2" addr="170" bit="11" note="予約"/>
+	<Item tgt="2" addr="170" bit="12" note="予約"/>
+	<Item tgt="2" addr="170" bit="13" note="予約"/>
+	<Item tgt="2" addr="170" bit="14" note="予約"/>
+	<Item tgt="2" addr="170" bit="15" note="予約"/>
+	<Item tgt="2" addr="171" bit="0" note="予約"/>
+	<Item tgt="2" addr="171" bit="1" note="予約"/>
+	<Item tgt="2" addr="171" bit="2" note="予約"/>
+	<Item tgt="2" addr="171" bit="3" note="予約"/>
+	<Item tgt="2" addr="171" bit="4" note="予約"/>
+	<Item tgt="2" addr="171" bit="5" note="予約"/>
+	<Item tgt="2" addr="171" bit="6" note="予約"/>
+	<Item tgt="2" addr="171" bit="7" note="予約"/>
+	<Item tgt="2" addr="171" bit="8" note="予約"/>
+	<Item tgt="2" addr="171" bit="9" note="予約"/>
+	<Item tgt="2" addr="171" bit="10" note="予約"/>
+	<Item tgt="2" addr="171" bit="11" note="予約"/>
+	<Item tgt="2" addr="171" bit="12" note="予約"/>
+	<Item tgt="2" addr="171" bit="13" note="予約"/>
+	<Item tgt="2" addr="171" bit="14" note="予約"/>
+	<Item tgt="2" addr="171" bit="15" note="予約"/>
+	<Item tgt="2" addr="172" bit="0" nam="T6READY" note="READY"/>
+	<Item tgt="2" addr="172" bit="1" nam="T6ALARM" note="アラーム発生中"/>
+	<Item tgt="2" addr="172" bit="2" nam="T6RUN" note="運転中"/>
+	<Item tgt="2" addr="172" bit="3" nam="T6PAUSE" note="途中停止中"/>
+	<Item tgt="2" addr="172" bit="4" nam="T6NPOS" note="インポジション"/>
+	<Item tgt="2" addr="172" bit="5" nam="T6PRGRDY" note="P起動可"/>
+	<Item tgt="2" addr="172" bit="6" nam="T6ZSTP" note="M00/01停止中"/>
+	<Item tgt="2" addr="172" bit="7" nam="T6MODOUT0" note="動作モード"/>
+	<Item tgt="2" addr="172" bit="8" nam="T6MODOUT1" note="動作モード"/>
+	<Item tgt="2" addr="172" bit="9" nam="T6MODOUT2" note="動作モード"/>
+	<Item tgt="2" addr="172" bit="10" nam="T6SVM" note="サーボ主電源"/>
+	<Item tgt="2" addr="172" bit="11" nam="T6SON1" note="主軸出力0"/>
+	<Item tgt="2" addr="172" bit="12" nam="T6SON2" note="主軸出力1"/>
+	<Item tgt="2" addr="172" bit="13" note="予約"/>
+	<Item tgt="2" addr="172" bit="14" note="予約"/>
+	<Item tgt="2" addr="172" bit="15" note="予約"/>
+	<Item tgt="2" addr="173" bit="0" nam="T6M0" note="Mコード出力"/>
+	<Item tgt="2" addr="173" bit="1" nam="T6M1" note="Mコード出力"/>
+	<Item tgt="2" addr="173" bit="2" nam="T6M2" note="Mコード出力"/>
+	<Item tgt="2" addr="173" bit="3" nam="T6M3" note="Mコード出力"/>
+	<Item tgt="2" addr="173" bit="4" nam="T6M4" note="Mコード出力"/>
+	<Item tgt="2" addr="173" bit="5" nam="T6M5" note="Mコード出力"/>
+	<Item tgt="2" addr="173" bit="6" nam="T6M6" note="Mコード出力"/>
+	<Item tgt="2" addr="173" bit="7" nam="T6M7" note="Mコード出力"/>
+	<Item tgt="2" addr="173" bit="8" nam="T6MSTRB" note="MSTRB"/>
+	<Item tgt="2" addr="173" bit="9" note="予約"/>
+	<Item tgt="2" addr="173" bit="10" note="予約"/>
+	<Item tgt="2" addr="173" bit="11" note="予約"/>
+	<Item tgt="2" addr="173" bit="12" note="予約"/>
+	<Item tgt="2" addr="173" bit="13" note="予約"/>
+	<Item tgt="2" addr="173" bit="14" note="予約"/>
+	<Item tgt="2" addr="173" bit="15" note="予約"/>
+	<Item tgt="2" addr="174" bit="0" note="予約"/>
+	<Item tgt="2" addr="174" bit="1" note="予約"/>
+	<Item tgt="2" addr="174" bit="2" note="予約"/>
+	<Item tgt="2" addr="174" bit="3" note="予約"/>
+	<Item tgt="2" addr="174" bit="4" note="予約"/>
+	<Item tgt="2" addr="174" bit="5" note="予約"/>
+	<Item tgt="2" addr="174" bit="6" note="予約"/>
+	<Item tgt="2" addr="174" bit="7" note="予約"/>
+	<Item tgt="2" addr="174" bit="8" note="予約"/>
+	<Item tgt="2" addr="174" bit="9" note="予約"/>
+	<Item tgt="2" addr="174" bit="10" note="予約"/>
+	<Item tgt="2" addr="174" bit="11" note="予約"/>
+	<Item tgt="2" addr="174" bit="12" note="予約"/>
+	<Item tgt="2" addr="174" bit="13" note="予約"/>
+	<Item tgt="2" addr="174" bit="14" note="予約"/>
+	<Item tgt="2" addr="174" bit="15" note="予約"/>
+	<Item tgt="2" addr="175" bit="0" note="予約"/>
+	<Item tgt="2" addr="175" bit="1" note="予約"/>
+	<Item tgt="2" addr="175" bit="2" note="予約"/>
+	<Item tgt="2" addr="175" bit="3" note="予約"/>
+	<Item tgt="2" addr="175" bit="4" note="予約"/>
+	<Item tgt="2" addr="175" bit="5" note="予約"/>
+	<Item tgt="2" addr="175" bit="6" note="予約"/>
+	<Item tgt="2" addr="175" bit="7" note="予約"/>
+	<Item tgt="2" addr="175" bit="8" note="予約"/>
+	<Item tgt="2" addr="175" bit="9" note="予約"/>
+	<Item tgt="2" addr="175" bit="10" note="予約"/>
+	<Item tgt="2" addr="175" bit="11" note="予約"/>
+	<Item tgt="2" addr="175" bit="12" note="予約"/>
+	<Item tgt="2" addr="175" bit="13" note="予約"/>
+	<Item tgt="2" addr="175" bit="14" note="予約"/>
+	<Item tgt="2" addr="175" bit="15" note="予約"/>
+	<Item tgt="2" addr="176" bit="0" nam="T7READY" note="READY"/>
+	<Item tgt="2" addr="176" bit="1" nam="T7ALARM" note="アラーム発生中"/>
+	<Item tgt="2" addr="176" bit="2" nam="T7RUN" note="運転中"/>
+	<Item tgt="2" addr="176" bit="3" nam="T7PAUSE" note="途中停止中"/>
+	<Item tgt="2" addr="176" bit="4" nam="T7NPOS" note="インポジション"/>
+	<Item tgt="2" addr="176" bit="5" nam="T7PRGRDY" note="P起動可"/>
+	<Item tgt="2" addr="176" bit="6" nam="T7ZSTP" note="M00/01停止中"/>
+	<Item tgt="2" addr="176" bit="7" nam="T7MODOUT0" note="動作モード"/>
+	<Item tgt="2" addr="176" bit="8" nam="T7MODOUT1" note="動作モード"/>
+	<Item tgt="2" addr="176" bit="9" nam="T7MODOUT2" note="動作モード"/>
+	<Item tgt="2" addr="176" bit="10" nam="T7SVM" note="サーボ主電源"/>
+	<Item tgt="2" addr="176" bit="11" nam="T7SON1" note="主軸出力0"/>
+	<Item tgt="2" addr="176" bit="12" nam="T7SON2" note="主軸出力1"/>
+	<Item tgt="2" addr="176" bit="13" note="予約"/>
+	<Item tgt="2" addr="176" bit="14" note="予約"/>
+	<Item tgt="2" addr="176" bit="15" note="予約"/>
+	<Item tgt="2" addr="177" bit="0" nam="T7M0" note="Mコード出力"/>
+	<Item tgt="2" addr="177" bit="1" nam="T7M1" note="Mコード出力"/>
+	<Item tgt="2" addr="177" bit="2" nam="T7M2" note="Mコード出力"/>
+	<Item tgt="2" addr="177" bit="3" nam="T7M3" note="Mコード出力"/>
+	<Item tgt="2" addr="177" bit="4" nam="T7M4" note="Mコード出力"/>
+	<Item tgt="2" addr="177" bit="5" nam="T7M5" note="Mコード出力"/>
+	<Item tgt="2" addr="177" bit="6" nam="T7M6" note="Mコード出力"/>
+	<Item tgt="2" addr="177" bit="7" nam="T7M7" note="Mコード出力"/>
+	<Item tgt="2" addr="177" bit="8" nam="T7MSTRB" note="MSTRB"/>
+	<Item tgt="2" addr="177" bit="9" note="予約"/>
+	<Item tgt="2" addr="177" bit="10" note="予約"/>
+	<Item tgt="2" addr="177" bit="11" note="予約"/>
+	<Item tgt="2" addr="177" bit="12" note="予約"/>
+	<Item tgt="2" addr="177" bit="13" note="予約"/>
+	<Item tgt="2" addr="177" bit="14" note="予約"/>
+	<Item tgt="2" addr="177" bit="15" note="予約"/>
+	<Item tgt="2" addr="178" bit="0" note="予約"/>
+	<Item tgt="2" addr="178" bit="1" note="予約"/>
+	<Item tgt="2" addr="178" bit="2" note="予約"/>
+	<Item tgt="2" addr="178" bit="3" note="予約"/>
+	<Item tgt="2" addr="178" bit="4" note="予約"/>
+	<Item tgt="2" addr="178" bit="5" note="予約"/>
+	<Item tgt="2" addr="178" bit="6" note="予約"/>
+	<Item tgt="2" addr="178" bit="7" note="予約"/>
+	<Item tgt="2" addr="178" bit="8" note="予約"/>
+	<Item tgt="2" addr="178" bit="9" note="予約"/>
+	<Item tgt="2" addr="178" bit="10" note="予約"/>
+	<Item tgt="2" addr="178" bit="11" note="予約"/>
+	<Item tgt="2" addr="178" bit="12" note="予約"/>
+	<Item tgt="2" addr="178" bit="13" note="予約"/>
+	<Item tgt="2" addr="178" bit="14" note="予約"/>
+	<Item tgt="2" addr="178" bit="15" note="予約"/>
+	<Item tgt="2" addr="179" bit="0" note="予約"/>
+	<Item tgt="2" addr="179" bit="1" note="予約"/>
+	<Item tgt="2" addr="179" bit="2" note="予約"/>
+	<Item tgt="2" addr="179" bit="3" note="予約"/>
+	<Item tgt="2" addr="179" bit="4" note="予約"/>
+	<Item tgt="2" addr="179" bit="5" note="予約"/>
+	<Item tgt="2" addr="179" bit="6" note="予約"/>
+	<Item tgt="2" addr="179" bit="7" note="予約"/>
+	<Item tgt="2" addr="179" bit="8" note="予約"/>
+	<Item tgt="2" addr="179" bit="9" note="予約"/>
+	<Item tgt="2" addr="179" bit="10" note="予約"/>
+	<Item tgt="2" addr="179" bit="11" note="予約"/>
+	<Item tgt="2" addr="179" bit="12" note="予約"/>
+	<Item tgt="2" addr="179" bit="13" note="予約"/>
+	<Item tgt="2" addr="179" bit="14" note="予約"/>
+	<Item tgt="2" addr="179" bit="15" note="予約"/>
+</Root>

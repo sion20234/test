@@ -1,0 +1,255 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ECNC3.Models
+{
+	/// <summary>加工条件ファイル構造</summary>
+	public class StructureProcessConditionItem : ICloneable, IDisposable
+	{
+		/// <summary>Dispose()関数が呼び出し済みであるかどうかのフラグ</summary>
+		private bool _disposed = false;
+
+		/// <summary>P番号</summary>
+		public int Number { get; set; }
+
+		/// <summary>Ton[us]</summary>
+		public short Ton { get; set; }
+		/// <summary>Toff[us]</summary>
+		public short Toff { get; set; }
+		/// <summary>IP[mA]</summary>
+		/// <remarks>
+		/// (IP[A]*1000の値を格納)
+		/// </remarks>
+		public int IPVal { get; set; }
+        /// <summary>SFIP[mA]</summary>
+        /// <remarks>
+        /// (IP[A]*1000の値を格納)
+        /// </remarks>
+        public int SFIPVal { get; set; }
+        /// <summary>CAP[nF]</summary>
+        /// <remarks>
+        /// (CAP[uF]*1000の値を格納)
+        /// </remarks>
+        public int CAPVal { get; set; }
+		/// <summary>サーボコントロールDA(0-63)</summary>
+		public short SCVal { get; set; }
+		/// <summary>SP軸コントロールDA(0-15)</summary>
+		public short CRSVal { get; set; }
+		/// <summary>加工サーボ送り速度選択(0-15)</summary>
+		public int SfrFrSel { get; set; }
+		/// <summary>加工サーボ戻り速度選択(0-15)</summary>
+		public int SfrBkSel { get; set; }
+		/// <summary>ポンプ出力(0-3)</summary>
+		public short PompVal { get; set; }
+		/// <summary>サーボ選択(0-3)</summary>
+		public short ServoSel { get; set; }
+		/// <summary>電源選択(0-5)</summary>
+		public short PSSel { get; set; }
+		/// <summary>条件切替え</summary>
+		public short POLVal { get; set; }
+
+		/// <summary>拡張情報の有効性(有/無)</summary>
+		/// <value>
+		///		<item>true=有効</item>
+		///		<item>false=無効</item>
+		/// </value>
+		public int HasExtended { get; set; }
+		/// <summary>材質</summary>
+		public int Material { get; set; }
+		/// <summary>電極径</summary>
+		public double Diameter { get; set; }
+		/// <summary>コメント</summary>
+		public string Comment { get; set; }
+        /// <summary>
+        /// 書き込み保護
+        /// </summary>
+        public int Protect { get; set; }
+
+		/// <summary>インスタンスの破棄</summary>
+		public void Dispose()
+		{
+			Dispose( true );
+			GC.SuppressFinalize( this );    //  ファイナライザによるDispose()呼び出しの抑制。
+		}
+		/// <summary>インスタンスの破棄</summary>
+		/// <param name="disposing">呼び出し元の判別
+		///     <list type="bullet" >
+		///         <item>true=Dispose()関数からの呼び出し。</item>
+		///         <item>false=ファイナライザによる呼び出し。</item>
+		///     </list>
+		/// </param>
+		protected void Dispose( bool disposing )
+		{
+			try {
+				if( false == _disposed ) {
+					if( true == disposing ) {
+						//  マネージリソースの解放
+					}
+					//  アンマネージリソースの解放
+				}
+				_disposed = true;
+			} finally {
+				//  基底クラスのDispose()を確実に呼び出す。
+				;	// base.Dispose( disposing );
+			}
+		}
+		/// <summary>クローン</summary>
+		/// <returns>クローンされたインスタンス</returns>
+		public object Clone()
+		{
+			StructureProcessConditionItem temp = new StructureProcessConditionItem();
+			temp.Number = Number;
+			temp.Ton = Ton;
+			temp.Toff = Toff;
+			temp.IPVal = IPVal;
+			temp.CAPVal = CAPVal;
+			temp.SCVal = SCVal;
+			temp.CRSVal = CRSVal;
+			temp.SfrFrSel = SfrFrSel;
+			temp.SfrBkSel = SfrBkSel;
+			temp.PompVal = PompVal;
+			temp.ServoSel = ServoSel;
+			temp.PSSel = PSSel;
+			temp.POLVal = POLVal;
+			//	拡張情報
+			temp.HasExtended = HasExtended;
+			temp.Material = Material;
+			temp.Diameter = Diameter;
+			temp.Comment = Comment;
+            temp.Protect = Protect;
+			return temp;
+		}
+		/// <summary>コピー</summary>
+		/// <param name="source">コピー元</param>
+		public void Copy( StructureProcessConditionItem source )
+		{
+			Number = source.Number;
+			Ton = source.Ton;
+			Toff = source.Toff;
+			IPVal = source.IPVal;
+			CAPVal = source.CAPVal;
+			SCVal = source.SCVal;
+			CRSVal = source.CRSVal;
+			SfrFrSel = source.SfrFrSel;
+			SfrBkSel = source.SfrBkSel;
+			PompVal = source.PompVal;
+			ServoSel = source.ServoSel;
+			PSSel = source.PSSel;
+			POLVal = source.POLVal;
+			//	拡張情報
+			HasExtended = source.HasExtended;
+			Material = source.Material;
+			Diameter = source.Diameter;
+			Comment = source.Comment;
+            Protect = source.Protect;
+		}
+		/// <summary>初期化</summary>
+		/// <param name="includedNumber">加工条件番号に対する初期化の要否</param>
+		public void Clear( bool includedNumber = false )
+		{
+			if( true == includedNumber ) {
+				Number = 0;
+			}
+			Ton = 0;
+			Toff = 0;
+			IPVal = 0;
+			CAPVal = 0;
+			SCVal = 0;
+			CRSVal = 0;
+			SfrFrSel = 0;
+			SfrBkSel = 0;
+			PompVal = 0;
+			ServoSel = 0;
+			PSSel = 0;
+			POLVal = 0;
+			//	拡張情報
+			HasExtended = 0;
+			Material = 0;
+			Diameter = 0;
+			Comment = string.Empty;
+		}
+		public int Compare( StructureProcessConditionItem source )
+		{
+			int ret = 0;
+			while( true ) {
+				ret = Number.CompareTo( source.Number );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = Ton.CompareTo( source.Ton );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = Toff.CompareTo( source.Toff );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = IPVal.CompareTo( source.IPVal );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = CAPVal.CompareTo( source.CAPVal );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = SCVal.CompareTo( source.SCVal );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = CRSVal.CompareTo( source.CRSVal );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = SfrFrSel.CompareTo( source.SfrFrSel );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = SfrBkSel.CompareTo( source.SfrBkSel );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = PompVal.CompareTo( source.PompVal );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = ServoSel.CompareTo( source.ServoSel );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = PSSel.CompareTo( source.PSSel );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = POLVal.CompareTo( source.POLVal );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = HasExtended.CompareTo( source.HasExtended );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = Material.CompareTo( source.Material );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = Diameter.CompareTo( source.Diameter );
+				if( 0 != ret ) {
+					break;
+				}
+				ret = Comment.CompareTo( source.Comment );
+				if( 0 != ret ) {
+					break;
+				}
+                ret = Protect.CompareTo( source.Protect );
+                if( 0 != ret){
+                    break;
+                }
+                break;
+			}
+			return ret;
+		}
+	}
+}

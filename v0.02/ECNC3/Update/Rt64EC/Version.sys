@@ -1,0 +1,27 @@
+Version 0.8.0A 
+システム構成ファイル  
+======================================================== 
+R_PKG    = \\FileServer\Release\Software\RT64EC\Custom\ELENIX\ECNC3\Package\V080A    
+R_ROM    = \\FileServer\Release\Software\RT64EC\Custom\ELENIX\ECNC3\Rom\V080    
+R_SXDRV  = \\FileServer\Release\Software\RT64EC\Custom\ELENIX\ECNC3\rt64ecdrv\V080  
+R_ROMSW  = \\FileServer\Release\Software\RT64EC\Custom\ELENIX\ECNC3\rt64ecswset\V080  
+R_COMLIB = \\FileServer\Release\Software\RT64EC\Custom\ELENIX\ECNC3\rt64eccomnt\V080 
+R_TCDLIB = \\FileServer\Release\Software\RT64EC\RT64EC\rt64ectcnv\V100 
+R_GCDLIB = \\FileServer\Release\Software\RT64EC\Custom\ELENIX\ECNC3\rt64ecgcnv\V080 
+R_LANG   = \\FILESERVER\Release\Software\As700\Slm4000\Lang\V110   
+R_ESYSMP = \\FileServer\Release\Software\RT64EC\RT64EC\Sample\EasySmpl\V100 
+R_VBSMP  = \\FileServer\Release\Software\RT64EC\RT64EC\Sample\VbSmpl\V100  
+R_VBNETSMP = \\FileServer\Release\Software\RT64EC\RT64EC\Sample\VBNETSmpl\V100  
+R_CSNETSMP = \\FileServer\Release\Software\RT64EC\Custom\ELENIX\ECNC3\Sample\CSNetSmpl\V080  
+R_VCNETSMP = \\FileServer\Release\Software\RT64EC\RT64EC\Sample\VCNetSmpl\V100  
+R_VBNET64SMP = \\FileServer\Release\Software\RT64EC\RT64EC\Sample\VBNETSmpl64\V100  
+R_CSNET64SMP = \\FileServer\Release\Software\RT64EC\RT64EC\Sample\CSNetSmpl64\V100  
+R_VCNET64SMP = \\FileServer\Release\Software\RT64EC\RT64EC\Sample\VCNetSmpl64\V100  
+R_LDSMP  = \\FileServer\Release\Software\RT64EC\RT64EC\Sample\Ladder\SmplLadd\V050  
+R_DATA   = \\FileServer\Release\Software\RT64EC\Custom\ELENIX\ECNC3\Package\V070A\Data   
+R_DEFRSW = \\FileServer\Release\Software\RT64EC\RT64EC\Package\V050A\Romsw 
+R_TFDT   = \\FileServer\Release\Software\RT64EC\Custom\ELENIX\ECNC3\rt64ectfdt\V100   
+R_VSGN   = \\FileServer\Release\Software\As700\Slm4000\Vsumgen\V10   
+R_INST   = \\FileServer\Release\Util\Setup\V110   
+R_GSENC  = \\FileServer\Release\Software\As700\Slm4000\GsEncode\V100  
+6EA0
